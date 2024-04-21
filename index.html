@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation Force-Directed Graph</title>
+    <!-- Charger la bibliothèque D3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <!-- Charger la bibliothèque D3-force -->
+    <script src="https://d3js.org/d3-force.v2.min.js"></script>
+</head>
+<body>
+    <!-- Conteneur de la visualisation -->
+    <div id="vis"></div>
+
+    <script>
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+
+        // Créer le conteneur SVG
+        const svg = d3.select("#vis")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Charger les données JSON
+        d3.json("fragments3.json")
+            .then(data => {
+                const nodes = data.data.nodes;
+                const links = data.data.links;
+
+                // Récupérer les groupes uniques de noeuds
+                const nodeGroups = Array.from(new Set(nodes.map(d => d.group)));
+                // Définir les couleurs pour chaque groupe
+                const colors = d3.schemeCategory10.slice(0, nodeGroups.length);
+
+                // Créer une simulation de force
+                const simulation = d3.forceSimulation(nodes)
+                    .force("link", d3.forceLink(links).id(d => d.id))
+                    .force("charge", d3.forceManyBody().strength(-50))
+                    .force("center", d3.forceCenter(width / 2, height / 2))
+                    .force("x", d3.forceX().strength(0.1).x(d => Math.max(0, Math.min(width, d.x))))
+                    .force("y", d3.forceY().strength(0.1).y(d => Math.max(0, Math.min(height, d.y))));
+
+                // Créer l'échelle de couleur en fonction des groupes de noeuds
+                const color = d3.scaleOrdinal(nodeGroups, colors);
+
+                // Ajouter les liens à l'élément SVG
+                const link = svg.selectAll("line")
+                    .data(links)
+                    .enter().append("line")
+                    .attr("stroke", "#999")
+                    .attr("stroke-opacity", 0.6)
+                    .attr("stroke-width", 1);
+
+                // Ajouter les noeuds à l'élément SVG
+                const node = svg.selectAll("circle")
+                    .data(nodes)
+                    .enter().append("circle")
+                    .attr("r", 5)
+                    .attr("fill", d => color(d.group))
+                    .call(d3.drag()
+                        .on("start", dragstarted)
+                        .on("drag", dragged)
+                        .on("end", dragended));
+
+                // Ajouter des titres aux noeuds
+                node.append("title")
+                    .text(d => d.name);
+
+                // Mettre à jour la position des liens et des noeuds à chaque tick de la simulation
+                simulation.on("tick", () => {
+                    link.attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y);
+
+                    node.attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+                });
+
+                // Fonctions de drag-and-drop
+                function dragstarted(event, d) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+
+                function dragged(event, d) {
+                    d.fx = event.x;
+                    d.fy = event.y;
+                }
+
+                function dragended(event, d) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                }
+            });
+
+    </script>
+</body>
+</html>
