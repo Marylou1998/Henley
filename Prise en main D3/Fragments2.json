@@ -1,0 +1,1075 @@
+{
+    "nodes": [
+            {
+                "id": 1,
+                "name": "Lettres de Mistriss Henley"
+               },
+               {
+                "id": 2,
+                "name": "Première Lettre"
+               },
+               {
+                "id": 3,
+                "name": "Les Henley et les Bompré"
+               },
+               {
+                "id": 4,
+                "name": "Condamnations"
+               },
+               {
+                "id": 5,
+                "name": "Mistriss Henley et Mme Bompré"
+               },
+               {
+                "id": 6,
+                "name": "L'histoire de Mistriss Henley"
+               },
+               {
+                "id": 7,
+                "name": "Le choix d'un mari"
+               },
+               {
+                "id": 8,
+                "name": "Le départ pour la campagne"
+               },
+               {
+                "id": 9,
+                "name": "Seconde Lettre"
+               },
+               {
+                "id": 10,
+                "name": "L'éducation de l’enfant de M. Henley"
+               },
+               {
+                "id": 11,
+                "name": "Les domestiques de Hollowpark"
+               },
+               {
+                "id": 12,
+                "name": "L'ameublement de Hollowpark"
+               },
+               {
+                "id": 13,
+                "name": "La belle-famille de Mistriss Henley"
+               },
+               {
+                "id": 14,
+                "name": "La conjugalité : désillusion"
+               },
+               {
+                "id": 15,
+                "name": "Troisième Lettre"
+               },
+               {
+                "id": 16,
+                "name": "L'aventure Mrs Grace"
+               },
+               {
+                "id": 17,
+                "name": "S'adapter à la campagne"
+               },
+               {
+                "id": 18,
+                "name": "Quatrième Lettre"
+               },
+               {
+                "id": 19,
+                "name": "Le bal"
+               },
+               {
+                "id": 20,
+                "name": "Une adversaire : Miss Clairville"
+               },
+               {
+                "id": 21,
+                "name": "Lettre de Mrs Henley à son mari"
+               },
+               {
+                "id": 22,
+                "name": "Cinquième Lettre"
+               },
+               {
+                "id": 23,
+                "name": "Sixième Lettre"
+               },
+               {
+                "id": 24,
+                "name": "L'annonce de la grossesse"
+               },
+               {
+                "id": 25,
+                "name": "Le discours de M. Henley"
+               },
+               {
+                "id": 26,
+                "name": "Fin"
+               },
+               {
+                "id": 27,
+                "name": "Hector"
+               },
+               {
+                "id": 28,
+                "name": "Nanon & Antoine"
+               },
+               {
+                "id": 29,
+                "name": "Le bonheur des amis fausse son propre bonheur"
+               },
+               {
+                "id": 30,
+                "name": "Les moqueries des femmes"
+               },
+               {
+                "id": 31,
+                "name": "La chasse"
+               },
+               {
+                "id": 32,
+                "name": "Le cheval"
+               },
+               {
+                "id": 33,
+                "name": "L'arrivée du printemps"
+               },
+               {
+                "id": 34,
+                "name": "Le fermier"
+               },
+               {
+                "id": 35,
+                "name": "Le bonheur des amis fait son propre bonheur"
+               },
+               {
+                "id": 36,
+                "name": "Les préférences de Monsieur Bompré"
+               },
+               {
+                "id": 37,
+                "name": "Les fiançailles"
+               },
+               {
+                "id": 38,
+                "name": "Changement de pays"
+               },
+               {
+                "id": 39,
+                "name": "La simplicité plait"
+               },
+               {
+                "id": 40,
+                "name": "L'accueil des serviteurs"
+               },
+               {
+                "id": 41,
+                "name": "La corruption politique"
+               },
+               {
+                "id": 42,
+                "name": "Une vision conjugale"
+               },
+               {
+                "id": 43,
+                "name": "La tranquilité du bonheur"
+               },
+               {
+                "id": 44,
+                "name": "Un ameublement trop ancien"
+               },
+               {
+                "id": 45,
+                "name": "Distensions conjugales"
+               },
+               {
+                "id": 46,
+                "name": "Des sensibilités univoques"
+               },
+               {
+                "id": 47,
+                "name": "Le cabinet"
+               },
+               {
+                "id": 48,
+                "name": "Les femmes et les livres"
+               },
+               {
+                "id": 49,
+                "name": "La belle-famille de Madame Bompré"
+               },
+               {
+                "id": 50,
+                "name": "Renoncer aux vieux meubles"
+               },
+               {
+                "id": 51,
+                "name": "Les visites aux voisins"
+               },
+               {
+                "id": 52,
+                "name": "Une étrangère au pays"
+               },
+               {
+                "id": 53,
+                "name": "Un portrait et un adieu"
+               },
+               {
+                "id": 54,
+                "name": "Le brave Antoine"
+               },
+               {
+                "id": 55,
+                "name": "Le brave Hector"
+               },
+               {
+                "id": 56,
+                "name": "Le renvoi d'Antoine"
+               },
+               {
+                "id": 57,
+                "name": "La démission de Nanon"
+               },
+               {
+                "id": 58,
+                "name": "Hector à la porte"
+               },
+               {
+                "id": 59,
+                "name": "Le refuge de la chasse"
+               },
+               {
+                "id": 60,
+                "name": "Feu Hector"
+               },
+               {
+                "id": 61,
+                "name": "Madame Bompré jalouse d'une paysanne"
+               },
+               {
+                "id": 62,
+                "name": "Suicide"
+               },
+               {
+                "id": 63,
+                "name": "Variante : dernier paragraphe de l'édition de 1783"
+               },
+               {
+                "id": 64,
+                "name": "Variante : dernier paragraphe de l'édition de 1785"
+               },
+               {
+                "id": 65,
+                "name": "Justification de M. Henley"
+               },
+               {
+                "id": 66,
+                "name": "M. Henley s'est reconnu"
+               },
+               {
+                "id": 67,
+                "name": "Ce que l'Amie a su dire de Mistriss Henley, et ce qui manque"
+               },
+               {
+                "id": 68,
+                "name": "La culpabilité du Mari sentimental"
+               },
+               {
+                "id": 69,
+                "name": "La lecture du Mari sentimental"
+               },
+               {
+                "id": 70,
+                "name": "Le commencement du mariage"
+               },
+               {
+                "id": 71,
+                "name": "Le bureau"
+               },
+               {
+                "id": 72,
+                "name": "Le tuteur d'une nièce"
+               },
+               {
+                "id": 73,
+                "name": "La nièce"
+               },
+               {
+                "id": 74,
+                "name": "L'éducation de la nièce de M. Henley"
+               },
+               {
+                "id": 75,
+                "name": "La coiffure"
+               },
+               {
+                "id": 76,
+                "name": "Mademoiselle Clairville"
+               },
+               {
+                "id": 77,
+                "name": "Le lendemain du bal"
+               },
+               {
+                "id": 78,
+                "name": "Jalousie, regrets, culpabilité"
+               },
+               {
+                "id": 79,
+                "name": "L'intérêt de Madame Henley pour sa nièce"
+               },
+               {
+                "id": 80,
+                "name": "La belle-famille de Madame Henley"
+               },
+               {
+                "id": 81,
+                "name": "La Lettre de Madame Henley à son mari"
+               },
+               {
+                "id": 82,
+                "name": "La Lettre, selon Monsieur Henley"
+               },
+               {
+                "id": 83,
+                "name": "La maternité : la dernière frontière"
+               },
+               {
+                "id": 84,
+                "name": "La voix de Madame Henley : M. Alesford"
+               },
+               {
+                "id": 85,
+                "name": "La voix de Madame Henley : le joug du mariage"
+               },
+               {
+                "id": 86,
+                "name": "La voix de Madame Henley : le poids de la raison"
+               },
+               {
+                "id": 87,
+                "name": "La voix de Madame Henley : le bonheur raisonné"
+               },
+               {
+                "id": 88,
+                "name": "La voix de Madame Henley : la Lettre"
+               },
+               {
+                "id": 89,
+                "name": "La voix de Madame Henley : l'éducation des filles"
+               },
+               {
+                "id": 90,
+                "name": "La voix de Madame Henley : (s')éduquer"
+               },
+               {
+                "id": 91,
+                "name": "La voix de Madame Henley : éduquer pour le mariage"
+               },
+               {
+                "id": 92,
+                "name": "La voix de Madame Henley : plaire et se faire aimer"
+               },
+               {
+                "id": 93,
+                "name": "La voix de Madame Henley : la vertu pour le mariage"
+               },
+               {
+                "id": 94,
+                "name": "La voix de Madame Henley : les femmes et le savoir"
+               },
+               {
+                "id": 95,
+                "name": "La voix de Madame Henley : le \"choix\" du mari"
+               },
+               {
+                "id": 96,
+                "name": "La voix de Madame Henley : l'éducation appliquée"
+               },
+               {
+                "id": 97,
+                "name": "La voix de Madame Henley : les dernières volontés pour les filles"
+               },
+               {
+                "id": 98,
+                "name": "Le mot de la fin"
+               },
+               {
+                "id": 99,
+                "name": "Écho d'Isabelle de Charrière : le tilleul"
+               },
+               {
+                "id": 100,
+                "name": "Écho d'Isabelle de Charrière : adieux"
+               },
+               {
+                "id": 101,
+                "name": "Écho d'Isabelle de Charrière : La Fontaine"
+               },
+               {
+                "id": 102,
+                "name": "Écho d'Isabelle de Charrière : genèse"
+               },
+               {
+                "id": 103,
+                "name": "Écho d'Isabelle de Charrière : réception"
+               },
+               {
+                "id": 104,
+                "name": "Écho d'Isabelle de Charrière : dangers"
+               },
+               {
+                "id": 105,
+                "name": "Écho d'Isabelle de Charrière : sentimentalité"
+               },
+               {
+                "id": 106,
+                "name": "Écho d'Isabelle de Charrière : genèse"
+               },
+               {
+                "id": 107,
+                "name": "Écho d'Isabelle de Charrière : effet"
+               },
+               {
+                "id": 108,
+                "name": "Écho d'Isabelle de Charrière : appel à texte"
+               },
+               {
+                "id": 109,
+                "name": "Écho d'Isabelle de Charrière : la Justification"
+               },
+               {
+                "id": 110,
+                "name": "Écho d'Isabelle de Charrière : édition pirate"
+               },
+               {
+                "id": 111,
+                "name": "Écho d'Isabelle de Charrière : angola"
+               },
+               {
+                "id": 112,
+                "name": "Écho d'Isabelle de Charrière : angola"
+               },
+               {
+                "id": 113,
+                "name": "Écho d'Isabelle de Charrière : les maris brutaux"
+               },
+               {
+                "id": 114,
+                "name": "Écho d'Isabelle de Charrière : les trésors du marquis"
+               },
+               {
+                "id": 115,
+                "name": "Écho d'Isabelle de Charrière : la campagne anglaise"
+               },
+               {
+                "id": 116,
+                "name": "Écho d'Isabelle de Charrière : la campagne anglaise"
+               },
+               {
+                "id": 117,
+                "name": "Écho d'Isabelle de Charrière : la campagne"
+               },
+               {
+                "id": 118,
+                "name": "Écho d'Isabelle de Charrière : la campagne désolée"
+               }
+        ],
+        
+        "links": [
+      
+          {
+            "source": 1,
+            "target": 2
+          },
+          {
+            "source": 2,
+            "target": 3
+          },
+          {
+           "source": 2,
+           "target": 68
+         },
+         {
+           "source": 2,
+           "target": 105
+         },
+         {
+           "source": 3,
+           "target": 4
+         },
+         {
+           "source": 3,
+           "target": 27
+         },
+         {
+           "source": 3,
+           "target": 28
+         },
+         {
+           "source": 3,
+           "target": 45
+         },{
+           "source": 3,
+           "target": 65
+         },
+         {
+           "source": 3,
+           "target": 69
+         },
+         {
+           "source": 4,
+           "target": 5
+         },
+         {
+           "source": 4,
+           "target": 48
+         }, {
+           "source": 4,
+           "target": 62
+         },
+         {
+           "source": 5,
+           "target": 6
+         },
+         {
+           "source": 5,
+           "target": 35
+         },
+         {
+           "source": 5,
+           "target": 67
+         },
+         {
+           "source": 5,
+           "target": 66
+         },
+         {
+           "source": 6,
+           "target": 7
+         },
+         {
+           "source": 6,
+           "target": 95
+         },
+ 
+         {
+           "source": 6,
+           "target": 30
+         },
+ 
+         {
+           "source": 6,
+           "target": 37 
+         },
+ 
+         {
+           "source": 6,
+           "target": 95
+         },
+ 
+         {
+           "source": 6,
+           "target": 93
+         },
+         {
+           "source": 7,
+           "target": 8
+         },
+         {
+           "source": 7,
+           "target": 70
+         },
+         {
+           "source": 7,
+           "target": 72
+         },
+         {
+           "source": 7,
+           "target": 107
+         },
+         {
+           "source": 7,
+           "target": 42
+         },
+         {
+           "source": 7,
+           "target": 115
+         },
+         {
+           "source": 8,
+           "target": 9
+         },
+         {
+           "source": 8,
+           "target": 33
+         },
+         {
+           "source": 8,
+           "target": 79
+         },
+         {
+           "source": 8,
+           "target": 38
+         },
+         {
+           "source": 9,
+           "target": 10
+         },
+         {
+           "source": 9,
+           "target": 115
+         },{
+           "source": 9,
+           "target": 117
+         },{
+           "source": 9,
+           "target": 39
+         },{
+           "source": 9,
+           "target": 117
+         },{
+           "source": 9,
+           "target": 40
+         },
+         {
+           "source": 10,
+           "target": 11
+         },
+         {
+           "source": 10,
+           "target": 73
+         },
+         {
+           "source": 10,
+           "target": 91
+         },
+         {
+           "source": 10,
+           "target": 101
+         },
+         {
+           "source": 10,
+           "target": 94
+         },
+         {
+           "source": 10,
+           "target": 90
+         },
+         {
+           "source": 10,
+           "target": 89
+         },
+         {
+           "source": 10,
+           "target": 34
+         },
+         {
+           "source": 11,
+           "target": 12
+         },
+         {
+           "source": 11,
+           "target": 56
+         },{
+           "source": 11,
+           "target": 54
+         },
+         {
+           "source": 12,
+           "target": 13
+         },
+         {
+           "source": 12,
+           "target": 111
+         },
+         {
+           "source": 12,
+           "target": 44
+         },
+         {
+           "source": 12,
+           "target": 31
+         },
+         {
+           "source": 12,
+           "target": 112
+         },
+         {
+           "source": 12,
+           "target": 50
+         },
+         {
+           "source": 12,
+           "target": 32
+         },
+         {
+           "source": 12,
+           "target": 71
+         },
+         {
+           "source": 12,
+           "target": 53
+         },
+         {
+           "source": 12,
+           "target": 58
+         },
+         {
+           "source": 12,
+           "target": 60
+         },
+         {
+           "source": 12,
+           "target": 86
+         },
+         {
+           "source": 12,
+           "target": 55
+         },
+         {
+           "source": 13,
+           "target": 14
+         },
+         {
+           "source": 13,
+           "target": 49
+         },
+         {
+           "source": 13,
+           "target": 51
+         },
+         {
+           "source": 14,
+           "target": 15
+         },
+         {
+           "source": 14,
+           "target": 85
+         },
+         {
+           "source": 14,
+           "target": 43
+         },
+         {
+           "source": 15,
+           "target": 16
+         },
+         {
+           "source": 15,
+           "target": 92
+         },
+         {
+           "source": 16,
+           "target": 17
+         },
+         {
+           "source": 17,
+           "target": 18
+         },
+         {
+           "source": 17,
+           "target": 57
+         },
+         {
+           "source": 17,
+           "target": 52
+         },
+         {
+           "source": 18,
+           "target": 19
+         },
+         {
+           "source": 18,
+           "target": 29
+         },
+         {
+           "source": 19,
+           "target": 20 
+         },
+         {
+           "source": 19,
+           "target": 36
+         },
+         {
+           "source": 19,
+           "target": 75
+         },
+         {
+           "source": 19,
+           "target": 76
+         },
+         {
+           "source": 19,
+           "target": 77 
+         },
+         {
+           "source": 20,
+           "target": 21
+         },
+         {
+           "source": 20,
+           "target": 84
+         },
+         {
+           "source": 20,
+           "target": 78
+         },
+         {
+           "source": 20,
+           "target": 113
+         },
+         {
+           "source": 20,
+           "target": 96
+         },
+         {
+           "source": 21,
+           "target": 22
+         },
+         {
+           "source": 21,
+           "target": 81
+         },
+         {
+           "source": 21,
+           "target": 85
+         },
+         {
+           "source": 21,
+           "target": 86
+         },
+         {
+           "source": 21,
+           "target": 87
+         },
+         {
+           "source": 21,
+           "target": 52
+         },
+         {
+           "source": 21,
+           "target": 90
+         },
+         {
+           "source": 21,
+           "target": 47
+         },
+         {
+           "source": 21,
+           "target": 99
+         },
+         {
+           "source": 22,
+           "target": 23
+         },
+         {
+           "source": 22,
+           "target": 118
+         },
+         {
+           "source": 23,
+           "target": 24
+         },
+         {
+           "source": 24,
+           "target": 25
+         },
+         {
+           "source": 24,
+           "target": 86
+         },
+         {
+           "source": 24,
+           "target": 83
+         },
+         {
+           "source": 25,
+           "target": 26
+         },
+         {
+           "source": 25,
+           "target": 41
+         },
+         {
+           "source": 26,
+           "target": 46
+         },
+         {
+           "source": 26,
+           "target": 82
+         },
+         {
+           "source": 26,
+           "target": 108
+         },
+         {
+           "source": 26,
+           "target": 98
+         },
+         {
+           "source": 26,
+           "target": 100
+         },
+         {
+           "source": 27,
+           "target": 58
+         },
+         {
+           "source": 27,
+           "target": 28
+         },
+         {
+           "source": 28,
+           "target": 54
+         },
+         {
+           "source": 28,
+           "target": 56
+         },
+         {
+           "source": 29,
+           "target": 45
+         },
+         {
+           "source": 31,
+           "target": 59
+         },
+         {
+           "source": 32,
+           "target": 33
+         },
+         {
+           "source": 34,
+           "target": 61
+         },
+         {
+           "source": 42,
+           "target": 46
+         },
+         {
+           "source": 42,
+           "target": 86
+         },
+         {
+           "source": 45,
+           "target": 46
+         },
+         {
+           "source": 45,
+           "target": 48
+         },
+         {
+           "source": 45,
+           "target": 85
+         },
+         {
+           "source": 46,
+           "target": 86
+         },
+         {
+           "source": 48,
+           "target": 94
+         },
+         {
+           "source": 50,
+           "target": 53
+         },
+         {
+           "source": 53,
+           "target": 49
+         },
+         {
+           "source": 53,
+           "target": 54
+         },
+         {
+           "source": 54,
+           "target": 56
+         },
+         {
+           "source": 55,
+           "target": 58
+         },
+         {
+           "source": 56,
+           "target": 96
+         },
+         {
+           "source": 56,
+           "target": 57
+         },
+         {
+           "source": 58,
+           "target": 60
+         },
+         {
+           "source": 62,
+           "target": 63
+         },
+         {
+           "source": 63,
+           "target": 64
+         },
+         {
+           "source": 64,
+           "target": 100
+         },
+         {
+           "source": 67,
+           "target": 23
+         },
+         {
+           "source": 68,
+           "target": 27
+         },
+         {
+           "source": 68,
+           "target": 62
+         },
+         {
+           "source": 69,
+           "target": 12
+         },
+         {
+           "source": 75,
+           "target": 76
+         },
+         {
+           "source": 76,
+           "target": 77
+         },
+         {
+           "source": 78,
+           "target": 84
+         },
+         {
+           "source": 81,
+           "target": 48
+         },
+         {
+           "source": 81,
+           "target": 82
+         },
+         {
+           "source": 88,
+           "target": 83
+         },
+         {
+           "source": 90,
+           "target": 91
+         },
+         {
+           "source": 98,
+           "target": 64
+         },
+         {
+           "source": 98,
+           "target": 100
+         },
+         {
+           "source": 116,
+           "target": 115
+         }
+        ]
+      }
+        
+    
