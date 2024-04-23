@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualisation Force-Directed Graph</title>
+    <style>
+        .search-bar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+        }
+        .side-panel {
+            /* Définissez le style de votre panneau latéral ici */
+            background-color: #21918c;
+            padding: 10px;
+            border: 1px solid #31688e;
+            border-radius: 5px;
+        }
+</style>
     <!-- Charger la bibliothèque D3.js -->
     <script src="https://d3js.org/d3.v6.js"></script>
     <!-- Charger la bibliothèque D3-force -->
@@ -12,16 +27,26 @@
 <body>
     <!-- Conteneur de la visualisation -->
     <div id="vis"></div>
+    <!-- Barre de recherche -->
+    <div class="search-bar">
+        <select id="group-select">
+            <option value="" selected disabled>Sélectionner un parcours</option>
+            <!-- Options des groupes seront ajoutées dynamiquement ici -->
+        </select>
+    </div>
 
     <script>
-        const width = window.innerWidth;
-        const height = window.innerHeight;
-
-        // Créer le conteneur SVG
+        // Calculer la largeur du SVG en tenant compte du side panel
+        const svgWidth = window.innerWidth * 0.7; // Utilisez 80% de la largeur de la fenêtre pour le SVG
+        const svgHeight = window.innerHeight; // Hauteur du SVG
+        // Créer le conteneur SVG avec la largeur calculée
         const svg = d3.select("#vis")
             .append("svg")
-            .attr("width", width)
-            .attr("height", height);
+            .attr("width", svgWidth)
+            .attr("height", svgHeight);
+
+        // Déclaration de la variable simulation en dehors de la fonction then
+        let simulation;
 
         // Charger les données JSON
         d3.json("fragments3.json")
@@ -31,19 +56,41 @@
 
                 // Récupérer les groupes uniques de noeuds
                 const nodeGroups = Array.from(new Set(nodes.map(d => d.group)));
-                // Définir les couleurs pour chaque groupe
-                const colors = d3.schemeCategory10.slice(0, nodeGroups.length);
+                const nodeTypes = Array.from(new Set(nodes.map(d => d.type)));
+
+                // Définir vos propres couleurs
+                const customColors = ["#fde725", "#35b779", "#31688e", "#440154"];
+
+                // Créer une fonction pour associer les couleurs aux types de nœuds
+                const colorScale = d3.scaleOrdinal()
+                .domain(nodeTypes)
+                .range(customColors);
+
+                    // Créer une nouvelle fenêtre ou div pour afficher le texte
+                    var sidePanel = d3.select("body").append("div")
+                        .attr("class", "side-panel")
+                        .style("right", "20px") // positionné au bord droit de la fenêtre
+                        .style("top", "50%") // centré verticalement
+                        .style("transform", "translateY(-50%)") // déplacer de -50% de sa propre hauteur
+                        .style("position", "fixed") // positionnement fixe pour rester en place lors du défilement
+                        .style("background-color", "#21918c")
+                        .style("border", "1px solid #ccc")
+                        .style("padding", "10px")
+                        .style("height", "60%") // 60% de la hauteur de la fenêtre
+                        .style("width", "20%") // 20% de la largeur de la fenêtre
+                        .style("overflow-y", "auto"); // activer le défilement vertical si nécessaire
 
                 // Créer une simulation de force
-                const simulation = d3.forceSimulation(nodes)
+                simulation = d3.forceSimulation(nodes)
                     .force("link", d3.forceLink(links).id(d => d.id))
                     .force("charge", d3.forceManyBody().strength(-50))
-                    .force("center", d3.forceCenter(width / 2, height / 2))
-                    .force("x", d3.forceX().strength(0.1).x(d => Math.max(0, Math.min(width, d.x))))
-                    .force("y", d3.forceY().strength(0.1).y(d => Math.max(0, Math.min(height, d.y))));
+                    .force("center", d3.forceCenter(svgWidth / 2, window.innerHeight / 2))
+                    .force("x", d3.forceX().strength(0.1).x(d => Math.max(0, Math.min(svgWidth, d.x))))
+                    .force("y", d3.forceY().strength(0.1).y(d => Math.max(0, Math.min(window.innerHeight, d.y))))
+                    .alpha(1).restart();
 
-                // Créer l'échelle de couleur en fonction des groupes de noeuds
-                const color = d3.scaleOrdinal(nodeGroups, colors);
+                // Utiliser la fonction pour obtenir la couleur appropriée pour chaque type de nœud
+                const nodeColor = d => colorScale(d.type);
 
                 // Ajouter les liens à l'élément SVG
                 const link = svg.selectAll("line")
@@ -53,16 +100,19 @@
                     .attr("stroke-opacity", 0.6)
                     .attr("stroke-width", 1);
 
+                // Déclarer la variable drag en tant que drag behavior
+                const drag = d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended);
+
                 // Ajouter les noeuds à l'élément SVG
                 const node = svg.selectAll("circle")
                     .data(nodes)
                     .enter().append("circle")
                     .attr("r", 5)
-                    .attr("fill", d => color(d.group))
-                    .call(d3.drag()
-                        .on("start", dragstarted)
-                        .on("drag", dragged)
-                        .on("end", dragended));
+                    .attr("fill", d => nodeColor(d)) // appliquer la couleur en fonction du type de noeud
+                    .call(drag); // Appeler le "drag behavior" sur les nœuds
 
                 // Ajouter des titres aux noeuds
                 node.append("title")
@@ -79,25 +129,48 @@
                         .attr("cy", d => d.y);
                 });
 
-                // Fonctions de drag-and-drop
-                function dragstarted(event, d) {
-                    if (!event.active) simulation.alphaTarget(0.3).restart();
-                    d.fx = d.x;
-                    d.fy = d.y;
-                }
+                // Remplir la liste déroulante avec les groupes
+                const groupSelect = d3.select("#group-select");
+                groupSelect.append("option")
+                    .attr("value", "") 
+                    .text("Tous les parcours");
+                groupSelect.selectAll("option.group-option")
+                    .data(nodeGroups)
+                    .enter()
+                    .append("option")
+                    .attr("value", d => d)
+                    .text(d => d);
 
-                function dragged(event, d) {
-                    d.fx = event.x;
-                    d.fy = event.y;
-                }
+                // Gérer le changement de sélection dans la liste déroulante
+                groupSelect.on("change", function() {
+                    const selectedGroup = d3.select(this).property("value");
+                    filterNodes(selectedGroup);
+                });
 
-                function dragended(event, d) {
-                    if (!event.active) simulation.alphaTarget(0);
-                    d.fx = null;
-                    d.fy = null;
+                // Fonction pour filtrer les noeuds en fonction du groupe sélectionné
+                function filterNodes(selectedGroup) {
+                    node.attr("opacity", d => (selectedGroup === "" || d.group === selectedGroup) ? 1 : 0.2);
+                    link.attr("opacity", d => (selectedGroup === "" || nodes[d.source.index].group === selectedGroup) ? 1 : 0.2);
                 }
             });
 
+        // Définir les fonctions pour gérer les événements de "drag"
+function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(event, d) {
+    d.fx = Math.max(0, Math.min(svgWidth, event.x)); // Limiter la coordonnée X à l'intérieur du SVG
+    d.fy = Math.max(0, Math.min(svgHeight, event.y)); // Limiter la coordonnée Y à l'intérieur du SVG
+}
+
+function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
     </script>
 </body>
 </html>
