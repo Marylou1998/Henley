@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualisation Force-Directed Graph</title>
     <style>
+        /* Définir la couleur de fond du corps */
+        body {
+            background-color: #000000; /* Noir */
+            color: #ffffff; /* Blanc pour le texte, pour un meilleur contraste */
+            margin: 0; /* Supprimer les marges par défaut */
+            padding: 0; /* Supprimer les espacements internes par défaut */
+        }
         .search-bar {
             position: absolute;
             top: 20px;
@@ -26,7 +33,8 @@
 </head>
 <body>
     <!-- Conteneur de la visualisation -->
-    <div id="vis"></div>
+    <div id="vis">
+    </div>
     <!-- Barre de recherche -->
     <div class="search-bar">
         <select id="group-select">
@@ -57,9 +65,12 @@
                 // Récupérer les groupes uniques de noeuds
                 const nodeGroups = Array.from(new Set(nodes.map(d => d.group)));
                 const nodeTypes = Array.from(new Set(nodes.map(d => d.type)));
+                const nodeText = Array.from(new Set(nodes.map(d => d.texte)));
+
 
                 // Définir vos propres couleurs
-                const customColors = ["#fde725", "#35b779", "#31688e", "#440154"];
+                //couleur pour le noeud sélectionné : 00ffff
+                const customColors = ["#B759E3", "#1eaeb8", "#1a5678", "#870E85"];
 
                 // Créer une fonction pour associer les couleurs aux types de nœuds
                 const colorScale = d3.scaleOrdinal()
@@ -67,18 +78,27 @@
                 .range(customColors);
 
                     // Créer une nouvelle fenêtre ou div pour afficher le texte
+                    //texte color à créer : #69F7FF ? --> même couleur que le border
                     var sidePanel = d3.select("body").append("div")
                         .attr("class", "side-panel")
                         .style("right", "20px") // positionné au bord droit de la fenêtre
                         .style("top", "50%") // centré verticalement
                         .style("transform", "translateY(-50%)") // déplacer de -50% de sa propre hauteur
                         .style("position", "fixed") // positionnement fixe pour rester en place lors du défilement
-                        .style("background-color", "#21918c")
-                        .style("border", "1px solid #ccc")
+                        .style("background-color", "#11232E")
                         .style("padding", "10px")
                         .style("height", "60%") // 60% de la hauteur de la fenêtre
                         .style("width", "20%") // 20% de la largeur de la fenêtre
                         .style("overflow-y", "auto"); // activer le défilement vertical si nécessaire
+
+                // Afficher automatiquement le texte du nœud avec l'ID 1 dans le side-panel
+                const nodeWithId1 = nodes.find(node => node.id === 1);
+                if (nodeWithId1) {
+                    displayNodeText(nodeWithId1);
+                } else {
+                    // Afficher un message si aucun nœud avec l'ID 1 n'est trouvé
+                    sidePanel.html("<p>Aucun nœud avec l'ID 1 n'a été trouvé.</p>");
+                }
 
                 // Créer une simulation de force
                 simulation = d3.forceSimulation(nodes)
@@ -152,7 +172,22 @@
                     node.attr("opacity", d => (selectedGroup === "" || d.group === selectedGroup) ? 1 : 0.2);
                     link.attr("opacity", d => (selectedGroup === "" || nodes[d.source.index].group === selectedGroup) ? 1 : 0.2);
                 }
+                 // Fonction pour afficher le texte associé à chaque nœud lorsqu'il est cliqué
+                function displayNodeText(d) {
+                    // Vérifier si le texte existe
+                    if (d.texte) {
+                        // Effacer le contenu précédent du side-panel
+                        sidePanel.html("");
+                        // Ajouter le texte du nœud au side-panel
+                        sidePanel.append("p")
+                            .text(d.texte);
+                    } else {
+                        // Afficher un message si aucun texte n'est disponible pour ce nœud
+                        sidePanel.html("<p>Aucun texte disponible pour ce nœud.</p>");
+                    }}
+
             });
+
 
         // Définir les fonctions pour gérer les événements de "drag"
 function dragstarted(event, d) {
