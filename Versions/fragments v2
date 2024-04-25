@@ -1,0 +1,1455 @@
+{
+    "data": {
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Lettres de Mistriss Henley",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "<a href=\"#2\">Publiées par son Amie</a>.<p>J’ai vu beaucoup d’hymens, etc.</p><p><a href=\"#overlay_101\">LA FONTAINE</a>.</p><p>GENEVE. 1784.</p><p>...</p>"
+    }
+    ,
+      
+       {
+        "id": 2,
+        "name": "Première Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Première Lettre<p>Quel aimable et cruel petit livre que celui qui nous est arrivé de votre pays il y a quelques semaines ! Pourquoi ne m’en avez-vous rien dit, ma chère amie, dans votre dernière lettre ? Il est impossible qu’il n’ait pas fait sensation chez vous : on vient de le traduire, et je suis sûre que le <i>Sentimental Husband<\/i> va être entre les mains de tout le monde. Je l’avais lu en français, et il m’avait tourmentée. Ces jours passés je l’ai lu en anglais à mon mari. Ma chère amie, ce livre, si instructif en apparence, fera faire bien des injustices : les Dames Bompré ne s’y reconnaîtront pas, ou ne s’en embarrasseront guère ; et leurs maris pourront se casser la tête, comme si jamais il n’avait été écrit. Les femmes qui ressemblent peu à Madame Bompré, et qui sont pourtant des femmes, s’en tourmenteront, et leurs maris<a href=\"#3\">…</a> <p>"
+       },
+       {
+        "id": 3,
+        "name": "Les Henley et les Bompré",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "En lisant seule l’histoire du portrait, les meubles changés, le pauvre <i>Hector<\/i>, je me suis souvenue douloureusement d’un portrait, d’un meuble, d’un chien : mais le portrait n’était pas de mon beau-père, le chien est plein de vie, et mon mari s’en soucie assez peu ; et pour l’ameublement de ma chambre, il me semblait qu’il devait être convenable pour moi, et non selon le goût de mes grand’mères. Quand j’ai lu tout cela à mon mari, au lieu de sentir encore mieux que moi ces différences, comme je m’en étais flattée en commençant la lecture, ou de ne point sentir du tout cette manière de ressemblance, je l’ai vu tantôt sourire, tantôt soupirer ; il a dit quelques mots, il a caressé son chien et regardé l’ancienne place du portrait. Ma chère amie, ils se croiront tous des Messieurs Bompré, et seront surpris d’avoir pu supporter si patiemment la vie. Cet homme-là eut grand tort, après tout, de se marier. Son bonheur, tout son sort, était trop établi ; sa femme n’avait rien à faire qu’à partager des sensations qui lui étaient nouvelles et étrangères ; elle n’avait point de Nanon, point d’Antoine, point d’Hector, point de voisins à rendre heureux, point de liaisons, point d’habitudes ; il n’y avait pas là de quoi occuper une existence. <p>"
+       },
+       {
+        "id": 4,
+        "name": "Condamnations",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Je lui pardonnerais ses livres, ses romans, son ennui, sans la dureté de cœur, l’esprit faux et la fin sinistre que tout cela occasionne. En vérité, ma chère amie, je croirais en la condamnant prononcer ma propre condamnation. <p>"
+       },
+       {
+        "id": 5,
+        "name": "Mistriss Henley et Mme Bompré",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Moi aussi je ne suis point heureuse, aussi peu heureuse que le Mari sentimental, quoique je ne lui ressemble point, et que mon mari ne ressemble point à sa femme ; il est même, sinon aussi tendre, aussi communicatif, du moins aussi calme et aussi doux que cet excellent mari. Voulez-vous, ma chère amie, que je vous fasse l’histoire de mon mariage, du temps qui l’a précédé, et que je vous peigne ma vie telle qu’elle est aujourd’hui ? Je vous dirai des choses que vous savez déjà, pour que vous entendiez mieux, ou plutôt pour pouvoir plus facilement vous dire celles que vous ignorez. Vous dirai-je la pensée qui me vient ? Si ma lettre ou mes lettres ont quelque justesse et vous paraissent propres à exciter quelque intérêt, seulement assez pour se faire lire, traduisez-les en changeant les noms, en omettant ce qui vous paraîtra ennuyeux ou inutile. Je crois que beaucoup de femmes sont dans le même cas que moi. Je voudrais, sinon corriger, du moins avertir les maris ; je voudrais remettre les choses à leur place, et que chacun se rendît justice. Je me fais bien un léger scrupule de mon projet ; mais il est léger. Je n’ai point de plaintes graves à faire : on ne reconnaîtra pas Monsieur Henley ; il ne lira jamais, sans doute, ce que j’aurai écrit ; et quand il le lirait, quand il s’y reconnaîtrait ! … <p>"
+       },
+       {
+        "id": 6,
+        "name": "L'histoire de Mistriss Henley",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Visions du mariage",
+        "texte": "commençons.<p>Orpheline de bonne heure, et presque sans fortune, j’ai été élevée comme celles qui en ont le plus, et avec une tendresse que l’amour maternel ne pourrait surpasser. Ma tante, Lady Alesford, ayant perdu sa fille unique, me donna sa place auprès d’elle, et à force de me caresser et de me faire du bien, elle m’aima comme si j’eusse été sa fille. Son mari avait un neveu qui devait hériter de son bien et de son titre : je lui fus destinée. Il était aimable, nous étions de même âge, nous fûmes élevés dans l’idée que nous serions l’un à l’autre. Cette idée plaisait à tous deux ; nous nous aimions sans inquiétude. Son oncle mourut. Ce changement dans sa fortune ne changea point son cœur ; mais on le mena voyager. A Venise il aurait encore été le Lord John de Rousseau ; il aurait déchiré les manchettes de la Marquise : mais, à Florence, mon image fut effacée par des charmes plus séduisants. Il passa quelque temps à Naples, et l’année suivante il mourut à Paris. Je ne vous dirai point tout ce que je souffris alors, tout ce que j’avais déjà souffert pendant plusieurs mois. Vous vites à Montpellier les traces que le chagrin avait laissées dans mon humeur, et l’effet qu’il avait eu sur ma santé. Ma tante n’était guère moins affligée que moi. Quinze ans d’espérances, quinze ans de soins donnés à un projet favori, tout était évanoui, tout était perdu. Pour moi je perdais tout ce qu’une femme peut perdre. A vingt ans notre cœur nous laisse entrevoir des ressources, et je retournai en Angleterre un peu moins malheureuse que je n’en étais partie. Mes voyages m’avaient formée et enhardie ; je parlais français plus facilement, je chantais mieux ; on m’admira. Je reçus des hommages, et tout ce qui m’en revint fut d’exciter l’envie. Une attention curieuse et critique me poursuivit dans mes moindres actions, et le blâme des femmes s’attacha à moi. Je n’aimai point ceux qui m’aimèrent ; je refusai un homme riche sans naissance et sans éducation ; je refusai un seigneur usé et endetté ; je refusai un jeune homme en qui la suffisance le disputait à la stupidité. On me trouva dédaigneuse et mes anciennes amies se moquèrent de moi : le monde me devint odieux : ma tante, sans me blâmer, m’avertit plusieurs fois que les 3000 pièces qu’on lui payait par an finiraient avec elle, et qu’elle n’en avoir pas 3000 de capital à me laisser. Telle était ma situation, il y a un an, quand nous allâmes passer les fêtes de Noël chez milady Waltham. J’avais vingt-cinq ans ; mon cœur était triste et vuide. Je commençais à maudire des goûts et des talents qui ne m’avaient donné que des espérances vaines, des délicatesses malheureuses, des prétentions à un bonheur qui ne se réalisait point. Il y avait deux hommes dans cette maison. L’un, âgé de quarante ans, venait des Indes avec une fortune considérable. Il n’y avait rien de grave à sa charge sur les moyens qui la lui avaient acquise, mais sa réputation n’était pas non plus resplendissante de délicatesse et de désintéressement ; et dans les conversations que l’on eut sur les richesses et les riches de ce pays-là, il évitait les détails. C’était un bel homme ; il était noble dans ses manières et dans sa dépense ; il aimait la bonne chère, les arts et les plaisirs : je lui plus ; il parla à ma tante ; il offrit un douaire considérable, la propriété d’une belle maison qu’il venait d’acheter à Londres, et trois cents guinées par an pour mes épingles. <p>"
+       },
+       {
+        "id": 7,
+        "name": "Le choix d'un mari",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Visions du mariage",
+        "texte": "L’autre homme à marier était le second fils du comte de Reding, âgé de trente-cinq ans, veuf depuis quatre d’une femme qui lui a laissé beaucoup de biens, et père d’une fille de cinq ans, d’une angélique beauté. Il est lui-même de la plus noble figure, il est grand, il a la taille déliée, les yeux bleus les plus doux, les plus belles dents, le plus doux sourire : voilà, ma chère amie, ce qu’il est ou ce qu’il me parut alors. Je trouvai que tout ce qu’il disait répondait à cet extérieur si agréable. Il m’entretint souvent de la vie qu’il menait à la campagne, du plaisir qu’il y aurait à partager cette belle solitude avec une compagne aimable et sensible, d’un esprit droit et remplie de talents. Il me parla de sa fille et du désir qu’il avait de lui donner, non une gouvernante, non une belle-mère, mais une mère. A la fin il parla plus clairement encore, et la veille de notre départ il fit pour moi à ma tante les offres les plus généreuses. J’étais, sinon passionnée, du moins fort touchée. Revenue à Londres, ma tante prit des informations sur mes deux prétendants ; elle n’apprit rien de fâcheux sur le premier, mais elle apprit les choses les plus avantageuses sur l’autre. De la raison, de l’instruction, de l’équité, une égalité d’âme parfaite ; voilà ce que toutes les voix accordaient à Monsieur Henley. Je sentis qu’il fallait choisir, et vous pensez bien, ma chère amie, que je ne me permis presque pas d’hésiter. C’était, pour ainsi dire, la partie vile de mon cœur qui préférait les richesse s de l’Orient, Londres, une liberté plus entière, une opulence plus brillante ; la partie noble dédaignait tout cela, et se pénétrait des douceurs d’une félicité toute raisonnable, toute sublime, et telle que les anges devaient y applaudir. Si un père tyrannique m’eût obligée à épouser le Nabab, je me serais fait peut-être un devoir d’obéir ; et m’étourdissant sur l’origine de ma fortune par l’usage que je me serais promis d’en faire, <i>les bénédictions des indigents d’Europe détourneront, me serais-je dit, les malédictions de l’Inde<\/i>. En un mot, forcée de devenir heureuse d’une manière vulgaire, je le serais devenue sans honte et peut-être avec plaisir ; mais me donner moi-même de mon choix, contre des diamants, des perles, des tapis, des parfums, des mousselines brodées d’or, des soupés, des fêtes, je ne pouvais m’y résoudre, et je promis ma main à Monsieur Henley. Nos noces furent charmantes. Spirituel, élégant, décent, délicat, affectueux, Monsieur Henley enchantait tout le monde ; c’était un mari de roman, il me semblait quelquefois un peu trop parfait ; mes fantaisies, mes humeurs, mes impatiences trouvaient toujours sa raison et sa modération en leur chemin. J’eus, par exemple, au sujet de ma présentation à la Cour, des joies et des chagrins qu’il ne parut pas comprendre. <p>"
+       },
+       {
+        "id": 8,
+        "name": "Le départ pour la campagne",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "Je me flattais que la société d’un homme que j’admirais tant, me rendrait comme lui ; et je partis pour sa terre au commencement du printemps, remplie des meilleures intentions, et persuadée que j’allais être la meilleure femme, la plus tendre belle-mère, la plus digne maîtresse de maison que l’on eût jamais vue. Quelquefois je me proposais pour modèle les matrones romaines les plus respectables, d’autres fois les femmes de nos anciens Barons sous le gouvernement féodal ; d’autres fois je me voyais errant dans la campagne, simple comme les bergères, douce comme leurs agneaux, et gaie comme les oiseaux que j’entendrais chanter. Mais voici, ma chère amie, une assez longue lettre, je reprendrai la plume au premier jour."
+       },
+       {
+        "id": 9,
+        "name": "Seconde Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "Seconde Lettre<p>Nous arrivâmes à <i>Hollowpark<\/i> ; c’est une ancienne, belle et noble maison que la mère de Monsieur Henley, héritière de la famille d’Astley, lui a léguée. Je trouvai tout bien. Je m’attendris en voyant des domestiques à cheveux blancs courir au-devant de leur aimable maître, et bénir leur nouvelle maîtresse. <p>"
+       },
+       {
+        "id": 10,
+        "name": "L'éducation de l’enfant de M. Henley",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Education & Mariage",
+        "texte": "On m’amena l’enfant ; quelles caresses ne lui fis-je pas ! mon cœur lui promit les soins les plus assidus, l’attachement le plus tendre. Je passai tout le reste de ce jour dans une espèce de délire ; le lendemain je parai l’enfant des parures que j’avais apportées pour elle de Londres, et je la présentai à son père, que je comptais surprendre agréablement. <i>Votre intention est charmante<\/i>,me dit-il,<i>mais c’est un goût que je ne voudrais pas lui inspirer ; je craindrais que ces souliers si jolis ne l’empêchassent de courir à son aise ; des fleurs artificielles contrastent désagréablement avec la simplicité de la campagne. Vous avez raison, Monsieur<\/i>,lui dis-je,<i>j’ai eu tort de lui mettre tout cela, et je ne sais comment le lui ôter ; j’ai voulu me l’attacher par des moyens puérils, et je n’ai fait que lui préparer un petit chagrin et à moi une mortification.<\/i> Heureusement les souliers furent bientôt gâtés, le médaillon se perdit, les fleurs du chapeau s’accrochèrent aux broussailles et y restèrent ; et j’amusai l’enfant avec tant de soin qu’elle n’eut pas le loisir de regretter ses pertes. Elle savait lire en français comme en anglais ; je voulus lui faire apprendre les fables de La Fontaine. Elle récita un jour à son père <i>le Chêne et le Roseau<\/i> avec une grâce charmante. Je disais tout bas les mots avant elle ; le cœur me battait, j’étais rouge de plaisir. <i>Elle récite à merveille<\/i>, dit Monsieur Henley ; <i>mais comprend-elle ce qu’elle dit ? il vaudrait mieux peut-être mettre dans sa tête des vérités avant d’y mettre des fictions : l’histoire, la géographie<\/i>…<i>Vous avez raison, Monsieur<\/i>, lui dis-je ; <i>mais sa Bonne pourra lui apprendre, tout aussi bien que moi, que Paris est sur la Seine, et Lisbonne sur le Tage. Pourquoi cette impatience<\/i> ? reprit doucement Monsieur Henley, <i>apprenez-lui les fables de La Fontaine, si cela vous amuse ; au fond il n’y aura pas grand mal. Non<\/i>, dis-je vivement, <i>ce n’est pas mon enfant, c’est le vôtre. Mais, ma très-chère, j’espérais…<\/i> Je ne répondis rien, et m’en allai en pleurant. J’avais tort, je le sais bien ; c’était moi qui avait tort. Je revins quelque temps après, et Monsieur Henley eut l’air de ne pas même se souvenir de mon impatience. L’enfant dandinait et bâillait près de lui sans qu’il y prît garde. Quelques jours après je voulus établir une leçon d’histoire et de géographie ; elle ennuya bientôt la maîtresse et l’écolière. Son père la trouvait trop jeune pour apprendre la musique, et mettait en doute si cette espèce de talent ne donnait pas plus de prétentions que de jouissances. La petite fille, ne faisant plus auprès de moi que baguenauder ennuyeusement et suivre mes mouvements d’un air tantôt stupide, tantôt curieux, me devint importune ; je la bannis presque de ma chambre. Elle s’était désaccoutumée de sa Bonne. La pauvre enfant est certainement moins heureuse et plus mal élevée qu’avant que je vinsse ici. Sans la rougeole qu’elle a eue dernièrement et que j’ai prise en la servant nuit et jour, je ne saurais pas que cet enfant m’intéresse plus que l’enfant d’un inconnu. Quant aux domestiques, pas un d’eux n’a eu à se plaindre de moi ; mais mon élégante femme-de-chambre a donné dans les yeux à un fermier du voisinage, qui aimait auparavant la fille d’une ancienne et excellente ménagère, sœur de lait de la mère de mon mari. <p>"
+       },
+       {
+        "id": 11,
+        "name": "Les domestiques de Hollowpark",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Peggy désolée et la mère outrée de cet affront, ont quitté la maison quoiqu’on ait pu leur dire. Je supplée tant que je peux à cette perte, aidée de ma femme-de-chambre, qui est d’un bon caractère, sans quoi je l’aurais renvoyée sur-le-champ ; mais toute la maison regrette l’ancienne femme de charge, et moi aussi je la regrette et les excellentes confitures qu’elle faisait."
+       },
+       {
+        "id": 12,
+        "name": "L'ameublement de Hollowpark",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "J’avais amené de Londres un superbe angola blanc. Monsieur Henley ne le trouvait pas plus beau qu’un autre chat, et il plaisantait souvent sur l’empire de la mode qui fait le sort des animaux, leur attire des admirations outrées et des dédains humiliants, comme à nos robes et nos coiffures. Il caressait pourtant l’angola, car il est bon et il ne refuse à aucun être doué de sensibilité une petite marque de la sienne. — Mais ce n’était pas précisément l’histoire de mon angola que je voulais vous faire. Ma chambre était tapissée par bandes. Du velours vert bien sombre, séparait des morceaux de tapisserie faite à l’aiguille par l’aïeule de Monsieur Henley. De grands fauteuils fort incommodes à remuer, fort bons pour dormir, brodés de la même main, encadrés du même velours faisaient, avec un canapé bien dur, l’ameublement de ma chambre. Mon angola se couchait sans respect sur les vieux fauteuils, et s’accrochait à cette antique broderie. Monsieur Henley l’avait posé doucement à terre plusieurs fois. Il y a six mois que prêt à aller à la chasse et venant me saluer dans ma chambre, il voit mon chat dormant sur un fauteuil ; <i>ah !<\/i> dit Monsieur Henley, <i>que dirait ma grand-mère, que dirait ma mère, si elles voyaient… elles diraient sans doute<\/i>, repris-je vivement, <i>que je dois me servir de mes meubles à ma guise comme elles se servaient des leurs, que je ne dois pas être une étrangère jusque dans ma chambre ; et depuis le temps que je me plains de ces pesants fauteuils et de cette sombre tapisserie, elles vous auraient prié de me donner d’autres chaises et une autre tenture. Donner ! ma très-chère vie !<\/i> répondit Monsieur Henley, <i>donne-t-on à soi-même ? la moitié de soi-même donne-t-elle à l’autre ? n’êtes-vous pas la maîtresse ? autrefois on trouvait ceci fort beau… Oui, autrefois<\/i>, ai-je répliqué ; <i>mais je vis à présent. Ma première femme<\/i>, reprit Monsieur Henley, <i>aimait cet ameublement. Ah ! mon Dieu<\/i>, me suis-je écriée, <i>que ne vit-elle encore ! Et tout cela pour un chat auquel je ne fais aucun mal ?<\/i> a dit Monsieur Henley d’un air doux et triste, d’un air de résignation, et il s’en allait : <i>Non<\/i>, lui ai-je crié ; <i>ce n’est pas le chat<\/i> ; mais il était déjà bien loin, et un moment après je l’ai entendu dans la cour donnant tranquillement ses ordres en montant sur son cheval. Ce sang froid a achevé de me mettre hors de moi : j’ai sonné. Il m’avait dit que j’étais la maîtresse ; j’ai fait porter les fauteuils dans le salon, le canapé dans un garde-meuble. J’ai ordonné à un laquais de dépendre le portrait de la première Madame Henley, qui était en face de de mon lit : <i>Mais, Madame !<\/i> a dit le laquais, — <i>Obéissez ou sortez<\/i>, lui ai-je répondu. Il croyait sans doute et vous aussi que j’avais de l’humeur contre le portrait : non, en vérité, je ne crois pas en avoir eu ; mais il tenait à la tapisserie, et voulant la faire ôter, il fallait commencer par le portrait. La tapisserie a suivi ; elle ne tenait qu’à des crochets. Je l’ai fait nettoyer et rouler proprement. J’ai fait mettre des chaises de paille dans ma chambre, et arrangé moi-même un coussin pour mon angola ; mais le pauvre animal n’a pas joui de mes soins : effarouché par tout ce vacarme, il avait fui dans le parc, et on ne l’a pas revu. Monsieur Henley, revenu de la chasse, vit avec surprise le portrait de sa femme dans la salle à manger. Il monta dans ma chambre sans me rien dire, et écrivit à Londres pour qu’on m’envoyât le plus beau papier des Indes, les chaises les plus élégantes et de la mousseline brodée pour les rideaux. Ai-je eu tort, ma chère amie, autrement que par la forme ? l’ancienneté est-elle un mérite plus que la nouveauté ? et les gens qui passent pour raisonnables, font-ils autre chose le plus souvent qu’opposer gravement leurs préjugés et leurs goûts à des préjugés et à des goûts plus vivement exprimés ? L’histoire du chien ne mérite pas d’être racontée : j’ai été obligée de le faire sortir si souvent de la salle à manger pendant les repas, qu’il n’y revient plus, et dîne à la cuisine. <p>"
+       },
+       {
+        "id": 13,
+        "name": "La belle-famille de Mistriss Henley",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "L’article des parents est plus sérieux. Il y en a que je reçois de mon mieux, parce qu’ils sont peu aisés ; mais je bâille auprès d’eux, et ne vais jamais les voir de mon propre mouvement, parce qu’ils sont les plus ennuyeuses gens du monde. Quand Monsieur Henley me dit tout simplement : Allons voir ma cousine une telle. Je vais : je suis en carrosse ou à cheval avec lui ; cela ne peut m’être désagréable. Mais s’il vient à me dire : Ma cousine est une bonne femme. Je dis non ; elle est épilogueuse, envieuse, pointilleuse. S’il dit que Monsieur un tel son cousin est un galant-homme, dont il fait cas. Je réponds que c’est un grossier ivrogne : je dis vrai ; mais j’ai tort, car je lui fais de la peine. Je suis très-bien avec mon beau-père ; il a médiocrement d’esprit et beaucoup de bonhommie. Je lui brode des vestes, je lui joue du clavecin ; mais Lady Sara Melvil ma belle-sœur, qui demeure chez lui tout l’été, est avec moi d’une hauteur qui me rend ce château insupportable, et je n’y vais que bien rarement. Si Monsieur Henley me disait : « Supportez ces hauteurs pour l’amour de moi, je vous en aimerai davantage : je les sens pour vous comme vous-même ; mais j’aime mon père, j’aime mon frère : votre froideur les séparera insensiblement de moi, et vous serez fâchée, vous-même, de la diminution de bonheur, de sentiments doux et naturels que vous aurez occasionnée ». Je dirais infailliblement ; je dirais : « Vous avez raison, Monsieur Henley, je sens déjà, j’ai souvent senti le regret que vous m’annoncez ; il ira en augmentant, il m’afflige et m’affligera plus que je ne puis le dire ; allons, chez Milord, un regard affectueux de vous me fera plus de plaisir que tous les ridicules dédains de Lady Sara ne pourraient me faire de peine ». Mais, au lieu de cela, Monsieur Henley n’a rien vu, ne peut se rappeler… « A présent que vous le dites, ma chère, je crois me souvenir confusément… mais quand cela serait, qu’importe ! Comment une personne raisonnable peut-elle s’affecter… et puis Lady Sara n’est-elle pas excusable ? fille d’un Duc, femme du chef futur de notre famille »... Ma chère amie, des coups de poing me seraient moins fâcheux que toute cette raison. <p>"
+       },
+       {
+        "id": 14,
+        "name": "La conjugalité : désillusion",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Je suis malheureuse, je m’ennuie ; je n’ai point apporté de bonheur ici, je n’en ai point trouvé ; j’ai causé du dérangement, et ne me suis point arrangée ; je déplore mes torts, mais on ne me donne aucun moyen de mieux faire ; je suis seule, personne ne sent avec moi ; je suis d’autant plus malheureuse qu’il n’y a rien à quoi je puisse m’en prendre, que je n’ai aucun changement à demander, aucun reproche à faire, que je me blâme et me méprise d’être malheureuse. Chacun admire Monsieur Henley, et me félicite de mon bonheur ; je réponds : « C’est vrai, vous avez raison… Quelle différence avec les autres hommes de son rang, de son âge ! quelle différence entre mon sort et celui de Madame une telle, de Milady une telle ». Je le dis, je le pense, et mon cœur ne le sent point ; il se gonfle ou se serre, et souvent je me retire pour pleurer en liberté. A présent même des larmes, dont je comprends à peine la source, se mêlent avec mon encre sur ce papier. Adieu, ma chère amie, je ne tarderai pas à vous écrire.<p>P. S. En relisant ma Lettre, j’ai trouvé que j’avais eu plus de tort que je ne 1’avais cru. Je ferai remettre le portrait de la première Madame Henley en son ancienne place. Si Monsieur Henley trouve qu’il soit mieux dans la salle à manger, où il est effectivement mieux dans son jour, il n’y aura qu’à l’y reporter ; je vais appeler le même laquais qui l’a ôté d’ici. Quand il aura replacé le portrait, je lui dirai de faire mettre les chevaux au carrosse, et j’irai voir mon beau-père. Il n’y aura qu’à me dire à moi-même, de la part de Monsieur Henley, ce que je voudrais qu’il m’eût dit, et je supporterai Lady Sara Melvil."
+       },
+       {
+        "id": 15,
+        "name": "Troisième Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Troisième Lettre<p>Vous avez raison, ma chère amie, ce n’était pas à moi à me plaindre des injustices que peut occasionner le <i>Mari Sentimental<\/i>. Cependant j’étais de bonne foi, et même, encore aujourd’hui, mes idées sur tout cela ne sont pas bien nettes. Soit patience, soit indifférence, soit vertu ou tempérament, il me semble que Monsieur Henley ne s’était pas trouvé malheureux. Il avait senti, je n’en doute pas, chacun de mes torts ; mais comme il ne m’avait point témoigné d’aigreur, comme il n’a point cherché non plus à prévenir de nouveaux torts par une conduite qui associât davantage mon âme avec son âme, mes plaisirs avec les siens, j’ai eu lieu de croire qu’il n’avait rien conclu de tout cela. Il vivait et me jugeait, pour ainsi dire, au jour la journée, jusqu’à ce que Monsieur et Madame Bompré le soient venus rendre plus content de lui et plus mécontent de moi. J’ai eu bien du chagrin depuis ma dernière Lettre. <p>"
+       },
+       {
+        "id": 16,
+        "name": "L'aventure Mrs Grace",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Un jour que je déplorais mon peu de capacité pour les soins du ménage, la lenteur de mes progrès, et le haut et bas qu’il y avait dans mon zèle et dans mes efforts sur ce point, Monsieur Henley fit, fort honnêtement pourtant et en souriant, l’énumération des choses qui allaient moins bien depuis le départ de Mistriss Grace. <i>Essayons de la faire revenir<\/i>, dis-je aussitôt ; <i>j’ai ouï dire que Peggy était placée à Londres, et que sa mère se trouvait médiocrement bien avec cette cousine chez qui elle s’est retirée. Vous pouvez essayer<\/i>, a dit Monsieur Henley, <i>je crains que vous ne réussissiez pas ; mais il n’y a point de mal à essayer. Voulez-vous lui parler ?<\/i> lui ai-je dit, <i>la vue de son ancien maître et cette démarche empressée lui feront oublier tous ses ressentiments. Je ne saurais<\/i>, m’a-t-il répondu, <i>j’ai des affaires ; mais, si vous voulez, j’enverrai. — Non, j’irai moi-même.<\/i> J’ai demandé le carrosse, et je suis allée ; c’est à quatre milles d’ici. Mistriss Grace était seule : elle a été très-surprise de me voir. A travers la froideur qu’elle aurait voulu mettre dans son accueil, je voyais de l’attendrissement et une confusion dont je ne pouvais deviner la cause. Je lui ai dit combien nous avions tous perdu à son départ, combien elle nous manquait, combien elle était regrettée : <i>Voulez-vous revenir ?<\/i> lui ai-je dit, <i>vous serez reçue à bras ouverts, vous vous verrez respectée et chérie. Pourquoi vous en prendre à nous tous de l’inconstance d’un jeune homme qui ne mérite pas les regrets de Peggy, puisqu’il a pu l’abandonner ; peut-être elle-même l’a-t-elle oublié : j’ai appris qu’elle était placée à Londres. Placée !<\/i> s’est écriée Mistriss Grace, en joignant les mains et levant les yeux au Ciel, <i>venez-vous ici, Madame, pour m’insulter ! Dieu m’en préserve<\/i>, me suis-je écriée à mon tour, <i>et je ne sais ce que vous voulez dire. Ah ! Madame<\/i>, a-t-elle repris après un long silence, <i>les maux ne se réparent pas aussi vite qu’ils se font, et votre Fanny, avec ses dentelles, ses rubans et ses airs de la ville, a préparé à ma Peggy et à sa pauvre mère des chagrins qui ne finiront qu’avec nous.<\/i> Elle pleurait amèrement. Pressée par mes caresses et mes instances, elle m’a fait en sanglotant l’histoire de ses douleurs. Peggy affligée de la perte de son amant, et s’ennuyant avec sa mère et leur cousine, est partie sans rien dire : on l’a cherchée longtemps ; on a cru qu’elle s’était noyée ; à la fin on a appris qu’elle était à Londres, où sa jeunesse et sa fraîcheur l’ont fait accueillir dans une maison infâme. Vous imaginez tout ce que la mère a pu ajouter à cette triste narration, tout ce que j’ai pu dire, tout ce que j’ai dû sentir. A la fin j’ai répété ma première proposition. Malgré mille objections naturelles et justes, et auxquelles je donnais toute leur force, j’ai engagé cette pauvre femme à retourner avec moi à <i>Hollowpark<\/i>. <i>Personne<\/i>, lui ai-je dit, <i>ne vous parlera de votre fille ; vous ne verrez Fanny qu’après que vous m’aurez dit que vous voulez bien la voir : venez, bonne Mistriss Grace, chercher des consolations, et finir vos jours dans une maison où votre jeunesse a été utile, et dont je n’aurais pas dû vous laisser sortir.<\/i> Je l’ai mise en carrosse, sans vouloir courir le risque qu’en faisant ses paquets, de nouvelles réflexions l’empêchassent de venir. En chemin elle n’a cessé de pleurer, et je pleurais aussi. A cent pas de la maison je descendis de carrosse, et je dis au cocher de ne pas avancer qu’il n’en eût reçu l’ordre. Je rentrai donc seule ; je parlai à Monsieur Henley, à l’enfant, à Fanny, aux autres domestiques. Ensuite j’allai chercher Mistriss Grace, et, lui donnant mes clefs, je la priai de rentrer en fonction tout de suite. Cinq ou six jours s’écoulèrent, Fanny m’obéissait ponctuellement : elle mangeait et travaillait dans sa chambre. Un jour que j’étais allée regarder son ouvrage, Mistriss Grace y vint, et après m’avoir remerciée de mes bontés, elle me pria de trouver bon qu’à l’avenir Fanny mangeât avec les autres, et vécût dans la maison comme auparavant. Fanny s’attendrit, et pleura sur Peggy et sa mère. Pauvre Fanny ! son tour allait venir. Monsieur Henley me fit prier de descendre, et de l’amener avec moi. Nous trouvâmes auprès de lui, dans son cabinet, le père du jeune fermier. <i>Madame<\/i>, me dit-il, <i>je suis venu prier Monsieur et vous de donner à mon fils des recommandations pour les Indes ; c’est un pays où mon devient riche, dit-on, en peu de temps ; il pourra y mener Mademoiselle, ou venir l’épouser quand il sera devenu un riche Monsieur. Ils feront comme ils l’entendront ; mais moi je ne recevrai jamais dans ma maison une fainéante et coquette poupée de la ville, outre que je croirais attirer sur moi la malédiction du Ciel en faisant entrer dans ma famille celle qui a causé, par son maudit manège, l’inconstance de mon fils et la ruine de cette pauvre Peggy. Mon fils fera ce qu’il voudra, Mademoiselle ; mais je déclare devant Dieu qu’il n’a plus de père ni de maison paternelle s’il vous revoit jamais.<\/i> Fanny, pâle comme la mort, a voulu sortir ; mais, ses jambes pliant sous elle, elle s’est appuyée contre la porte. J’ai couru à elle aussitôt, et l’ai ramenée dans sa chambre. Nous avons rencontré Mistriss Grace sur l’escalier. <i>Votre fille est vengée<\/i>, lui dit Fanny. <i>Seigneur qu’y a-t-il ?<\/i> s’est écriée Mistriss Grace. Elle nous a suivies : je lui ai dit ce qui s’était passé ; elle nous a juré qu’elle n’avait aucune part à cette démarche, et n’avait pas même revu le fermier ni son fils depuis son départ de la maison. Je les ai laissées ; je suis allée m’enfermer dans ma chambre : là j’ai déploré amèrement le sort de ces deux filles, et tout le mal dont j’étais cause ; ensuite j’ai écrit à ma tante que je lui renvoyais Fanny, et la priais de lui trouver une bonne place, soit auprès d’une Dame ou dans une boutique ; et après avoir fait dire au cocher d’atteler au plus vite, je suis retournée auprès de Fanny, et lui ai fait lire ma lettre. La pauvre fille a fondu en larmes ; <i>mais qu’ai-je fait ?<\/i> m’a-t-elle dit. <i>Rien, ma pauvre enfant, rien de condamnable ; mais il faut absolument nous séparer. Je vous paierai vos gages jusqu’à la fin de l’année, j’y ajouterai plus d’argent et de hardes que dans ce moment vous n’en désirez d’une maîtresse que vous trouvez injuste. J’écrirai à vos parents de m’envoyer votre jeune sœur ; mais il vous faut venir avec moi sur-le-champ, et que je vous mène à l’endroit où le coche passe dans une heure ; Mistriss Grace et moi aurons soin de tout ce que vous laissez ici, et vous le recevrez dans deux jours<\/i> . Le carrosse était prêt ; j’y entrai avec elle, et nous arrivâmes, sans avoir presque ouvert la bouche, à l’endroit que j’avais dit. J’y attendis le coche ; je la recommandai à ceux qui étaient dedans, et je revins plus triste qu’il n’est possible de le dire. « Voilà donc, me disais-je, ce que je suis venue faire ici ! J’ai occasionné la perte d’une pauvre innocente fille ; j’en ai rendu une autre malheureuse ; j’ai brouillé un père avec son fils ; j’ai rempli l’âme d’une mère d’amertume et de honte ». En traversant le parc, je pleurai mon angola ; en rentrant dans ma chambre, je pleurai Fanny. Mistriss Grace m’a servie depuis de femme-de-chambre. Sa tristesse, qu’elle s’efforce pourtant de surmonter, est un reproche continuel. Monsieur Henley m’a paru surpris de tous ces grands mouvements. Il n’a pas trop compris pourquoi j’ai si vite renvoyé ma femme-de-chambre. Il trouve que le Fermier père a très-bien fait de s’opposer au mariage de son fils. « Ces femmes, accoutumées à la ville, dit-il, ne prennent jamais racine à la campagne, et n’y sont bonnes à rien : mais il croit qu’on aurait pu faire entendre raison au fils, et que j’aurais bien pu garder Fanny ; qu’ils se seraient même détachés l’un de l’autre en continuant à se voir, au lieu qu’à présent l’imagination du jeune homme voudra prolonger la chimère de l’amour, et qu’il se fera peut-être un point d’honneur de rester fidèle à sa maîtresse persécutée. » Il en arrivera ce qu’il plaira à Dieu ; mais j’ai fait ce que je croyais devoir faire, et me suis épargnée des scènes qui auraient altéré ma santé et achevé de changer mon humeur. Il y a quinze jours que Fanny est partie. Milady *** la gardera jusqu’à-ce qu’elle ait pu la placer. Sa sœur arrive ce soir. Elle n’a été à Londres que le temps qu’il fallait pour apprendre à coiffer, et elle a passé depuis près d’un an dans son village. Elle n’est point jolie, et je ferai bien en sorte qu’elle ne soit pas élégante. Adieu, ma très-chère amie. <p>P.S. Ma Lettre n’a pu partir l’autre jour : voyant que j’allais la cacheter, on m’avertit qu’il était trop tard."
+       },
+       {
+        "id": 17,
+        "name": "S'adapter à la campagne",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "La sœur de Fanny est malpropre, maladroite, paresseuse et impertinente ; je ne pourrai la garder. Monsieur Henley ne cesse de me dire que j’ai eu tort de renvoyer une fille que j’aimais, qui me servait bien, et à qui on ne pouvait rien reprocher. « Je n’aurais pas dû prendre à la lettre, dit-il, ce que l’emportement faisait dire à John Turner ; témoin la folle idée d’envoyer aux Indes un garçon qui ne sait pas écrire ». Il est étonné que nous autres gens passionnés soyons les dupes des saillies et des exagérations les uns des autres. Nous devrions savoir, à son avis, combien il y a à rabattre de ce que la passion nous fait imaginer et dire : « J’ai pris, dit-il, un procédé qui me coûtait pour un procédé généreux, sans penser que ce qui m’était désavantageux n’était pas pour cela avantageux aux autres. Il aurait mieux valu ne pas mener ici cette fille avec moi. Il croit me l’avoir insinué dans le temps ; mais puisqu’elle y était, puisqu’elle n’était point coupable, il fallait la garder ». Aurait-il raison ? ma chère amie. Aurais-je eu encore tort, toujours tort, tort en tout ? Non, je ne veux pas le croire ; il était naturel que je gardasse Fanny en me mariant. Je n’ai point compris l’insinuation de Monsieur Henley.<p>J’ignorais qu’il fût difficile de s’accoutumer à vivre à la campagne ; j’y venais bien vivre moi-même. Fanny pouvait plaire à un habitant de la campagne ; elle pouvait l’épouser ; elle est douce et aimable. Je ne savais point que ce serait un chagrin pour sa famille et un malheur pour lui. Je n’ai point eu tort de la renvoyer : je ne devais me faire ni son geôlier, ni sa complice en refusant les visites du jeune homme, ou en les favorisant. Je ne devais prendre sur moi ni leurs chagrins ni leurs fautes. Avec le temps, si elle oublie son amant, s’il se marie ou s’éloigne, je pourrai la reprendre ; mon dessein n’est pas de l’abandonner jamais.<p>Je crois pourtant bien m’être trop précipitée. J’aurais pu attendre un jour ou deux, consulter Monsieur Henley, la consulter elle-même, voir ce qu’on pouvait espérer de son courage et du respect du jeune homme pour son père. J’ai trop suivi l’impétuosité de mon humeur. J’ai trop redouté le spectacle de l’amour malheureux et de l’amour-propre humilié. Dieu garde Fanny d’infortune, et moi de repentir.<p>J’écrirai encore à ma tante, et je lui recommanderai encore Fanny."
+       },
+       {
+        "id": 18,
+        "name": "Quatrième Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Quatrième Lettre<p>Je vous entretiens, ma chère amie, de choses bien peu intéressantes, et avec une longueur, un détail ! — Mais c’est comme cela qu’elles sont dans ma tête ; et je croirais ne vous rien dire, si je ne vous disais pas tout. Ce sont de petites choses qui m’affligent ou m’impatientent, et me font avoir tort. Ecoutez donc encore un tas de petites choses."
+       },
+       {
+        "id": 19,
+        "name": "Le bal",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Il y a trois semaines qu’on donna un bal à Guilford. Monsieur Henley était un des souscrivants. Une parente de Monsieur Henley, qui a là une maison, nous avait prié d’aller chez elle dès la veille, et d’y mener l’enfant. Nous y allâmes ; je portai les habits que je voulais mettre, une robe que j’avais mise à un bal à Londres il y a dix-huit mois ; un chapeau, des plumes et des fleurs, que ma tante et Fanny avaient choisies exprès pour cette fête, et que j’avais reçues deux jours auparavant. Je ne les avais vues qu’au moment de les mettre, n’ayant pas ouvert la caisse. J’en fus très-contente ; je me trouvai fort bien quand je fus habillée, et je mis du rouge comme presque toutes les femmes en mettent. Une heure avant le bal, Monsieur Henley arriva de Hollowpark. <i>Vous êtes très-bien, Madame<\/i>, me dit-il, <i>parce que vous ne sauriez être mal ; mais je vous trouve cent fois mieux dans vos habits les plus simples qu’avec toute cette grande parure. Il me semble d’ailleurs qu’une femme de vingt-six ans ne doit pas être habillée comme une fille de quinze, ni une femme comme il faut comme une comédienne<\/i>… Les larmes me vinrent aux yeux. — <i>Lady Alesford<\/i>, lui répondis-je, <i>en m’envoyant tout ceci n’a pas cru parer une fille de quinze ans, ni une comédienne ; mais sa nièce votre femme dont elle sait l'âge… Mais, Monsieur, dites que cette parure vous fâche ou vous déplait, que je vous ferais plaisir de ne pas me montrer vêtue de cette manière, et je renoncerai aussitôt au bal, et de bonne grâce à ce que j’espère.<\/i> <p> <i>Ne pourrait-on pas<\/i>, me dit-il, <i>envoyer un homme à cheval chercher une autre robe, un autre chapeau ? — Non<\/i>, lui dis-je, <i>cela ne se peut pas ; j’ai ici ma femme-de-chambre, on ne trouverait rien ; je n’ai rien de convenable ; je dérangerais absolument mes cheveux. — Eh ! qu'importe !<\/i> dit en souriant Monsieur Henley. — <i>Il m’importe à moi<\/i>, m’écriai-je vivement ; <i>mais trouvez bon que je n’aille pas au bal, dites que je vous obligerai, je me trouverai heureuse de vous obliger.<\/i> — Et moitié dépit, moitié attendrissement, je me suis mise à pleurer tout de bon. — <i>Je suis fâché, Madame<\/i>, dit Monsieur Henley, que ceci vous affecte si fort. Je ne vous empêcherai pas d’aller au bal. Vous n’avez point vu en moi jusqu’ici un mari bien despotique. Je souhaite que la raison et la décence vous gouvernent, et non que vous cédiez à mes préventions ; puisque votre Tante a jugé cette parure convenable, il faut rester comme vous êtes…… mais, remettez votre rouge que vos larmes ont dérangé.<\/i> — J’ai souri, et je lui ai baisé la main avec un mouvement de joie. — <i>Je vois avec plaisir<\/i>, m’a-t-il dit, <i>que ma chère femme est aussi jeune que sa coiffure, et aussi légère que ses plumes.<\/i> — Je suis allée remettre du rouge. Il nous est venu du monde, et l’heure du bal venue, nous y sommes allés. En carrosse j’ai affecté de la gaieté, pour en donner à Monsieur Henley et à moi-même. — Je n’ai pas réussi. — Je ne savais si j’avais bien ou mal fait. Je me déplaisais, j’étais mal à mon aise.<p>Nous étions dans la salle depuis un quart d’heure ; tous les yeux se sont tournés vers la porte, attirés par la plus noble figure, l’habillement le plus simple, le plus élégant et le plus magnifique. On a demandé, chuchoté, et tout le monde a dit : « Lady Bridgewater, femme du gouverneur Bridgewater revenu des Indes et nouvellement fait Baronnet. » — Pardonnez ma faiblesse ; ce moment n’a pas été doux pour votre amie. Heureusement un autre objet de comparaison s’est présenté : ma belle-sœur est entrée avec un doigt de rouge ; c’était bien d’autres plumes que les miennes ! <i>Voyez !<\/i> ai-Je dit à Monsieur Henley. — <i>Elle n’est pas ma femme<\/i>, a-t-il répondu. Il est allé la prendre par la main pour la conduire à sa chaise. D’autres, ai-je pensé, auront la même indulgence pour moi ! Un sentiment de coquetterie s’est glissé dans mon cœur, et j’ai secoué mon chagrin pour être plus aimable le reste de la nuit. J’avais une raison pour ne pas danser, que je ne veux pas encore vous dire.<p>Après la première contre-danse, Lady Bridgewater est venue se placer auprès de moi. — <i>J’ai demandé qui vous étiez, Madame<\/i>, m’a-t-elle dit, avec toute la grâce possible ; <i>et votre nom seul m’a fait votre connaissance et presque votre amie. — Il y aurait trop d’amour-propre à vous dire combien votre figure a de part à cette prévention ; sir John Bridgewater mon mari, qui m’a parlé souvent de vous, m’ayant dit que je vous ressemblais.<\/i> Tant de douceur et d’honnêteté m’ont gagnée : tout devait augmenter ma jalousie, et cependant j’ai cessé d’en avoir. Elle a cédé à une douce sympathie. Il se peut bien en effet que Lady Bridgewater me ressemble ; mais elle est plus jeune que moi : elle est plus grande, elle a la taille plus mince : elle a de plus beaux cheveux : en un mot, elle a l’avantage dans toutes les choses sur lesquelles on ne peut se faire illusion, et quant aux autres je ne puis en avoir sur elle, car il n’est pas possible d’avoir plus de grâce, ni un son de voix qui aille plus au cœur.<p>Monsieur Henley était fort assidu auprès de Miss Clairville, jeune fille de cette Comté, très-fraîche, très-gaie, modeste cependant et point jolie. Pour moi je causai toute la nuit avec Lady Bridgewater et Monsieur Mead son frère, qu’elle m’avait présenté, et je fus, à tout prendre, très-contente des autres et de moi.<p>Je les invitai à me venir voir : Lady B. me témoigna un grand regret d’être obligée de quitter la Comté dès le lendemain pour retourner à Londres et rejoindre ensuite son mari en Yorkshire, où il sollicitait une élection. Pour Monsieur Mead, il accepta mon invitation pour le surlendemain. Nous nous quittâmes le plus tard que nous pûmes."
+       },
+       {
+        "id": 20,
+        "name": "Une adversaire : Miss Clairville",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "J’allai me reposer pendant quelques heures chez la parente de Monsieur Henley, et après le déjeuner, nous montâmes en carrosse, mon mari, sa fille et moi : la Bonne et ma femme-de-chambre étaient déjà parties. J’avais la tête remplie de Lady B. ; et après avoir revu dans mon imagination son agréable figure, et comme entendu de nouveau ses paroles et ses accents, <i>Avouez qu’elle est charmante<\/i>, dis-je à Monsieur Henley. <i>Qui ?<\/i> répondit-il. — <i>Est-ce tout de bon<\/i>, lui dis-je, <i>que vous ne le savez pas ? — C’est apparemment Lady B. de qui vous parlez ? Oui, elle est bien, c’est une belle femme ; je l’ai trouvée surtout très-bien mise. Je ne puis pas dire qu’elle m’ait fait une grande impression. — Ah !<\/i> repris-je, <i>si de petits yeux bleus, des cheveux roux et un air de païsanne font autant de beautés, Miss Clairville a certainement l’avantage sur Lady B. ainsi que sur toutes les figures du même genre. Pour moi ce qu’après Lady B. j’ai vu de plus agréable au bal, c’est son frère ; il m’a rappelé Mylord Alesford mon premier amant, et je l’ai prié de venir dîner demain avec nous. — Heureusement je ne suis pas jaloux<\/i>, a dit en souriant à demi Monsieur Henley. — <i>Heureusement pour vous<\/i>, ai-je repris, <i>ce n'est pas heureusement pour moi ; car, si vous étiez jaloux, je vous verrais au moins sentir quelque chose ; je serais flattée ; je croirais vous être précieuse ; je croirais que vous craignez de me perdre, que je vous plais encore ; que, du moins, vous pensez que je puis encore plaire. Oui !<\/i> ai-je ajouté, excitée à la fois par ma propre vivacité et par son sang-froid inaltérable, <i>les injustices d’un jaloux, les emportements d’un brutal, seraient moins fâcheux que le flegme et l’aridité d’un sage. — Vous me feriez croire<\/i>, a dit Monsieur Henley, <i>au goût des femmes Russes qui veulent être battues. Mais y ma chère, suspendez votre vivacité en faveur de cet enfant, et ne lui donnons pas l’exemple… Vous avez raison<\/i>, me suis-je écriée. <i>Pardon, Monsieur ! pardon, cher enfant !<\/i>… Je l’ai prise sur mes genoux ; je l’ai embrassée ; j’ai mouillé son visage de mes larmes. <i>Je vous donne un mauvais exemple<\/i>, lui ai-je dit. <i>Je devrais vous tenir lieu de mère : je vous l’avais promis, et je n’ai aucun soin de vous, et je dis devant vous des choses que vous êtes heureuse de ne pas bien entendre !<\/i><p>Monsieur Henley n’a rien dit ; mais je ne doute pas qu’il ne fût touché. La petite fille est restée sur mes genoux, et m’a fait quelques caresses que je lui rendais au centuple, mais avec un sentiment encore plus douloureux que tendre. J’avais des repentirs amers ; je formais toutes sortes de projets ; je me promettais de devenir enfin sa mère : mais je voyais dans ses yeux, c’est-à-dire, dans son âme, l’impossibilité de le devenir. Elle est belle, elle n'est point méchante, elle n’a pas l’esprit faux ; mais elle est peu vive et peu sensible. — Elle sera mon élève, mais elle ne sera pas mon enfant ; elle ne se souciera pas de l’être.<p>Nous arrivâmes. A ma prière le château de Henley fut invité pour le lendemain. Miss Clairville s’y trouvait ; elle vint. A table, je plaçai Monsieur Mead entre elle et Lady Sara Mellvil, et la journée n’eut rien de fâcheux ni de remarquable. <p>"
+       },
+       {
+        "id": 21,
+        "name": "Lettre de Mrs Henley à son mari",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Le lendemain j’écrivis une lettre à Monsieur Henley, dont je vous envoie le brouillon avec toutes ses ratures. Il y a presque autant de mots effacés que de mots laissés, et vous ne lirez pas sans peine.<p><i>Monsieur,<p>Vous avez vu, j’espère, avant-hier combien j’étais honteuse de mon extravagante vivacité. Ne croyez pas que, dans cette occasion, ni dans aucune autre, le mérite de votre patience et de votre douceur m’ait échappé. Je puis vous assurer que mes intentions ont toujours été bonnes. Mais qu’est-ce que des intentions quand l’effet n’y répond jamais ? — Pour vous votre conduite est telle que je n’y puis rien blâmer, quelqu’envie que j’en eusse quelquefois pour justifier la mienne. — Vous avez pourtant eu un tort ; vous m’avez fait trop d’honneur en m’épousant. Vous avez cru, et qui ne l’aurait cru ! que, trouvant dans son mari tout ce qui peut rendre un homme aimable et estimable, et dans sa situation tous les plaisirs honnêtes, l’opulence et la considération, une femme raisonnable ne pouvait manquer d’être heureuse : mais je ne suis pas une femme raisonnable ; vous et moi l’avons vu trop tard. — Je ne réunis pas les qualités qui nous auraient rendu heureux, avec celles qui vous ont paru agréables. — Vous auriez pu trouver les unes et les autres chez mille autres femmes. Vous ne demandiez pas des talents brillants, puisque vous vous êtes contenté de moi, et assurément personne n’exige moins que vous des vertus difficiles. Je n’ai parlé aigrement de Miss Clairville, que parce que je sentais avec chagrin combien une fille comme elle vous aurait mieux convenu que moi. Accoutumée aux plaisirs de la campagne et à ses occupations, active, laborieuse, simple dans ses goûts, reconnaissante, gaie, heureuse, vous aurait-elle laissé vous souvenir de ce qui pouvait lui manquer ? Miss Clairville serait restée ici au milieu de ses parents, de ses premières habitudes. Elle n’aurait rien perdu, elle n’aurait fait que gagner… Mais c’est trop s’arrêter sur une chimère… le passé ne peut se rappeler. — Parlons de l’avenir ; parlons surtout de votre fille. Tâchons d’arranger ma conduite de manière à réparer le plus grand de mes torts. En vous opposant dans les commencements à ce que je voulais faire pour elle, vous n’avez rien fait que de juste et de raisonnable ; mais c’était blâmer tout ce qu’on avait fait pour moi ; c’était dédaigner tout ce que je savais et tout ce que j’étais. — J’ai été humiliée et découragée ; j’ai manqué de souplesse, et d’une véritable bonne volonté. A l’avenir je veux faire mon devoir ; non d’après ma fantaisie, mais d’après votre jugement. Je ne vous demande pas de me tracer un plan ; je tâcherai de deviner vos idées pour m’y soumettre : mais si je devine mal ou si je m’y prends mal, faites-moi la grace, non de me blâmer simplement, mais de me dire ce que vous voudrez que je fasse à la place de ce que je fais. Sur ce point et sur tous les autres, je désire sincèrement de mériter votre approbation, de regagner ou gagner votre affection, et de diminuer dans votre cœur le regret d’un mauvais choix.<p>S. Henley.<\/i><p>J’ai porté ma lettre à Monsieur Henley dans son cabinet, et me suis retirée. — Un quart d’heure après, il est venu me joindre dans le salon. — <i>Me suis-je plaint, Madame<\/i>, m’a-t-il dit en m’embrassant, <i>ai-je parlé de Miss Clairville, ai-je pensé à aucune Miss Clairville ?<\/i> Dans ce moment son père et son frère sont entrés ; j’ai caché mon émotion. Il m’a paru que pendant leur visite Monsieur Henley était plus prévenant, et me regardait plus souvent qu’à l’ordinaire ; c’était la meilleure manière de me répondre. Nous n’avons reparlé de rien. Depuis ce jour je me lève de meilleure heure ; je fais déjeuner Miss Henley avec moi. Elle prend dans ma chambre une leçon d’écriture ; je lui en donne une de géographie, quelques éléments d’histoire, quelques idées de religion. — Ah ! si je pouvais l’apprendre en l’enseignant, si je pouvais m’en convaincre et en remplir mon cœur ! que de défauts disparaîtraient ! que de vanités s’évanouiraient devant ces vérités sublimes dans leur objet, éternelles dans leur utilité !<p>Je ne vous parlerai pas de mes succès avec l’enfant. Il faut attendre et espérer. Je ne vous parlerai pas non plus de tout ce que je fais pour me rendre la campagne intéressante. Ce séjour est comme son maître, tout y est trop bien ; il n’y a rien à changer, rien qui demande mon activité ni mes soins. Un vieux tilleul ôte à mes fenêtres une assez belle vue. J’ai souhaité qu’on le coupât ; mais quand je l’ai vu de près, j’ai trouvé moi-même que ce serait grand dommage. Ce dont je me trouve le mieux, c’est de regarder, dans cette saison brillante, les feuilles paraître et se déployer, les fleurs s’épanouir, une foule d’insectes voler, marcher, courir en tout sens. Je ne me connais à rien, je n’approfondis rien, mais je contemple et j’admire cet Univers si rempli, si animé. Je me perds dans ce vaste tout si étonnant, je ne dirai pas si sage, je suis trop ignorante : j’ignore les fins, je ne connais ni les moyens ni le but, je ne sais pas pourquoi tant de moucherons sont donnés à manger à cette vorace araignée ; mais je regarde, et des heures se passent sans que j’aie pensé à moi, ni à mes puérils chagrins."
+       },
+       {
+        "id": 22,
+        "name": "Cinquième Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Maternité",
+        "texte": "Cinquième Lettre<p>Je n’en puis plus douter, ma très chère amie, je suis grosse ; je viens de l’écrire à ma tante, je l’ai priée de le dire à Monsieur Henley, qui est à Londres depuis quelques jours. Ma joie est extrême ; je vais redoubler de soins auprès de Miss Henley. Pendant plus d’un an je n’ai rien été pour elle ; depuis deux mois je suis une médiocre mère, il ne faut pas devenir une belle-mère. Adieu. Vous n’en aurez pas davantage pour aujourd’hui."
+       },
+       {
+        "id": 23,
+        "name": "Sixième Lettre",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Sixième Lettre<p> Je ne me porte pas trop bien, ma chère amie. Je ne pourrai vous dire de suite ce que je voudrais vous dire. La tâche est longue et peu agréable. Je me reposerai quand je serai fatiguée. — Il est égal que vous receviez ma lettre quelques semaines plutôt ou plus tard. Après celle-ci je n’en veux plus écrire du même genre. Un billet vous apprendra de loin en loin que votre amie vit encore jusqu’à ce qu’elle ne vive plus.<p>Ma situation est triste, ou bien je suis un être sans raison et sans vertus. — Dans cette fâcheuse alternative d’accuser le sort, que je ne puis changer, ou de m’accuser et de me mépriser moi-même ; de quelque côté que je me tourne, les tableaux qui se présentent à mon imagination, les détails dont ma mémoire est chargée abattent mon courage, rendent mon existence sombre et pénible. — A quoi bon faire revivre, par mes récits, des impressions douloureuses, et retracer des scènes qui ne peuvent être trop vite ni trop profondément oubliées ? Pour la dernière fois vous verrez mon cœur, après cela je m’interdis la plainte : il faut qu’il change ou ne s’ouvre plus."
+       },
+       {
+        "id": 24,
+        "name": "L'annonce de la grossesse",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Maternité",
+        "texte": "Quand je me crus sûre d’être grosse, je le fis dire à Monsieur Henley par ma tante. Il ne revint de Londres que huit jours après. Dans cet intervalle je n’avais cesse de me demander s’il fallait et si je voulais nourrir ou non mon enfant. — D’un côté j’étais effrayée par la fatigue, les soins continuels, les privations qu’il fallait s’imposer. — Le dirai-je ? je l’étais aussi du tort que fait à la figure d’une femme la fonction de nourrice. D’un autre côté, je craignais comme une grande humiliation d’être regardée comme incapable et indigne de remplir ce devoir. Mais, me direz-vous, n’avez-vous donc que de l’amour-propre ? N’imaginiez-vous pas un extrême plaisir à être tout pour votre enfant, à vous l’attacher, à vous attacher à lui par tous les liens possibles ? Oui, sans doute, et c’était bien-là mon impression la plus confiante ; mais quand on est seule, et qu’on pense toujours à la même chose, que ne pense-t-on pas ?<p>Je résolus d’en parler à Monsieur Henley ; et ce ne fut pas sans peine que j’entamai la conversation. Je redoutais également qu’il approuvât mon dessein comme une chose nécessaire, qui allait sans dire, sur laquelle j’étais coupable d’hésiter, et qu’il le rejetât comme une chose absurde et par des motifs humiliants pour moi.<p>Je n’échappai ni à l’une ni à l’autre de ces peines. — A son avis, rien au monde ne pouvait dispenser une mère du premier et du plus sacré de ses devoirs, que le danger de nuire à son enfant par un vice de tempérament ou des défauts de caractère, et il me dit que son intention était de consulter le Docteur M. son ami, pour savoir si mon extrême vivacité et mes fréquentes impatiences devaient faire préférer une étrangère. De moi, de ma santé, de mon plaisir, pas un mot : il n’était question que de cet enfant qui n’existait pas encore. — Cette fois je ne contestai point, je ne m’emportai point, je ne fus qu’attristée ; mais je le fus si profondément que ma santé s’en ressentit. Quoi ! me disais-je, aucune de mes impressions ne sera devinée ! aucun de mes sentiments ne sera partagé ! aucune peine ne me sera épargnée ! Tout ce que je sens est donc absurde, ou bien Monsieur Henley est insensible et dur. Je passerai ma vie entière avec un mari à qui je n’inspire qu’une parfaite indifférence, et dont le cœur m’est fermé ! Adieu la joie de ma grossesse ; adieu toute joie. Je tombai dans un profond abattement. Mistriss Grace s’en aperçut la première, et en parla à Monsieur Henley qui n’en imagina pas la cause. Il crut que mon état me donnait des appréhensions, et me proposa d’engager ma tante à me venir voir. J’embrassai cette idée avec reconnaissance. Nous écrivîmes, et ma tante vint. — Demain, si je le puis, je reprendrai la plume.<p>***<p>Je ne parlai de rien à ma tante, et je cherchai moins des consolations dans sa tendresse que de la distraction dans son entretien. L’attendrissement me replongeait dans le chagrin : pour en sortir, il fallait sortir de moi-même, m’étourdir, m’oublier, oublier ma situation.<p>Les intrigues de la Cour, les nouvelles de la ville, les liaisons, les mariages, les places données, toutes les vanités, toutes les frivolités du beau monde me rendirent ma propre frivolité et une sorte de gaieté : dangereux bienfait ! dont l’utilité ne fut que passagère, et qui me prépara de nouveaux chagrins.<p>Bientôt je ne pensai plus à mon fils ou à ma fille que comme à des prodiges de beauté, dont les brillants talents, cultivés par la plus étonnante éducation, exciteraient l’admiration de tout le pays ou même de l’Europe entière. — Ma fille, plus belle encore que Lady Bridgewater, choisissait un mari parmi tout ce qu’il y avait de plus grand dans le Royaume. Mon fils, s’il prenait le parti des armes, devenait un héros et commandait des armées : s’il se donnait à la loi, c’était au moins Milord Mansfield ou le Chancelier ; mais un Chancelier permanent dont le Roi et le peuple ne pourraient plus se passer… A force d’avoir la tête remplie de ces extravagances, je ne pus m’empêcher d’en laisser voir quelque chose à Monsieur Henley. Je riais pourtant de ma folie ; car je n’étais pas tout-à-fait folle. — Un jour, moitié plaisantant, moitié raisonnant ou croyant raisonner, je déployais mes chimères… Mais je me suis si fort agitée en me les retraçant, que je suis obligée de poser la plume.<p>***"
+       },
+       {
+        "id": 25,
+        "name": "Le discours de M. Henley",
+        "type": "Lettres de Mistriss Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Nous étions seuls, Monsieur Henley me dit : <i>Nos idées sont bien différentes ; je désire que mes filles soient élevées simplement ; qu’elles attirent peu les regards, et songent peu à les attirer ; qu’elles soient modestes, douces, raisonnables, femmes complaisantes et mères vigilantes ; qu’elles sachent jouir de l’opulence, mais surtout qu’elles sachent s’en passer ; que leur position soit plus propre à leur assurer des vertus qu’à leur donner du relief : et si l’on ne peut tout réunir<\/i>, dit-il en me baisant la main, <i>je me contenterai de la moitié des grâces, des agréments et de la politesse de Mistriss Henley. — Quant à mon fils, un corps robuste, une âme saine ; c’est-à-dire, exempte de vices et de faiblesses, la plus stricte probité qui suppose une extrême modération ; voilà ce que je demande à Dieu pour lui. Mais, ma chère amie<\/i>, dit-il<\/i>, puisque vous faites tant de cas de tout ce qui brille, je ne veux pas que vous couriez le risque d’apprendre par d’autres une chose qui s’est passée il y a quelques jours. Dans le premier moment, vous pourriez en être trop affectée, et trop montrer au public, par un premier mouvement de chagrin, que le mari et la femme n’ont pas une seule âme entre eux, ni une même façon de penser et de sentir. On m’a offert une place dans le Parlement, et une charge à la Cour : on m’a fait entrevoir la possibilité d’un titre pour moi, d’une charge pour vous ; j’ai tout refusé.<\/i><p><i>Rien ne me paraîtrait plus naturel, Monsieur<\/i>, lui ai-je répondu en appuyant mon visage sur ma main de peur que mon émotion ne se trahît, et je parlais lentement avec une voix que je m’efforçais de rendre naturelle, <i>rien ne me paraîtrait plus naturel, si on avait voulu acheter, par ces offres, un suffrage contraire à vos principes : mais vous approuvez les mesures du Ministère actuel ? Oui<\/i>, m’a-t-il répondu, <i>je suis attaché au Roi, et j’approuve aujourd’hui ce que font les Ministres. Mais suis-je sûr d’approuver ce qu’ils feront demain ? est-il sûr que ces Ministres resteront en place ? et risquerai-je de me voir ôter, par une cabale, par mes égaux, une charge qui n’aura rien de commun avec un système politique ? Repoussé alors vers ce séjour qui m’a toujours été agréable, ne risquerais-je pas de le trouver gâté, changé, parce que je serais changé moi-même, et que j’y porterais un amour-propre blessé, une ambition frustrée, des passions qui, jusqu’ici, me sont étrangères ? Je vous admire, Monsieur<\/i>, lui ai-je dit, et en effet jamais je ne l’avais tant admiré ; plus il m’en coutait, plus je l’admirais, jamais je n’avais vu si distinctement sa supériorité. <i>Je vous admire ; cependant l’utilité publique, le devoir de travailler pour sa patrie… C’est le prétexte des ambitieux<\/i>, a-t-il interrompu ; <i>mais le bien qu’on peut faire dans sa maison, parmi ses voisins, ses amis, ses parents, est beaucoup plus sûr et plus indispensable : si je ne fais pas tout celui que je devrais faire, c’est ma faute, et non celle de ma situation. J’ai vécu trop de temps à Londres et dans les grandes villes du Continent. J’y ai perdu de vue les occupations et les intérêts des gens de la campagne. Je n’ai pas le talent de converser et de m’instruire avec eux, ni l’activité que je voudrais avoir. Je porterais mes défauts dans les charges publiques, et j’aurais, de plus, le tort de m’y être placé moi-même ; au lieu que la Providence m’a placé ici.<\/i><p><i>Je n’ai plus rien à vous répondre, Monsieur<\/i>, lui ai-je dit ; <i>mais pourquoi m’avez-vous fait un secret de cette affaire ? — J’étais à Londres<\/i>, m’a-t-il répondu ; <i>il m’aurait été difficile de vous détailler mes raisons dans une lettre. Si vous m’aviez opposé vos raisons et vos goûts, vous ne m’auriez pas ébranlé, et j’aurais eu le chagrin de vous en faire un que je pouvais vous épargner. Même aujourd’hui j’ai été fâché d’avoir à vous en parler ; et si je n’avais appris que la chose est devenue, pour ainsi dire, publique, vous n’auriez jamais été informée de la proposition ni du refus.<\/i>"
+       },
+       {
+        "id": 26,
+        "name": "Fin",
+        "type": "Lettres de Mistriss Henley",
+        "group": "FIN",
+        "texte": "Il y avait un moment que Monsieur Henley ne parlait plus. J’ai voulu dire quelque chose ; mais j’avais été si attentive, j’étais tellement combattue entre l’estime que m’arrachait tant de modération, de raison, de droiture dans mon mari, et l’horreur de me voir si étrangère à ses sentiments, si fort exclue de ses pensées, si inutile, si isolée, que je n’ai pu parler. Fatiguée de tant d’efforts, ma tête s’est embarrassée ; je me suis évanouie. Les soins qu’on a eus de moi ont prévenu les suites que cet accident pouvait avoir ; cependant je n’en suis pas encore bien remise. Mon âme ni mon corps ne sont dans un état naturel. Je ne suis qu’une femme, je ne m’ôterai pas la vie, je n’en aurai pas le courage ; si je deviens mère, je souhaite de n’en avoir jamais la volonté ; mais le chagrin tue aussi. Dans un an, dans deux ans, vous apprendrez, je l’espère, que je suis raisonnable et heureuse, ou que je ne suis plus.<p>FIN"
+       },
+       {
+        "id": 27,
+        "name": "Hector",
+        "type": "Le Mari sentimental",
+        "group": "Henley, Mari, Justification",
+        "texte": "Pardonnez-moi aussi, mon cher ami, si je vous dis un mot du fidèle Hector ; c’est mon compagnon, je dirais bien c’est mon ami, si je n’avais sous ce titre des reproches à me faire vis-à-vis de mon chien. Ce pauvre animal, comme il me pardonne mon humeur, mes brusqueries, mes négligences, mes corrections même ; combien il a souvent léché la main qui l’avait maltraité injustement ; et dans le moment même où je venais d’être injuste, il aurait défendu ma maison et ma vie aux dépens de la sienne. En vérité, mon cher ami, si nous voulons aimer les hommes, il ne faut pas tant s’attacher aux bêtes, et surtout ne point comparer leurs vertus  : il n’y a que cette bonne Nanon et le brave Antoine qui y gagneraient."
+       },
+       {
+        "id": 28,
+        "name": "Nanon & Antoine",
+        "type": "Le Mari sentimental",
+        "group": "Henley, Mari, Justification",
+        "texte": "Vous connaissez ces anciens domestiques ; j’ai vu souvent que vous étiez touché de leurs soins et de leur zèle pour moi, et eux et moi nous avons aussi été touchés de la bonté et de l’affabilité amicale avec laquelle vous les avez toujours traités. Ils ont soigné les derniers jours de mon père ; ils lui ont prodigué leurs soins aux dépens de leur santé. Tout mon désir est, qu’ils trouvent leur bonheur et leur bien-être chez moi ; ils sont les maîtres de la maison, et je m’en trouve bien. Je me repose sur eux de tous les soins domestiques si ennuyeux pour les hommes ; je n’ordonne rien, et tout va bien quoiqu’il arrive chez moi, et si tout ne va pas bien, je suis sûr que mes amis n’en accuseront pas mon cœur, et alors c’est moi qui console mes domestiques. Je pourrais peut-être monter mon train sur plus de dépense, et y mettre plus d’aisance ; je l’ai laissé comme je l’ai trouvé, et jusques à présent ce qui me reste au bout de l’année de mes revenus, a toujours fait plaisir à un ami : j’attendrai de n’en plus avoir, pour avoir l’autre vanité."
+       },
+       {
+        "id": 29,
+        "name": "Le bonheur des amis fausse son propre bonheur",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Mais, mon cher ami, je ne dois pas vous ennuyer du détail de ma vie et de mes affaires. C’est la première fois qu’il m’est arrivé de les regarder de si près. Je ne sais quel sentiment j’ai rapporté de chez vous, ni pourquoi j’ai été obligé d’examiner, si réellement j’étais heureux ; c’est votre faute. Je me suis réjoui de votre bonheur, et on ne s’occupe jamais du bonheur des autres sans faire un retour sur le sien. Le vôtre m’a paru si vrai, il est si différent du mien, que lorsque je suis revenu chez moi, j’ai cherché chicane à tout ce qui en faisait l’objet ; tout avait perdu à mes yeux : j’ai eu besoin de la réflexion pour me remettre au courant de mes affections."
+       },
+       {
+        "id": 30,
+        "name": "Les moqueries des femmes",
+        "type": "Le Mari sentimental",
+        "group": "Visions du mariage",
+        "texte": "Mon ambition avec les femmes a toujours été sans succès ; les unes se moquaient de moi, et me faisaient l’objet de leurs plaisanteries, les autres me laissaient entrevoir le dégoût que je leur inspirais ; les plus franches me disaient que les prétentions me rendaient ridicule."
+       },
+       {
+        "id": 31,
+        "name": "La chasse",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Vous savez que j’ai aussi quelques amis chasseurs ; le temps que nous passons les uns chez les autres, est gai et bruyant, et contraste fort bien avec le paisible de ma vie domestique ; j’y reviens avec plus de plaisir."
+       },
+       {
+        "id": 32,
+        "name": "Le cheval",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": " Après cela il y a mon cheval, ah mon ami, quel cheval, quel excellent cheval ! Il est d’une vigueur et d’une force sans égale, et ses allures sont d’une douceur charmante. L’autre jour il me sauva la vie ; je m’étais engagé dans les bois, j’entrais dans un marais que je n’apercevais pas, tout d’un coup il enfonça jusques aux sangles, et sans la force de ses reins, je crois que nous périssions tous deux : je ne m’en séparerai jamais."
+       },
+       {
+        "id": 33,
+        "name": "L'arrivée du printemps",
+        "type": "Le Mari sentimental",
+        "group": "Henley, Mari, Justification",
+        "texte": "Les soirées d’hiver commencent à être bien longues : mon chien dort, mon cheval est dans l’écurie, mes domestiques ne se plaisent point dans ma compagnie. Il y a des moments où on se trouve bien seul, où on a là quelque chose dans le cœur qui a besoin de verser dans celui d’un autre  ; aujourd’hui c’est dans le vôtre, mais demain…? Pourquoi est-ce à quarante-six ans que je commence à éprouver ce sentiment? Vienne le printemps, et il passera comme tant d’autres inquiétudes attachées à l’humanité, et j’oublierai ces maudites noces qui ont dérangé mes idées sur le bonheur."
+       },
+       {
+        "id": 34,
+        "name": "Le fermier",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Ainsi, mon cher ami, vous avez peut-être deviné le mot de l’énigme sur ce que j’ai éprouvé depuis que je vous ai quitté, mais il n’y aura rien de changé ; il est possible que j’envie votre bonheur, mais je ne le chercherai pas : c’est ce que je disais encore ce matin au bon Nicolas Grosmont, mon voisin. Vous savez que c’est ce bon vieux paysan qui a servi long-tems dans la compagnie de mon père, et qui a fait avec lui toutes les campagnes de Flandres. A ce titre, il a le droit de me parler avec franchise et avec familiarité ; il a l’esprit juste et le cœur excellent ; il a pour moi un intérêt et un attachement que je ne pourrais attendre de personne. Il se passe peu de jours qu’il ne me dise en me serrant et en me secouant la main, que c’est bien dommage que je ne sois pas un père de famille ; et hier, en me remerciant de quelques services que je lui ai rendus à l’occasion de ses enfants, il demandait : qui est-ce qui après moi protégerait sa famille ? Nous parlons quelquefois politique, et très souvent agriculture ; partout j’ai des raisons d’admirer son esprit juste et son sens droit ; il n’a point oublié les amitiés et les caresses que vous lui avez faites : il se loue encore de votre affabilité. Vous vous rappelez sûrement que nous avons été quelquefois chez lui, et que nous avons toujours admiré l’union qu’il y a dans sa famille, et l’ordre qui règne dans sa maison ; il est mon conseil sur bien des choses, et je l’aime comme s’il était mon parent : il est pour moi un personnage intéressant, que je préfère à beaucoup de relations de la ville."
+       },
+       {
+        "id": 35,
+        "name": "Le bonheur des amis fait son propre bonheur",
+        "type": "Le Mari sentimental",
+        "group": "Visions du mariage",
+        "texte": "Ed anch’io son pittore ! Oui, mon cher ami, et moi aussi je suis heureux, et heureux comme mon ami Saint-Thomin. Mon amitié avait besoin de cette conformité avec lui ; on écoute mieux ceux qui parlent de leur bonheur, on peut mieux leur en parler quand on a le sien ; c’est-à-dire, que je me marie, rien n’est plus vrai : il faut des siècles pour prendre une résolution ; il ne faut qu’un moment pour en changer. Vous triomphez, vous riez, vous vous applaudissez de tous vos sarcasmes sur le célibat : faites ce qu’il vous plaira, je ne vous répondrai qu’en vous montrant mon contentement, qu’en vous faisant voir mes espérances, je veux dire, la certitude que j’ai d’être heureux. Jamais vraisemblance n’a été accompagnée de circonstances plus propres à en faire une vérité. Le bonheur m’attendait à quarante-six ans, je ne le croyais pas. A cet âge les romans ne sont pas longs, et je vais vous compter le mien."
+       },
+       {
+        "id": 36,
+        "name": "Les préférences de Monsieur Bompré",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Comme je suis un peu campagnard, j’aurais souhaité plus de simplicité dans ses habillements et dans sa manière de se parer. C’est mon œil qui n’est pas fait aux modes ; d’ailleurs à trente-cinq ans il est naturel qu’une femme cherche à réparer ce que le temps commence à lui faire perdre. L’envie de plaire, soumise à la décence la plus rigoureuse, est toujours un mérite chez les femmes, il serait injuste de la condamner : et tous ces défauts, si on peut leur donner ce nom, étaient accompagnés de tant de grâces, qu’ils m’ont paru des qualités."
+       },
+       {
+        "id": 37,
+        "name": "Les fiançailles",
+        "type": "Le Mari sentimental",
+        "group": "Visions du mariage",
+        "texte": "Mon ami interrompit encore, en disant : je vous demande, ma sœur, si vous agréez que M. Bompré vous offre son cœur et sa personne. Vous n’êtes plus une fille de vingt ans, et vous en savez assez pour vous décider. Mon ami est un brave et galant homme qui rendra une femme fort heureuse. Mademoiselle de Cherbel répondit avec beaucoup de douceur : mon frère, vous êtes un peu brusque dans votre manière ; encore que je n’aie plus vingt ans, le cœur a ses droits, et il ne se donne pas comme on achète une maison. Je ne vous dirai point ce que je répondis, les dispositions réciproques étaient décidées au fond de nos cœurs."
+       },
+       {
+        "id": 38,
+        "name": "Changement de pays",
+        "type": "Le Mari sentimental",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "Elle a été contente de ma campagne, sur la peinture que je lui en ai faite ; elle ne craint point le changement de pays, de relation, de société ; enfin, je suis sûr de doubler mon bonheur, en faisant celui d’une femme charmante et que j’aime déjà avec tendresse."
+       },
+       {
+        "id": 39,
+        "name": "La simplicité plait",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Je retournerais à Genève au bout de six jours, qu’après avoir fait tout ce qu’exige cet événement et après l’accomplissement de la cérémonie, nous partirions tous quatre pour venir à ma campagne. Dans ce moment l’humeur brusque et expéditive de mon ami était bien ce qui me convenait et je l’ai laissé faire ; j’ai suivi ses directions, et je suis revenu ici ; en arrivant j’ai visité ma maison et les dehors comme s’ils m’étaient nouveaux, j’ai vu tous les endroits où une femme et moi jouirions ensemble de la sympathie de nos cœurs et de l’accord de nos esprits, tout m’a paru plus agréable, la vanité cependant me disait que tout n’était pas assez beau, peut-être aussi que la simplicité de ma demeure antique plaira à ma femme, je préfère cette simplicité aux embellissements à la mode du jour et elle convient à ma situation et à mon caractère, ce n’est pas le luxe qui fera notre bonheur."
+       },
+       {
+        "id": 40,
+        "name": "L'accueil des serviteurs",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "J’ai communiqué l’événement à Antoine, à Nanon, à Nicolas, tous ont pleuré de joie ; ils se réjouissent de servir leur nouvelle maîtresse, chacun s’est promis de faire tout pour lui plaire, et quelque chose d’extraordinaire pour la recevoir."
+       },
+       {
+        "id": 42,
+        "name": "Une vision conjugale",
+        "type": "Le Mari sentimental",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "Oh que je serai heureux ! j’aurai une compagne qui m’aimera, qui partagera mes intérêts, mes sentiments, mes affections ; qui se plaira avec moi dans la simplicité de ma maison, dans le champêtre de ma campagne, dans le voisinage de mes bons paysans. Je tressaille de joie. Elle sera heureuse aussi. Que je sache seulement ses goûts, sa volonté, j’y donnerai ma vie. "
+       },
+       {
+        "id": 43,
+        "name": "La tranquilité du bonheur",
+        "type": "Le Mari sentimental",
+        "group": "Visions du mariage",
+        "texte": "Me voilà revenu, mon cher ami, j’aurais dû vous le dire plutôt, j’aurais dû vous parler plutôt de mon bonheur ; il n’y manquait que cela ; à chaque ligne de ma lettre je voudrais vous dire, je suis heureux, je suis heureux : ma chère femme est là, j’écris à côté d’elle, mon chien est à ses pieds ; c’est la tranquillité du bonheur. Elle est charmante, ma femme ; elle fait ce que je n’avais osé espérer d’aucune femme ; elle m’aime : je lui ai entendu dire qu’un homme vertueux, qu’un homme qui avait le cœur tendre et l’esprit juste n’avait point d’âge, point de figure, et certainement j’ai l’esprit juste, je soumets toutes mes idées aux siennes, et je fais bien ; elle a bien plus d’esprit et bien plus de goût que moi ; je le vois à chaque instant dans tout ce qu’elle veut et dans tout ce qu’elle projette."
+       },
+       {
+        "id": 44,
+        "name": "Un ameublement trop ancien",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Au reste, il est naturel que transplantée dans un nouveau pays, dans une habitation si simple, si différente de la sienne, elle souffre du changement ; ce sont des sacrifices qu’elle m’a faits, et je vais travailler à les adoucir ; je veux que dans tous les moments elle ait de nouvelles raisons de m’aimer et de se consoler. J’avais, par exemple, bien tort sur ma maison ; elle est trop simple, elle est mal arrangée ; de grandes chambres sans alcôves, de vieilles verdures, de grandes cheminées de plâtre, tout cela ne peut pas plaire à une femme qui a de l’esprit et du goût : ces grandes cheminées brûlent trop de bois, on est trop éloigné l’un de l’autre ; c’était bon lorsque nous étions sept ou huit amis autour du feu, à nous balancer sur des chaises de paille, à rire, à faire des contes de chasse ; autres temps, autres mœurs. Les cheminées seront plus petites, les chambranles seront de marbre à la salle de compagnie, et de noyer dans les autres chambres ; ces tristes tapisseries seront changées contre de beaux papiers d’Angleterre. Jusques à présent, les boiseries n’ont eu que leur couleur naturelle ; beaucoup de chambres n’en avaient point, et leurs murs n’étaient couverts que de quelques cartes de géographie ; je crois que nous mettrons des vernis. Mon cher ami, j’espère que vous viendrez nous voir avec Madame de Saint-Thomin ; sa jeunesse ne sera point un obstacle à l’amitié que ma femme aura pour elle. Madame de Saint-Thomin n’a pas voulu que vous changeassiez rien à la maison de vos pères, et je l’ai vue se faire un plaisir d’une demeure aussi simple et aussi rustique que la mienne ; c’est une affaire de goût dont il ne faut pas disputer, et malgré cette différence elle nous donnera ses avis sur les réparations qu’il faudra faire chez moi."
+       },
+       {
+        "id": 45,
+        "name": "Distensions conjugales",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Il me semble quelquefois que je n’ai pas l’amitié de ma femme ; il y a toujours une différence entre ses idées et les miennes ; nos intérêts ne tendent point à se réunir ; nos goûts ne deviennent point les mêmes ; je cherche les siens, et je ne les rencontre point : ceux qu’elle témoigne portent une espèce de contradiction sur ce qui nous appartient, sur tout ce qui est autour de nous. Elle ne se lie avec rien de ce que j’ai ; ma compagnie ne lui est point nécessaire ; elle me voit sans plaisir, elle me quitte sans peine ; et il n’y a que quatre semaines que nous sommes mariés! Cependant elle a un air heureux et tranquille, elle parait contente, et quelquefois j’en suis fâché, ou plutôt je le suis de ce que, dans son contentement, elle puisse si bien se passer du mien : elle aime beaucoup la lecture ; elle est souvent une grande partie du jour seule dans sa chambre à lire. Quand nous sommes ensemble, ses idées roulent presque toutes sur des changements qu’elle veut faire, tantôt dans la maison, tantôt dans le dehors. Elle ne jouit encore de rien ; et moi, je suis agité d’un désir inquiet sur tout ce qui peut lui plaire ; je voudrais régler ma vie sur la sienne, je n’ai pu encore y parvenir."
+       },
+       {
+        "id": 46,
+        "name": "Des sensibilités univoques",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Je lui porte mon émotion, ma sensibilité ; et je ne trouve point la sienne : il serait injuste de l’en rendre responsable ; elle vit à la ville depuis plusieurs années, là, tout est assujetti à de certaines formes ; l’amour-propre y est le premier mobile ; l’opinion domine surtout et décide presque de nos sensations : point de plaisir si l’on ne commence par être flatté, si le petit orgueil, la petite vanité n’y trouve son compte. L’âme s’accoutume à cette prétention, et tout ce qui ne la satisfait pas devient indifférent et même chagrinant. Moi, j’ai vécu dans l’habitude de ne rien prétendre : les beautés de la nature me touchent ; les situations, les événements de la vie champêtre m’affectent : je vais chercher les objets intéressants sans les attendre ; je ne connais de droit que celui de sentir ; je ne demande aux hommes que le libre exercice de l’humanité : alors il n’est pas étonnant que [[des dispositions si différentes se heurtent quelquefois ; il faut un peu de temps pour les rapprocher et pour les mettre à l’unisson."
+       },
+       {
+        "id": 48,
+        "name": "Les femmes et les livres",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Dans le pays où les femmes font des livres, elle sera bientôt décidée ; et même je passerai pour un homme sans goût de l’avoir faite ; dans celui-ci, où les femmes font le sort de leur maison et de leur famille, où leur économie et leur raison décident de la fortune et du bonheur de leurs maris, il n’est pas très-sûr que la lecture soit utile aux femmes, et qu’elle produise un grand bien. Les femmes lisent beaucoup de romans, et très-peu d’autres livres. Il faut qu’un livre d’histoire, de science ou de morale soit bien court, bien gai, bien piquant, pour qu’elles en lisent quelques feuilles ; c’est-à-dire que, pour l’ordinaire, elles occupent leur esprit de fictions, de fausses peintures de la nature, de sentiments exaltés, enfin de choses qui les mènent loin de la vérité ; et si, par hasard, elles n’ont pas l’esprit juste, l’écart peut devenir immense. D’ailleurs, pour que la lecture d’un livre quelconque soit vraiment utile, il faut un fond de logique et d’éléments de sciences, qui sont toujours négligés dans l’éducation des femmes. <p>Je voudrais qu’elle prît pour modèle Madame de Saint-Thomin, qui lit fort peu, qui s’occupe gaiement de ses affaires domestiques, et qui sait trouver dans la société et dans le monde des plaisirs qui n’entraînent ni histoire, ni événement."
+       },
+       {
+        "id": 49,
+        "name": "La belle-famille de Madame Bompré",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "La manière dont ma femme vivait avant notre mariage m’avait fait espérer que celle-là serait à-peu-près la sienne : un nouvel état, de nouvelles connaissances, un nouveau pays ont un peu changé son caractère ; elle y reviendra ; et c’est à moi à la ramener par mon adresse, par ma patience, par ma tendresse : je dois réussir au moins par un de ces moyens. Elle n’a pas encore beaucoup d’amitié pour mes parents et pour mes amis d’*** : je crois qu’ils ne lui plaisent pas beaucoup, et jusques-ici elle n’a pu se lier avec aucun d’eux ; mais, comme ce sont de bonnes gens, sans prétentions, dont la société est douce et facile, elle s’y accoutumera et elle s’en fera aimer."
+       },
+       {
+        "id": 50,
+        "name": "Renoncer aux vieux meubles",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Par exemple, j’étais attaché à la simplicité de ma maison ; c’était celle de mes ancêtres, de mon père ; j’étendais la vénération que j’ai pour eux et qu’ils méritent, sur tout ce qui leur avait appartenu ; mes vieux meubles avaient été les leurs : d’ailleurs, ils sont bons et commodes. La dépense qu’il faudra faire pour les changer m’ôtera le moyen d’avoir un plaisir plus fait pour mon cœur. J’aurais voulu tout conserver ; il faut y renoncer, et les projets sur tous ces changements font ma peine ; mais ma chère femme dit les raisons avec tant d’esprit et avec tant de grâces, qu’il est impossible de lui résister. Mon ami, est-ce qu’on peut résister à une femme qu’on aime et qui veut !"
+       },
+       {
+        "id": 52,
+        "name": "Une étrangère au pays",
+        "type": "Le Mari sentimental",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "Au reste, il est naturel qu’il se trouve quelques épines et quelques difficultés dans un nouvel établissement ; il faut partout un peu d’habitude. Ma femme, qui est étrangère dans ce pays, n’est pas obligée de se faire tout d’un coup à tant de choses qui lui sont nouvelles, et qui, sans doute, ne s’accordent pas avec ce que son imagination lui avait promis. Les femmes ont les sens si délicats, qu’il ne faut point s’étonner de l’impression que les objets font sur elles."
+       },
+       {
+        "id": 53,
+        "name": "Un portrait et un adieu",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Mon cher ami, vous jugerez encore mieux de la faiblesse et de la petitesse de mon âme, par ce que j’ai souffert à l’occasion du déplacement du portrait de mon père ; j’en ai été vivement affecté. J’avais mis ce portrait dans le salon, c’est-à-dire, dans cette grande chambre d’entrée où l’on reçoit la compagnie quand elle est un peu nombreuse. Il est vrai que ce portrait est mal peint, que la peinture en est un peu noire, et que le cadre est vieux et antique, mais Il est parfaitement ressemblant ; je m’en faisais honneur, et il m’est infiniment précieux. Ma chère femme n’a pu supporter qu’il restât dans cette chambre ; elle assure que les portraits de famille sont pitoyables, et qu’ils lui donnent des vapeurs. Je me suis mis à ses pieds, pour obtenir le sacrifice de cette volonté ; j’ai vu le moment où elle en tomberait malade. Elle m’a répété ce qu’elle me dit quelquefois, qu’elle souffrait déjà beaucoup d’ennui de la familiarité de quelques-uns de nos parents et de nos amis qui viennent nous voir de temps en temps ; elle ne peut supporter l’accent du pays, ni la conversation des petites villes et des campagnards ; souvent elle ne peut soutenir tout cela, et elle est obligée de s’enfermer dans sa chambre. Elle m’a protesté que, si avec tous ces désagréments elle ne pouvait au moins arranger sa maison et ses meubles à son goût, elle serait malheureuse, que sa santé s’en ressentirait, et qu’elle en mourrait. J’ai appelé Antoine ; je lui ai dit de me donner une échelle ; il a volé pour l’apporter. Quand il a vu que c’était pour ôter le portrait de mon père, les bras pendants, la bouche ouverte, les yeux étonnés, il est resté immobile ; il m’a laissé faire, comme s’il eût craint d’être de moitié dans mon action. Nous n’avons rien dit ni l’un ni l’autre, et le portrait a été transporté dans ma chambre : là il est l’objet de ma vénération ; il me semble que j’implore mon pardon : c’est une douceur pour moi de lever les yeux sur lui. Avouez, mon ami, que j’ai tort, et que cette manière de sentir est ridicule dans un homme de mon âge, au moins elle est bien inutile ; j’aurais dû faire faire cette opération à Antoine, et le gronder de ce qu’il ne la faisait pas assez vite. "
+       },
+       {
+        "id": 54,
+        "name": "Le brave Antoine",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Il est bien vieux ce pauvre Antoine! je ne m’en étais pas encore aperçu ; son service devient lent, il ne sait point arranger une maison avec l’élégance de la ville. Ma femme a beau le gronder, il ne se forme point, il faudra le renvoyer, c’est ce que j’ai entendu dire plusieurs fois. Renvoyer Antoine ! bon Dieu ! serait-il bien possible ! Quoi me séparer de ce bon, de ce fidèle domestique, qui a si bien servi mon père, qui a soigné mon enfance, lui à qui mes intérêts sont mille fois plus chers que les siens ? La seule idée me déchire le cœur. Ma femme ne le voudra pas ; elle est trop bonne ; elle a trop d’amitié pour moi : cependant il y a trois jours que la chose est décidée, et il m’a été impossible d’en dire un mot ; je veux compter encore sur la patience de ma chère femme. Mon ami, ne condamnez-vous pas cette faiblesse chez moi ? Parce que cet Antoine a servi longtemps, faut-il qu’il serve éternellement ? On peut le récompenser de ses services, et il sera tout aussi heureux ailleurs. L’habitude est souvent prise pour le sentiment, et avant tout, il faut écouter les convenances de sa femme et de sa maison. J’ai pensé tout cela ; et cependant j’ai senti au fond de l’âme un déchirement qui a été plus fort que ma raison."
+       },
+       {
+        "id": 55,
+        "name": "Le brave Hector",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Mon chien seul, par ses caresses, me tire de cet anéantissement ; c’est lui seul qui m’entend soupirer. Comme il n’est point accoutumé à cette chambre, qui est à un des bouts de la maison, il veut en sortir, il va gratter à la porte de la chambre de ma femme, qui était autrefois la mienne, et dont l’entrée lui est défendue depuis longtemps ; l’inquiétude de cet animal ajoute encore à ma tristesse."
+       },
+       {
+        "id": 56,
+        "name": "Le renvoi d'Antoine",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Je ne puis mieux raisonner aujourd’hui même, ce que je vous dis est un effort pour moi ; j’ai l’âme oppressée, et mon esprit et ma raison s’en ressentent ; je vous en demande pardon. Antoine ! Le pauvre Antoine ! — et les larmes tombent sur mon papier. Hier matin je l’ai rencontré ; il avait mis son habit, il tenait son chapeau à la main, il marchait d’un pas précipité. Où allez-vous, Antoine ? Il ne répond rien, et il continue sa marche. Où allez-vous donc, Antoine? Monsieur, je m’en vais ; et sa voix était altérée. Comment, vous vous en allez? Il s’est arrêté, il n’a répondu que par un sanglot ; il a porté la main sur ses yeux ; enfin il a répondu à mes questions répétées. En nettoyant et en arrangeant la chambre de Madame, il a cassé cette belle porcelaine, qui était sur la cheminée. Madame s’est mise au désespoir. C’est une porcelaine précieuse, qui lui a été donnée par un de ses parents fort riche. Elle a signifié à Antoine qu’il eût à sortir, et qu’elle ne voulait plus le revoir. Je l’ai pris par la main, je lui ai dit que je ne le voulais pas, que j’étais le maître, et que je saurais le faire voir. Il est tombé à mes pieds, il a pris mes mains ; non, Monsieur, non, mon cher maître, s’est-il écrié, que je meure plutôt que d’être la cause d’une désunion. Madame vous aime, il est juste qu’elle soit heureuse, et qu’elle le soit toujours ! j’en prie le ciel. Je suis vieux, je ne puis plus vous servir ; je n’ai pas été accoutumé à ces meubles, à ces porcelaines, et je pleure le mal que j’ai fait. Tout ce que j’ai pu lui dire n’a pu le faire changer de dessein ; il m’a supplié de le laisser aller. Il m’a dit qu’il allait au village voisin chez un parent où il veut arranger sa retraite ; il a ajouté, qu’il reviendrait aujourd’hui prendre congé de moi et de Madame. Je l’ai accompagné jusqu’au chemin, et je l’ai laissé, dans l’espérance qu’il changerait encore de résolution. Il est revenu sur ses pas ; j’ai vu qu’il est entré dans l’écurie, il a caressé mon cheval ; j’ai entendu qu’il lui disait adieu, et qu’il le recommandait à un paysan, que j’ai pris depuis quelque temps pour le soigner.<p>J’ai voulu parler à ma femme, je suis entré chez elle dans l’intention de me plaindre et de m’opposer absolument au renvoi d’Antoine ; le chagrin de l’avoir vu partir, la crainte de le témoigner trop vivement, m’empêchaient de parler ; je me promenais avec agitation dans la chambre, sans rien dire et avec l’air triste et fâché : ma femme me regarde et elle me dit avec le ton le plus doux, mon cher ami, je crois que vous avez du chagrin ; oui, Madame, un grand chagrin, une vraie affliction et ce n’était pas de vous que... elle m’interrompt et toujours avec la plus grande douceur, elle me dit, que vous êtes bon, mon cher ami, vous avez bien raison de partager mes regrets et mon désespoir sur cette porcelaine cassée, jamais je ne m’en consolerai, elle était si belle, j’y étais si attachée, c’était mon cher cousin de *** qui me l’avait donnée, jamais je ne pourrai la remplacer... Madame, on peut retrouver mille porcelaines, mais un domestique comme Antoine, comme ce pauvre Antoine... son ton change et devient presque celui de la colère, comment, Monsieur, me dit-elle, avec une vivacité que je ne lui connaissais point encore, mon superbe vase de porcelaine cassé ! Ne me parlez jamais de ce domestique si vous ne voulez pas me rendre votre maison insupportable ; c’est un misérable si vieux, si mal adroit, un fainéant ; je ne m’attendais pas en venant chez vous à être aussi mal servie."
+       },
+       {
+        "id": 57,
+        "name": "La démission de Nanon",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Voilà Nanon qui entre, et qui me dit d’un air brusque et indifférent, qu’elle me prie de chercher une autre cuisinière ; qu’elle a chez elle des parents malades qui la rappellent : mais Nanon.— Elle n’attend pas ma réponse ; elle dit que dans un nouveau ménage il faut de nouveaux domestiques ; que Madame n’aime pas les vieilles gens ; qu’il vient d’autres domestiques de Genève, et qu’elle ne pourra pas être avec eux."
+       },
+       {
+        "id": 58,
+        "name": "Hector à la porte",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Tous ces êtres qui me quittent, qui s’éloignent de moi, affligent singulièrement mon âme ; il me semble qu’il se fait un désert autour de moi. Et toi, mon cher Hector, me quitteras-tu aussi ; faudra-t-il que je renonce à tes caresses, à ta fidélité ? Le plaisir avec lequel tu me suis en est un pour moi. Au moins avec toi je ne suis pas seul ; tu as le malheur de déplaire à ta maîtresse, tu es obligé de m’attendre à sa porte."
+       },
+       {
+        "id": 59,
+        "name": "Le refuge de la chasse",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "La chasse est, dans ce moment ce qui a le plus d’attraits pour moi ; j’y vais seul avec plaisir. Je m’enfonce dans l’épaisseur des forêts, je gravis sur le haut des montagnes. Là, je m’assieds sur un rocher, je crois être au-dessus des malheurs de l’humanité. La pureté de l’air allège le poids qui m’oppresse ; la beauté de la vue me distrait ; j’y reste tranquille plusieurs heures. Je laisse chasser mes chiens, content que le lièvre ou le renard leur échappe."
+       },
+       {
+        "id": 60,
+        "name": "Feu Hector",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Mon cher ami, j’ai un grand chagrin, mon âme est affligée. Je n’ose vous le dire : pardonnez-moi mes regrets. Hector, le pauvre Hector!... Je reviens de la chasse ; je comptais sur ses caresses, et il est étendu au milieu du chemin. Je ne puis en croire mes yeux! j’approche, je reconnais qu’il a été tué. L’indignation et la colère me transportent ; je veux savoir qui a commis cette horrible action. Les domestiques se sont cachés : ce n’est qu’après des menaces et mille questions que j’apprends que c’est un ouvrier de la campagne. Le chien était inquiet, il me cherchait. Il faisait chaud : on a donné des ordres et de l’argent. Enfin, Hector n’est plus. En vérité, mon cher ami, j’en ai encore les larmes aux yeux : l’affliction a succédé à la colère. Il me semble que j’ai perdu le compagnon de mes ennuis : c’était un être qui m’aimait, et bientôt il n’y en aura plus. Je dévorais mon chagrin et ma douleur, seul, dans ma chambre : ma femme est venue, elle a voulu me consoler. Qu’est-ce que c’est qu’un chien? En été, ils sont sales, incommodes, dangereux même. Il ne faut faire souffrir personne pour une bête : s’il était devenu enragé, ce serait bien pis encore. Pauvre Hector ! il m’aimait ; je regrette ses caresses. Mon cher ami, ne me faites rien regretter. Adieu."
+       },
+       {
+        "id": 61,
+        "name": "Madame Bompré jalouse d'une paysanne",
+        "type": "Le Mari sentimental",
+        "group": "Conflits dans la vie commune",
+        "texte": "Je suis ma femme ; je veux l’instruire, lui conter ; elle ne m’écoute pas et, d’un air ironique, elle plaint toujours la pauvre Pauline. Elle dit qu’elle ne l’aurait jamais cru, et qu’elle ne comprend pas que l’on puisse s’attacher à une petite paysanne. Elle affecte de me dire des honnêtetés sur ce que j’ai passé la nuit hors de la maison ; elle m’invite à prendre du repos. J’espère qu’arrivé chez elle je serai mieux entendu : elle s’enferme dans sa chambre, et quand je la revois, elle assure qu’elle n’est point jalouse, point soupçonneuse. Elle ne parle plus de Pauline, et lorsque je veux en dire quelque chose, elle dit mystérieusement que c’est une histoire fâcheuse, qu’elle en gardera le secret, et elle détourne la conversation."
+       },
+       {
+        "id": 62,
+        "name": "Suicide",
+        "type": "Le Mari sentimental",
+        "group": "FIN",
+        "texte": "A genoux ici, devant vous, je demande pardon à tout ce qui m'entoure. Et de quoi me plaindrais-je ? J'ai la force d'échapper aux maux qui me tourmentent : le remède est là ; il m'attend. Adieu, mon cher ami... Vivez heureux.<p>N.B. Il y avait sur l'adresse du paquet : Je demande que ces papiers soient remis aussi promptement qu'il sera possible à Monsieur de Saint-Thomin, à Orbe."
+       },
+       {
+        "id": 63,
+        "name": "Variante : dernier paragraphe de l'édition de 1783",
+        "type": "Le Mari sentimental",
+        "group": "FIN",
+        "texte": "Le bruit que l'on entendit répandit l'effroi dans la maison. Personne n'osait aller à la chambre de Monsieur Bompré : ce furent Nicolas et Antoine qui y entrèrent les premiers. Ce dernier n'a survécu à son maître que quelques semaines. Madame Bompré, qui jouit des biens de son mari, s'est remariée, cette année, à un homme qui la rend fort heureuse. Le chevalier Lowel est revenu chercher Pauline : on ne sait point ce que la passion lui fera faire pour elle."
+       },
+       {
+        "id": 64,
+        "name": "Variante : dernier paragraphe de l'édition de 1785",
+        "type": "Le Mari sentimental",
+        "group": "FIN",
+        "texte": "Monsieur de Saint-Thomin, que les dernières lettres de M. Bompré avaient plongé dans une mortelle inquiétude, était volé auprès de son ami. On lui dit qu'il s'est enfermé dans sa chambre, et qu'il a donné ordre de ne laisser entrer personne : il n'y a point d'ordre pour un ami. Il monte, frappe, fait entendre sa voix. On ouvre… L'air égaré de M. Bompré… sa pâleur… le désordre de ses vêtements… malheureux sans courage, tu veux quitter ton ami ! Monsieur Bompré tombant dans les bras de Monsieur de Saint-Thomin, ne prononça que ces paroles : C'en est fait, mon ami ; la mort est là, en mettant la main sur son cœur. Depuis ce moment il ne donna que des marques d'égarement ; cet état le plongea bientôt dans une espèce de stupidité, à laquelle il ne survécut pas longtemps. Il mourut victime de son excessive sensibilité. Le malheureux Antoine a suivi de près son maître. Madame Bompré, qui jouit des biens de son mari, s'est remariée cette année, à un homme qui la rend très malheureuse, & qui lui fait regretter, mais trop tard, le sensible Bompré. Le Chevalier Lowel est revenu chercher Pauline, & l'on ne sait point ce que la passion lui fera faire pour elle."
+       },
+       {
+        "id": 65,
+        "name": "Justification de M. Henley",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Adressée à l’amie de sa femme.<p>Mademoiselle,<p>Je ne connaissais pas tout l’empire de la vérité ; vous me le faites sentir avec une force à laquelle je ne puisse me soustraire : il est vrai que vous me prenez dans un moment où ma sensibilité est dans toute sa vivacité ; vous faites briller à mes yeux le fer qui m’a déchiré, et vous l’enfoncez dans mon cœur."
+       },
+       {
+        "id": 66,
+        "name": "M. Henley s'est reconnu",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Oui, Mademoiselle, vous avez dit la vérité, et je viens la reconnaître ; vous avez cru la déguiser en changeant le nom et le lieu de la scène ; et en ajoutant des circonstances, vous avez prêté les grâces de votre style à des détails que vous avez rendus intéressants : vos lettres, de quelqu’endroit qu’elles soient datées, sont charmantes ; vous embellissez tout ce que vous touchez, et cependant je me suis reconnu, non pas dans le portrait que vous avez fait de M. Henley ; vous l’avez peint en beau, et je dois avouer modestement que je ne lui ressemble point : je ne suis point de la plus noble figure, point grand, ma taille n’est point déliée, je ne sais si j’ai des yeux, mais pour les dents il m’en manque beaucoup, et quand je ris, il me semble que c’est toujours à gorge déployée. Eh mon Dieu ! ma figure ajoute à mes torts, et je devais bien mieux cherchais à me faire pardonner ; jusque-là je ne croyais pas me trouver dans ce joli livre que je lisais avec intérêt : au reste, vos portraits ont l’air si naturels, vos détails sont si vrais, que peut-être il y a un M. Henley en Angleterre dont l’histoire ressemble à la mienne ; celle des maris et des mariages n’est pas fort variée ; alors je ne veux rien ôter de ce qui lui appartient, je veux seulement reconnaître les rapports que j’ai avec lui."
+       },
+       {
+        "id": 67,
+        "name": "Ce que l'Amie a su dire de Mistriss Henley, et ce qui manque",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Je ne sais, Mademoiselle, quel a été votre but en publiant ces prétendues lettres de ma chère femme. Voulez-vous venger votre amie ? voulez-vous augmenter les tableaux des mauvais mariages ? hélas ! ils sont assez décriés : on ne se défie que trop de la vie domestique, et l’on sait bien que le bonheur s’y trouve rarement. Les maris critiquent, les femmes contrarient, et l’intervalle est rempli par de petites justifications ou par de grandes vengeances ; et elle est si douce la vengeance, que l’on n’est pas difficile sur les sujets qui l’excitent.<p>Vous m’avez fait bien du mal, Mademoiselle, vous êtes venue compter cruellement les torts d’un malheureux dans le moment qu’il en porte la peine, et qu’il subit son supplice ; j’aurais douté de la bonté de votre cœur, si je n’avais réfléchi, que, peut-être, fâchée de n’être pas encore mariée, vous vouliez vous en consoler en vous occupant des mauvais mariages, en rendant les maris haïssables, ou à toute bonne fin, en leur donnant, comme vous le dites, des leçons pour les corriger, car on se mariera encore malgré tous les Bompré du monde : sur cette bonne intention, je vous ai pardonné n’avoir employé quelques-uns des traits qui vous étaient connus, et que vous avez vu vous-même se passer chez moi. Je me suis rendu justice ; et quoiqu’il soit toujours dangereux et odieux de diriger la malignité du public, vous avez si bien enveloppé la vérité, que personne ne viendra me découvrir dans le coin retiré et ignoré où je vis : on s’occupera de votre livre intéressant, sans avoir la méchanceté de chercher l’original qui ne l’est pas ; j’en suis si persuadé, que déchiré et oppressé par les remords, je viens augmenter le nombre des vérités que vous avez révélées. Vous n’avez point assez fait paraître tous mes torts, vous m’avez trop ménagé, je ne sais si c’est par égars pour le mari de votre amie, ou pour tous les hommes en général, car quelquefois on les aime quand même ils sont haïssables, et vous ne voulez pas en dégoûter tout-à-fait : je vous en remercie, Mademoiselle, sous les deux relations. Cependant, avec cette bonté à laquelle vous vous êtes laissée aller, vous manquerez votre but, et je crains que vous ne remettiez pas tout-à-fait les choses à leur place, comme c’est votre intention ; elle est très-charitable, et vous êtes très capable de la remplir : l’entreprise est digne de vous, et votre esprit et vos grâces vous donnent le droit de prétendre au succès. Mais vous avancerez peu la besogne, si vous ne travaillez d’une manière plus vigoureuse, si vous ne faites sentir avec l’éloquence qui vous est propre, que s’il y a beaucoup de mauvais mariages, c’est la faute des maris ; que les femmes sont presque toujours les victimes ; que bien plus souvent que les hommes elles sont près de périr par leur sensibilité, et que si cela n’arrive pas plus fréquemment, c’est que quelquefois elles ont un peu de philosophie dans le cœur, et d’égars pour les consolations ; c’est ce qui manquait absolument à ma femme, elle n’a su qu’être malheureuse ; elle m’aimait, et je n’ai su ni lui plaire, ni lui rendre la vie agréable ; je me le reproche amèrement, ma conscience était vivement bourrelée, et votre livre est venu y ajouter encore."
+       },
+       {
+        "id": 68,
+        "name": "La culpabilité du Mari sentimental",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Sans doute, Mademoiselle, que ce <i>Mari sentimental<\/i> n’a fait que du mal ; il n’a rien appris aux hommes, et il a contribué à affermir les maris dans leurs dures et injustes prétentions ; jamais il n’y eut de fiction plus mal conçue. On voit que c’est un visionnaire qui a tout arrangé à sa fantaisie, et qui, dans la dureté de son cœur, s’est plu à exécuter les pauvres femmes, et à jeter un faux jour sur leur tendre sensibilité. Ce livre n’est fait que pour favoriser le célibat et les portraits de famille, deux choses bien inutiles dans la société. Que de maris se sont cru des Bompré, parce qu’ils avaient un chien et des pistolets ! plusieurs, sans doute, se seront pourvus de tous deux. En vérité je crois cet Auteur un homme méchant, et pas une femme n’en voudrait avoir fait son ouvrage."
+       },
+       {
+        "id": 69,
+        "name": "La lecture du Mari sentimental",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Je n’ai point oublié ce moment où ma femme me lut ce <i>Mari sentimental<\/i> ; c’est encore une circonstance vraie dans vos lettres, mais vous ne dites point avec quelle douceur, avec quel intérêt elle fit cette lecture ; vous ne pouviez savoir comment elle l’assaisonna de réflexions pleines de justesse et de sentiments, comment elle fit des retours sur elle et sur moi, où se poignait sur son âme tendre et naïve ; et moi, à mesure que ce sot Bompré devenait malheureux, je m’élevais sur mon trône, je m’affermissais dans mes droits ; je ne disais pas : prenez exemple, mais mon air l’exprimait assez ; je n’avais point de chien, comme vous le dites, mais je ne fus pas fâché qu’il y eût des pistolets suspendus dans ma chambre ; non pas que je voulusse m’en servir jamais, je pensai seulement, que lorsque ma femme résisterait trop vivement à mes volontés, j’irais m’enfermer, qu’elle aurait peur, et qu’alors elle n’oserait pas avoir trop de fermeté."
+       },
+       {
+        "id": 70,
+        "name": "Le commencement du mariage",
+        "type": "Justification de M. Henley",
+        "group": "Visions du mariage",
+        "texte": "Vous avez changé quelques circonstances de notre mariage : je n’étais point veuf, et sans doute qu’elles sont assez indifférentes à l’évènement ; ce qui le précède influe fort peu sur ce qui suit : avant qu’il fût décidé, il n’y avait entre nous ni passion, ni inclination ; les convenances s’y trouvèrent, et l’on consentit de part et d’autre ; mais une fois que nous fûmes accordés, nous nous aimâmes passionnément, la tendresse fut réciproque, c’était de l’amour, et il dura encore longtems après la cérémonie. Livrés tous deux à ce sentiment si doux, nous étions parfaitement heureux, nous ne demandions rien de plus, et tout le reste n’avait aucune valeur pour nous. Uniquement l’un à l’autre, nos idées n’allaient pas plus loin ; il n’y avait pour nous ni obstacle, ni difficulté, ni contradiction : nous crûmes qu’il en serait de même toute notre vie ; nous nous étions établis sans faire aucun arrangement, il nous avait paru que tout était bien, que tout était à sa place ; tout nous plaisait, et tout devait nous plaire toujours."
+       },
+       {
+        "id": 71,
+        "name": "Le bureau",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Ce ne fut qu’environ trois mois après que ma femme s’aperçut qu’un bureau qu’il y avait dans notre chambre était vieux et antique ; elle me dit un matin : mon ami, ce bureau est vilain, il est affreux ; ne pourrais-tu pas en avoir un autre, ou mettre celui-là ailleurs ? Ma chère amie, lui dis-je, c’est sur ce bureau que je t’ai écrit le premier mot de tendresse ; je l’embrassai, et il n’en fut plus question dans ce moment. Le lendemain ma femme me dit encore : je t’assure, mon cher ami, que ce bureau est tout-à-fait incommode, il gêne les environs de la cheminée : je t’assure, ma chère amie, lui répondis-je, que ce bureau est très bien là, et qu’il y restera, et je ne l’embrassai pas : elle baissa les yeux, et n’en parla plus du tout. Aujourd’hui je dois convenir que ce meuble était très-mal placé, et qu’il m’embarrassait moi-même, que souvent on venait prendre des papiers lorsque ma femme devait être seule, et même une fois je le heurtai si fort que je le fis tomber ; tous mes papiers furent tâchés d’encre, des porcelaines furent cassées ; ma femme me consola, elle m’aida à le relever et à tout réparer : elle dit avec une douceur qui m’arrache aujourd’hui des larmes, qu’il aurait fallu le clouer à sa place, et je crois qu’elle le fit faire. Ce fut à-peu-près dans ce temps que nous lûmes le <i>Mari sentimental<\/i>, et que je n’ai plus repensé au bureau."
+       },
+       {
+        "id": 72,
+        "name": "Le tuteur d'une nièce",
+        "type": "Justification de M. Henley",
+        "group": "Henley, Mari, Justification",
+        "texte": "Vous le savez, Mademoiselle, je n’étais pas veuf quand je me mariai ; mais mon frère qui l’était, mourut six mois après notre mariage. Il laissa une fille unique, âgée de huit ans, et héritière d’une assez grande fortune. Je fus son tuteur, et il convenait à mes intérêts que cet enfant fut élevé chez moi. Je ne mis pas la chose en question, je n’agitai point si ma femme, qui pouvait bientôt elle-même avoir des enfants, pourrait s’accommoder des soins et des peines qu’exige une jeune fille qui doit être bien élevée."
+       },
+       {
+        "id": 74,
+        "name": "L'éducation de la nièce de M. Henley",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "Ma femme cherchait avec la douceur qui lui était naturelle, à connaître mes idées presque sur tout ; elle voulut savoir celles que j’avais sur l’éducation ; nous en parlâmes une fois : comme j’avais beaucoup d’affaires dans la tête, et que je ne regardais pas l’éducation d’une fille comme bien importante, je dis qu’il fallait l’élever comme Sophie, et ce fut à cette occasion que je condamnai les fables. Ma femme, qui n’avait point encore lu l’Emile de Rousseau, le lut avec beaucoup d’attention ; elle voulut me faire quelques objections, je ne les écoutai pas trop, et ici je dois avouer, à ma honte, que cette digne et respectable femme mit une si grande adresse et tant d’esprit et de sentiments dans les soins qu’elle donna à ma nièce, que j’eus un peu de jalousie ; je condamnais, je critiquai, souvent sans autre motif que celui de ne pas tout approuver, et seulement pour me donner l’air d’avoir un avis. Ma femme, qui avait toute la finesse et tout le tact qu’on ordinairement les personnes de son sexe, le voyait fort bien ; mais elle ne répondait point, elle ne disputait point, jamais elle ne s’efforçait de faire voir que j’avais tort, et moi, pour prouver le contraire, je m’embarrassais dans une fuite de mauvais raisonnements, dont j’avais bien de la peine à sortir : elle allait son train, et ma nièce faisait des progrès et devenait charmante."
+       },
+       {
+        "id": 75,
+        "name": "La coiffure",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Un endroit, Mademoiselle, où j’ai jeté votre livre comme on repousse un fer qui blesse, c’est à l’histoire de la coiffure du bal : elle est trop à mon avantage ; jamais ma femme n’avait été si belle ; elle était mise avec tout le goût et toute l’élégance possibles ; sa parure était peut-être un peu extraordinaire ; mais une jeune femme qui va au bal, et qui est assez belle pour soutenir toutes sortes d’ajustements, ne peut-elle pas suivre sa fantaisie là-dessus ? Elle ne fera ni un enfant, ni une comédienne ; son caractère, sa réputation, sa conduite, viendront redresser ce que l’art aurait peut-être poussé trop loin ; on saura fort bien distinguer une femme qui aura exercé son goût, d’avec celle qui n’aura affiché qu’une coquetterie intéressée : ce ne fut donc ni sa parure, ni les ajustements qui me choquèrent ; au contraire, sa beauté excita dans mon âme la plus douce émotion, et j’aurais voulu lui faire mille caresses sans égard pour la perfection de sa toilette. C’est peut-être même ce sentiment qui fît naître ma critique : je crus voir que dans la peine que l’on avait prise pour être si belle, il n’y avait rien ou pas assez pour moi ; les yeux ne cherchaient point l’effet que cette parure faisait sur moi ; ils se portaient toujours sur la glace, et mon émotion ne trouvait que de l’indifférence. Je fus peu consulté, on ne fit pas mention de mon goût et presque point de mon approbation ; mon amour-propre crut apercevoir que j’étais étranger au projet d’être belle, et alors tout me parut affreux, exagéré : les mots de comédienne et d’enfant vinrent aisément à ma bouche, quoique mon esprit en fût éloigné ; sans pitié j’aurais fait main-basse sur les plumes, le rouge, la gaze ; et lorsqu’on parla de renoncer au bal, j’eus bien de la peine à articuler quelques mots de paix et de consolation, et cet injuste amour-propre laissa le sentiment pénible au fond de mon cœur ; c’est lui qui me porta à faire ma cour à Mademoiselle Clairville."
+       },
+       {
+        "id": 76,
+        "name": "Mademoiselle Clairville",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "En l’abordant je lui parlai de sa parure ; elle parut flattée de mon approbation et sensible à mon admiration : il n’en fallut pas davantage pour donner l’essor à ma galanterie, et pendant tout le bal j’eus l’indignité de faire intérieurement des comparaisons désavantageuses à ma femme. Si vous aviez su à quel point je poussai la dureté, vous ne m’auriez sûrement pas épargné, vous ne pouviez en être instruite ; ma femme, à qui que ce soit, n’eut jamais rien dit contre son mari, e vous n’avez pu lui faire proférer quelques plaintes qu’en lui donnant le sentiment de se condamner elle-même : sans cela vous eussiez fait trop de tort à votre amie ; et encore vous lui avez fait bien des injustices ; vous ne m’avez pas rendu assez condamnable, j’avais vraiment de la dureté dans le cœur."
+       },
+       {
+        "id": 77,
+        "name": "Le lendemain du bal",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Le lendemain de ce bal, ma femme avait les yeux extrêmement rouges ; il était visible qu’elle avait beaucoup pleuré ; je pouvais aisément conjecturer que ce qui s’était passé sur sa parure, que mes assiduités auprès de Mademoiselle Clairville, et je ne sais quelle autre indifférence encore, que je ne sentais pas en avaient été la cause. Je lui dis, avec le sang-froid de la cruauté, qu’elle avait bien mal aux yeux et qu’elle devait les baigner dans l’eau de rose : elle leva ses beaux yeux sur moi avec un air de douceur et d’étonnement si expressif, que j’ai encore ce regard au fond de l’âme : je ne pus le soutenir ; je m’enfuis comme un coupable : je fus malheureux tout le jour, et ma femme eut l’air serein, tranquille : elle eut des moments de gaieté, et les efforts qu’elle fit pour cela ne m’échappèrent point ; elle combla Mademoiselle Clairville de politesses et de prévenances : elle lui demandait son amitié ; chaque moment ajoutait au poids qui m’accablait."
+       },
+       {
+        "id": 78,
+        "name": "Jalousie, regrets, culpabilité",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Le lendemain de ce bal, ma femme avait les yeux extrêmement rouges ; il était visible qu’elle avait beaucoup pleuré ; je pouvais aisément conjecturer que ce qui s’était passé sur sa parure, que mes assiduités auprès de Mademoiselle Clairville, et je ne sais quelle autre indifférence encore, que je ne sentais pas en avaient été la cause. Je lui dis, avec le sang-froid de la cruauté, qu’elle avait bien mal aux yeux et qu’elle devait les baigner dans l’eau de rose : elle leva ses beaux yeux sur moi avec un air de douceur et d’étonnement si expressif, que j’ai encore ce regard au fond de l’âme : je ne pus le soutenir ; je m’enfuis comme un coupable : je fus malheureux tout le jour, et ma femme eut l’air serein, tranquille : elle eut des moments de gaieté, et les efforts qu’elle fit pour cela ne m’échappèrent point ; elle combla Mademoiselle Clairville de politesses et de prévenances : elle lui demandait son amitié ; chaque moment ajoutait au poids qui m’accablait."
+       },
+       {
+        "id": 80,
+        "name": "La belle-famille de Madame Henley",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Dans les relations avec mes parents, c’était des respects, des égards, une amitié, des procédés si délicats, qu’il était impossible de ne pas s’attacher à elle ; tout le monde croyait lui appartenir. Sans doute, que ma sœur avait de la hauteur et de la sécheresse, mon père de l’humeur : jamais ma femme n’en a témoigné une sensibilité vive et repoussante : elle riait, elle évitait, elle se vengeait en faisant un contraste parfait ; tout était au profit de la paix et surtout de mon bonheur : et moi, souvent je critiquais, j’opposais, condamnais."
+       },
+       {
+        "id": 81,
+        "name": "La Lettre de Madame Henley à son mari",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Cette lettre, dont vous avez le brouillon, n’est venue qu’après une suite d’incidents fâcheux, dont je l’avais rendue responsable, et dont j’ai reconnu depuis l’injustice et l’erreur. Vous n’auriez pas la patience, Mademoiselle, d’entendre et de lire tous ces détails ; à votre âge et dans votre état, ce n’est pas des histoires de ménage et de la vie domestique qui l’intéresseront ; il faut des romans qui conduisent bien une intrigue, et, qui, par des circonstances extraordinaires, amènent, avec beaucoup de peine, deux personnes jusqu’au grand évènement du mariage. Cependant, ce n’est encore que là que commence la vie, et même la vie vraiment essentielle ; mais on ne s’en soucie plus : dès que les deux héros, auxquels on s’était vivement attaché, sont parvenus à être ensemble, ils deviennent indifférents ; il semble que l’histoire de l’humanité n’aille plus loin, et que tout le reste ne puisse pas fournir des tableaux qu’il vaille la peine de regarder : si l’on en trace quelques-uns, c’est pour les charger ou de grands vices, ou de galanterie ; et assez généralement les choses sont présentées de manière à faire croire que la vertu se réduit à un seul point : sans la fin tragique de Bompré, le narré de sa vie bourgeoise était pitoyable et sans intérêt ; un mari qui est tué par les chagrins domestiques de tous les moments ; une femme qui périt par sa sensibilité, et sous les peines de familles, sont indignes de l’histoire, des romans et des drames."
+       },
+       {
+        "id": 82,
+        "name": "La Lettre, selon Monsieur Henley",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "Hélas ! oui, Mademoiselle, l’évènement affreux qu’elle avait prévu est arrivé, et mon désespoir sera éternel ; elle écrivit la lettre, dont elle vous envoya une copie, environ trois mois avant que de donner le jour à l’enfant qu’elle portait dans son sein ; je fus vivement touché de tout ce qu’elle me disait ; il y avait des choses bien plus touchantes que dans celles que vous avez publiées ; sans doute qu’en la copiant, elle y fit des changements, et que, suivant les dispositions de son cœur, elle adoucit la vivacité de son esprit."
+       },
+       {
+        "id": 83,
+        "name": "La maternité : la dernière frontière",
+        "type": "Justification de M. Henley",
+        "group": "Maternité",
+        "texte": "Je remarquai cependant, par quelques mots que ma femme laissait échapper, qu’elle regardait ses couches comme un terme au-delà duquel elle ne voyait plus rien ; elle ne formait aucun projet, elle ne pensait à rien pour elle, elle ne faisait aucune disposition pour le temps qui suivrait, et où elle reverrait ses parents, ses amis ; elle avait des conférences très longues avec une nourrice qu’elle avait choisie avec beaucoup de soin ; elles en sortaient quelques fois ayant toutes les deux les larmes aux yeux ; je levais les épaules et je fuyais."
+       },
+       {
+        "id": 84,
+        "name": "La voix de Madame Henley : M. Alesford",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "« Ce Monsieur Alesford, je l’avais vu avant de vous connaître : sa figure agréable, son air intéressant, ses manières nobles et simples, sa gaieté douce, son esprit facile me plurent extrêmement ; je sentis tout ce que mon cœur aurait fait pour lui, s’il m’eût distinguée, si je lui eusse inspiré quelques sentiments. Je ne lui parlai jamais qu’au milieu d’une société nombreuse, et bientôt je ne le revis plus. Lorsque le hasard me le fit rencontrer au bal, je ne retrouvai rien de ce qui m’avait frappé autrefois. Cependant je ne sais comment ce jour-là il s’attacha à moi, comment il chercha à se lier plus particulièrement avec moi : vous m’aviez affligée, vous étiez autour de Mademoiselle Clairville, rien ne me plaisait. Monsieur Alesford démêla ma tristesse, il m’en parla avec un intérêt vraiment touchant. Je crus un moment qu’un être bienfaisant me tendait des bras secourables au milieu d’un désert ; je rencontrai la pitié d’un être sensible. Je compris alors comment des circonstances inattendues peuvent conduire dans l’erreur un cœur vertueux ; je vis encore mieux que je vous adorais, et que j’adorerais jamais que vous. Je fus bientôt séparée de Monsieur Alesford, et je n’entendis plus parler de lui. »"
+       },
+       {
+        "id": 85,
+        "name": "La voix de Madame Henley : le joug du mariage",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "« Mon cher ami, ne me haïssez pas si je vous dit que m’avez aimée, et que n’ai pas été heureuse ; vous sentiments étaient bien ceux que je pouvais exiger, mais ce n’était pas ceux qu’il fallait à un cœur aussi tendre, aussi sensible que le mien : oserai-je vous dire que vous regardiez trop ma tendresse comme un devoir, comme méritée absolument par l’espèce d’attachement que vous m’accordiez ; vous exerciez des droits, et j’aurais voulu ne me rendre, et ne céder qu’à l’attrait, qu’à la certitude de vous plaire et d’être aimée. Avant notre mariage, vous m’aviez fait croire à l’amour, et je n’ai vu que l’hymen avec son joug ; vous l’orniez de fleurs, mais je sentais toujours son poids ; mon cœur demandait encore du sentiment, et vous en étiez déjà à l’habitude. »"
+       },
+       {
+        "id": 86,
+        "name": "La voix de Madame Henley : le poids de la raison",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "« Ce fut bien pis, quand j’osai avoir une volonté : elle ne fut pour vous qu’une fantaisie que vous écrasâtes du poids de votre raison. Je vous avouerai, mon cher ami, que rien ne m’a autant incommodé que votre raison ; j’en reconnaissais la force et l’autorité, mais elle m’inspirait une envie secrète d’y résister ; je sentais la rébellion au fond de mon cœur, cependant jamais vous ne vous ne êtes aperçu ; votre bonheur était pour moi un objet que je ne perdais point de vue, c’était un spectacle dont mon âme voulait toujours jouir : vous n’avez jamais fait trop d’attention à ma sensibilité, et lorsque vous l’avez rencontrée, vous l’avez traitée de faiblesse et de folie : on dit que c’est une chose que les maris ne voient jamais. »"
+       },
+       {
+        "id": 87,
+        "name": "La voix de Madame Henley : le bonheur raisonné",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "« Sans me consulter, vous aviez arrangé méthodiquement ce qui devait faire mon bonheur : suivant l’exacte raison vous deviez réussir ; mais avec nos cœurs, mais avec notre amour-propre, la raison n’a pas toujours raison, et avec eux les nuances sont souvent plus fortes que le fond. Mes plaintes, mes murmures secrets me paraissaient d’autant plus justes, que votre femme ne demandait pas des sacrifices : je ne pouvais pas former des accusations, vous aviez des vertus, et je n’étais pas heureuse ; je faisais votre bonheur, et je n’étais pas contente : c’est tout ce que je pouvais dire ; j’accusais mon caractère de cette contradiction. »"
+       },
+       {
+        "id": 88,
+        "name": "La voix de Madame Henley : la Lettre",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la conjugalité",
+        "texte": "« Mais ne vous reprochez rien, c’est moi seule qui suis cause de tout : ce qui avait précédé cette lettre, l’effort que je fis pour l’écrire, l’émotion qu’elle me donna, et dans laquelle je restai en attendant l’effet qu’elle ferait sur vous, tout cela me fit éprouver un déchirement et une anxiété intérieure qui tenait à ma vie et qui en décida ; je le sentis parfaitement, et je regardai cela comme un avertissement du sort qui m’attendait. Depuis lors je n’en ai plus douté, tous mes soins se sont portés sur la vie de mon enfant ; je jugeai par ce que j’éprouvais, que je n’aurais pas la force de soutenir les suites de sa naissance ; je me trouve heureuse d’avoir pu le sauver, je crois qu’il vivra, je n’en demande pas davantage. »"
+       },
+       {
+        "id": 89,
+        "name": "La voix de Madame Henley : l'éducation des filles",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« Je vous parlais de l’éducation que l’on nous donne ; vous avez une fille, vous avez une nièce, c’est peut-être de vous que vont dépendre leurs caractères, leur bonheur, celui des autres, enfin, toute leur vie ; jamais je n’ai vu la vérité d’aussi près, elle peut vous être utile ; peut-être qu’avec une autre… »"
+       },
+       {
+        "id": 90,
+        "name": "La voix de Madame Henley : (s')éduquer",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« Lorsque vous prîtes votre nièce auprès de vous, vous la confiâtes à mes soins ; je m’intéressai vivement à cet enfant, qui venait de perdre si malheureusement son père et sa mère : sa physionomie douce me toucha ; elle est très-jolie, et je crois avoir démêlé dans ses traits tout ce qu’elle peut être un jour, c’est-à-dire, tout ce que peut être une jolie femme, et c’est bien des choses. Je crus que j’en devenais responsable, je résolus de m’attacher à son éducation, et je commençai par m’instruire. Je lus <i>Emile et Sophie<\/i>, j’étudiai <i>Loke et Rollin<\/i>, mais en secret de peur d’avoir l’air de vouloir être savante. Je me rappelai surtout la manière dont j’avais été élevée, et ce que j’avais pu apercevoir de l’éducation de mes amies. Je ne fus contente ni de mes lectures, ni de mes observations ; il me semble que rien n’est assez près de l’humanité ; les auteurs ont des tableaux, l’application est difficile, et le plus souvent impossible. Le meilleur livre vous laisse dans l’embarras de choisir et d’employer ou les apparences, ou les faussetés, ou la simple vérité ; on n'ose la montrer ni dans ce qu’on défend, ni dans ce qu’on permet ; l’exagération est presque partout, la justesse n’est jamais dans les mots, et rarement dans les idées. Lorsque je commençai à voir et à juger par moi-même, je ne reconnus aucun des objets que l’on m’avait dépeints ; on m’avait parlé du monde dont je devais me défier, des plaisirs dont il fallait me défendre, et le plus souvent les uns me fuyaient, et l’autre ne me flattait point ; à chaque instant mes peines étaient perdues et mes espérances trompées, ce qui fit naître dans mon âme une mélancolie qui me donnait du dégoût, même pour ce que j’avais désiré le plus vivement. Je sentais que j’étais dans l’erreur, et je ne pouvais en sortir. Je m’attendais à un bonheur plus réel dans le mariage ; je l’avais regardé comme la félicité suprême, parce qu’on en avait fait l’objet de mon ambition, mais enfin trompée sur tout, par mon imagination, j’ai vu que les objets m’avaient été mal présentés. Je m’en tins à cette découverte dans chercher ni vengeance, ni dédommagement ; j’avais trop exigé, je ne m’attendis plus à rien. »"
+       },
+       {
+        "id": 91,
+        "name": "La voix de Madame Henley : éduquer pour le mariage",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« <i>Rousseau<\/i> lui-même, <i>Rousseau<\/i>, l’ange bienfaiteur des enfants, a peu pensé au caractère de <i>Sophie<\/i> ; il ne parle ni de sa sensibilité, ni de son ambition, ni de ses droits ; tout est confondu dans le bonheur de son mari ; c’est un esclave qu’on élève pour son maître ; son seul objet doit être de plaire et d’inspirer le désir. »"
+       },
+       {
+        "id": 94,
+        "name": "La voix de Madame Henley : les femmes et le savoir",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« De malheureuses leçons de fables, de géographie, d’histoire n’occuperont point uniquement son esprit et sa raison ; l’ennui qu’elles prieront ne me trompera point sur leur utilité : de longtemps même je ne vois le moment de parler de logique et de physique ; j’aime mieux une raison sans cesse en activité, que l’esprit le plus cultivé ; et ce ne sont pas les sciences qui garantissent les femmes des ridicules, des préjugés et de veines prétentions ; je voudrais attendre le tems de chaque chose, et suivre une certaine uniformité qui ne trompât jamais sur ce qui doit suivre. »"
+       },
+       {
+        "id": 95,
+        "name": "La voix de Madame Henley : le \"choix\" du mari",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« J’avoue que je plains le pauvre homme surtout lorsqu’on dit à <i>Sophie<\/i> qu’elle peut choisir sur tous les hommes, et qu’il n’y en a point qui ne se trouve honoré de l’obtenir. Ici la vérité manque absolument : où est la fille qui peut choisir son mari ? Le sort l’amène, les circonstances décident, et le reste est donné au hasard. Il semble que partout, même dans les livres faits pour nous instruire, on veuille nous envelopper de prestiges et d’illusions ; je voudrais en garantir votre nièce, et c’est sur cette intention que j’avais tracé mon plan dont la base était de lui montrer toujours la vérité. »"
+       },
+       {
+        "id": 96,
+        "name": "La voix de Madame Henley : l'éducation appliquée",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "« Un jour la femme-de-chambre parut au désespoir d’avoir cassé une porcelaine ; la petite voulut la consoler, en disant que sa tante était si bonne, qu’elle ne gronderait pas ; c’est précisément parce qu’elle est bonne, lui répondit-on, qu’il ne faut pas lui faire des chagrins, et je vais vendre mes habits pour acheter une autre porcelaine. Vendre vos habits, ma bonne ! et l’on regardait une croix d’or que j’avais donné la veille, et qui avait fait un plaisir très vif. Oui, vendre mes habits, mes chemises ; répondit la domestique, j’aime mieux ne rien avoir que de faire de la peine à une si bonne maîtresse ; et elle se mit en devoir de chercher ses hardes. L’enfant tenait la croix, la regardait, ne disait rien : enfin, la vertu l’emporta ; ma bonne, si nous vendions ma croix, elle est d’or ? L’offre fut acceptée avec joie et reconnaissance ; car, pour favoriser la bienfaisance, il faut faire jouir du plaisir qu’elle cause. L’enfant fut avec la femme-de-chambre chez l’orfèvre, de là chez le marchand de porcelaine, et le vase fut remplacé. La domestique exalta son bonheur d’avoir pu éviter un chagrin à sa maîtresse. Cette comédie était un essai sur lequel je devais juger de l’effet de ce qui avait précédé ; je crois que la plus petite action vaut mieux que la plus grande leçon. »"
+       },
+       {
+        "id": 97,
+        "name": "La voix de Madame Henley : les dernières volontés pour les filles",
+        "type": "Justification de M. Henley",
+        "group": "Education & Mariage",
+        "texte": "« Elle me dit du ton de voix le plus touchant : promettez-moi que vous travaillerez à la rendre vraiment heureuse ; que mieux éclairée, mieux formée sur ce qu’elle doit attendre, elle ne mourra pas de chagrin, et qu’elle ne fera pas le malheur de ce qu’elle aimera. Cher petit être ! le Ciel n’a pas voulu… ses larmes abondèrent ; elle ne put continuer. Cependant elle me parut soulagée ; elle devint plus calme. Mon cher mai, me dit-elle avec plus de tranquillité, vous avez une grande tâche, deux filles à élever ; il ne s’agit pas de leur enseigner les sciences, de leur donner des vocations, de leur chercher des fortunes, et de les abandonner à leur caractère et à leur ambition ; elles voudront être heureuses, elles s’en feront un droit, et l’erreur les jettera bien loin du but. Tâchez, sans les tromper, de les élever à être heureuses par leur caractère ; qu’elles ne dépendent point des circonstances ; que le mariage ne soit pas l’objet unique de leur esprit et de leurs vœux ; qu’elles ne se contentent pas de n’avoir pour tout mérite que ce qu’on appelle vertu chez les femmes ; qu’elles aient dans l’âme, dans le caractère, ce qui inspire l’estime, l’intérêt, l’attachement : se faire aimer de tout ce qui nous approche, de tout ce qui nous environne, est notre vraie félicité ; et on ne l’obtient que par des sacrifices. »"
+       },
+       {
+        "id": 98,
+        "name": "Le mot de la fin",
+        "type": "Justification de M. Henley",
+        "group": "Conflits dans la vie commune",
+        "texte": "Ah ! Mademoiselle, ma douleur sera éternelle."
+       },
+       {
+        "id": 99,
+        "name": "Écho d'Isabelle de Charrière : le tilleul",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Les arbres du voisinage semblaient fleurir pour nous et mes beaux sapins élevaient leurs têtes, comme pour me donner à cette hauteur une verdure qui fût à portée de mes yeux. Mon tilleul se garnit. Les oiseaux négligent un peu mon chanvre. Ils trouvent à se nourrir et à s'amuser ailleurs."
+       },
+       {
+        "id": 100,
+        "name": "Écho d'Isabelle de Charrière : adieux",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "FIN",
+        "texte": "Adieu, mon charmant lecteur, mon bien-aimé public, perle des publics, le plus doux, le plus judicieux, <i>and of all the publics since Athens and Rome down to our times, that which I wish more to please<\/i>."
+       },
+       {
+        "id": 101,
+        "name": "Écho d'Isabelle de Charrière : La Fontaine",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Le propre d'un vrai talent c'est d'être en quelque sorte exclusif. Herschel donnant des leçons de musique en savant musicien ne les donnait pas en homme qui aime son métier, et dès qu'il se sentait un peu à son aise, un peu animé, il parlait à ses écolières du ciel et des étoiles. On dit que Corneille laissait brûler sa maison disant qu'il ne se mêlait pas des affaires du ménage. Vous savez les simplicités de La Fontaine.<p>[…]<p>Ne vous forcez donc pas à être ce que vous n'êtes pas et suivez, chère Isabelle, vos beaux et heureux penchants. Adieu."
+       },
+       {
+        "id": 102,
+        "name": "Écho d'Isabelle de Charrière : genèse",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Je vous dirai que je dédaigne beaucoup d'écrire des lettres depuis que je dicte des livres, qui ont le plus grand succès. Je voudrais qu'il se présentât dans ce moment une occasion de vous envoyer les <i>Lettres Neuchâteloises<\/i> dont il a paru une nouvelle édition il y a quinze jours, et les <i>Lettres de Mistriss Henley<\/i> que l'on vend ici depuis avant-hier. J'y joindrais un livre qui n'est pas de moi et qui a donné lieu à ces dernières, intitulé <i>Le Mari sentimental<i>. Je serais sûre de vous amuser."
+       },
+       {
+        "id": 103,
+        "name": "Écho d'Isabelle de Charrière : réception",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Mrs Henley est charmant, nous en sommes tous enchantés, c'est-à-dire ceux que j'ai nommés ci-dessus. J'ai aussi <i>Le Mari sentimental<\/i>, mais quelle horreur que le fond de l'histoire soit vrai et cette vilaine femme existe. Nous trouvons, M. de Guiffardière et moi, que vous vous êtes peinte vous-même à quelques égards."
+       },
+       {
+        "id": 104,
+        "name": "Écho d'Isabelle de Charrière : dangers",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Voici une note du dernier journal de M. Chaillet : « Avez-vous lu de certaines <i>Lettres de Mrs Henley publiées par son amie<\/i>, beaucoup mieux écrites à mon gré que <i>Le Mari sentimental<\/i>, auquel elles servent en quelque sorte de réponse ? Je ne sais si je ne parlerai point quelque jour de cet aimable, cruel petit livre excellent en littérature, mais selon moi dangereux en morale à divers égards ». "
+       },
+       {
+        "id": 105,
+        "name": "Écho d'Isabelle de Charrière : sentimentalité",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Le professeur Mallet est parti mardi pour Plombières. Il n'a pas voulu que sa femme l'accompagnât et il paraît que cela lui a fait de la peine. Je ne crois pas ce mariage fort <i>sentimental<\/i>. Je ne sais s'il en sera plus heureux. »"
+       },
+       {
+        "id": 106,
+        "name": "Écho d'Isabelle de Charrière : genèse",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "J'étais allée à Genève, après avoir donné à un imprimeur bourreaudeur de Lausanne les Lettres neuchâteloises, et je dus les faire réimprimer. Le <i>Mari sentimental<\/i> occupait les Genevois. Une femme dont le mari venait de se tuer jetait les hauts cris ; l'auteur déclara n'avoir pas pensé à elle ni à son mari ; personne ne le crut ; mais la dame se calma. J'écrivis <i>Mrs Henley<\/i>, qui causa un schisme dans la société de Genève. Tous les maris étaient pour Monsieur Henley ; beaucoup de femmes pour Madame ; et les jeunes filles n'osaient dire ce qu'elles en pensaient. Jamais personnages fictifs n'eurent autant l'air d'être existants, et l'on me demandait des explications, comme si je les eusse connus ailleurs que sur mon papier. J'ai entendu des gens très polis se dire des injures à leur sujet. J'en fus quelquefois embarrassée... "
+       },
+       {
+        "id": 107,
+        "name": "Écho d'Isabelle de Charrière : effet",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Campagne : espoirs et aliénation",
+        "texte": "[...] un M. Pictet dont je vous ai parlé, à qui j'avais prêté les <i>Lettres de Mrs Henley<\/i> et qui s'est procuré celles de Lausanne m'a écrit hier dans les transports de son admiration pour vos ouvrages. Mrs Henley, dit-il, avait fait germer chez lui quelques idées dont il imaginait que la tranquillité de la campagne lui permettrait de tirer parti: « Mais après y avoir réfléchi, après avoir lu surtout les Lettres de Lausanne, j'ai senti combien il était dangereux de prétendre se mettre à côté de Mme de Charrière, et rentrant sagement dans ma sphère je me suis contenté de faire de ses intéressantes productions mes compagnons assidus. Elles ne m'ont pas quitté dans mes promenades et plus je les ai lues plus je les ai méditées, plus j'ai trouvé de raison de les admirer ». Quand M. Pictet serait dépourvu de tout mérite, il faudrait bien que je l'aimasse, puisqu'il a celui de savoir vous apprécier."
+       },
+       {
+        "id": 108,
+        "name": "Écho d'Isabelle de Charrière : appel à texte",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Puisque Mistriss Henley n'est point morte, ne serait-il pas possible de savoir ce qu'elle devient, vous en saurez bien quelque chose, comme de Cécile. Voulez-vous qu'elle soit toujours dans cette désagréable situation vis-à-vis de son mari, ou qu'elle devienne une fois une personne digne de son approbation ?"
+       },
+       {
+        "id": 109,
+        "name": "Écho d'Isabelle de Charrière : la Justification",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "Je ne sais pas trop quelle espèce de chose peut être la <i>Justification de M. Henley<\/i>. Il me semble que la manière dont on l'avait représenté était tellement à son avantage qu'il n'avait aucun besoin d'être justifié. Moi, si j'avais voulu me mêler d'écrire, ç'aurait été pour justifier Madame qui, à ce que je trouve, ne s'est pas fait voir du beau côté comme elle l'aurait pu, sans faire tort à la vérité. On a précisément mis l'un dans tout son beau et l'autre dans tout son laid. Mais je n'en veux pas plus de mal à l'auteur pour cela. Je vous prie de l'en remercier et de l'embrasser mille fois pour le plaisir qu'il m'a donné."
+       },
+       {
+        "id": 110,
+        "name": "Écho d'Isabelle de Charrière : édition pirate",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Henley, Mari, Justification",
+        "texte": "M. Bailly libraire vendait Mrs Henley, auquel on avait joint, outre <i>Le Mari sentimental<\/i>, une misérable suite de ma brochure, qui en était la critique, plus ennuyeuse encore qu'offensante, et les journaux s'étonnèrent de ce que les deux parties d'un même ouvrage se ressemblaient si peu."
+       },
+       {
+        "id": 111,
+        "name": "Écho d'Isabelle de Charrière : angola",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Je suis assez bien avec mon père et j'ai un angola et une levrette qui après Madame d'Athlone sont mes amours les plus chères et mes plus grands délices."
+       },
+       {
+        "id": 112,
+        "name": "Écho d'Isabelle de Charrière : angola",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Bonne nuit, je me suis endormie en parlant de moi, j'ai sur mes genoux un angola qui file, et mon chien m'attend sur mon lit. Je ne donnerais pas sa place au Lord proscrit. Je m'endors, il faut me coucher. Adieu. Je n'ai point l'âme forte."
+       },
+       {
+        "id": 113,
+        "name": "Écho d'Isabelle de Charrière : les maris brutaux",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Conflits dans la conjugalité",
+        "texte": "L'article de l'humeur est presque aussi important que celui de la vertu. Non, il l'est davantage : une femme galante est plus supportable qu'une femme acariâtre et j'aimerais beaucoup mieux un mari infidèle qu'un mari boudeur ou brutal. Je ne suis certainement pas méchante, ni grondeuse, ni difficile, ni capricieuse. Cependant je ne suis point égale ; ces organes si délicats, ce sang si bouillant, ces sensations si vives rendent ma santé et mes esprits susceptibles de changements que je n'ai jamais vu si grands, si rapides, si étranges dans qui que ce soit. Si on ne me reconnaissait à mon cœur et à mon visage, on pourrait d'un moment à l'autre me prendre pour deux personnes différentes, pour six personnes quelquefois dans le cours d'une journée. Tout a droit de m'affecter ; pas un moment dans la vie ne m'est indifférent, tous mes moments sont heureux ou malheureux, ils sont tous quelque chose. Pourvu que je ne sois jamais injuste, jamais aigre, jamais emportée, me pardonnera-t-il de l'étourdir quelquefois à force de paroles, d'être quelquefois des heures sans parler ? De m'abandonner quelquefois pour un rien à une gaité immodérée, de pleurer quelquefois sans en savoir presque la raison ? Les vapeurs que me donne l'inaction, les vapeurs que j'ai d'épuisement quand je me suis trop occupée ne me rendront-elles pas ridicule et insupportable ? Je puis bien me faire violence, faire taire mes joies et rire dans le chagrin; mais c'est avec des étrangers que l'on se gêne à ce point, plutôt qu'avec un mari que l'on aime.<p>Au reste quand je l'étourdirais, il n'aurait qu'à m'imposer silence, quand je lui romprais la tête d'un air, d'un livre, d'un ton, d'un rien, il n'aurait qu'à se moquer de moi et me laisser seule m'amuser de ma folie. Tantôt musicienne, tantôt géomètre, tantôt soi-disant poète, tantôt femme frivole, tantôt femme passionnée, tantôt froide et paisible philosophe, peut-être aussi que cette diversité lui plairait ; je suis bien sûre du moins que je ne l'ennuierais pas, qu'il ne se lasserait pas de moi, et pour le fond de mon cœur il le trouverait tous les jours le même: mes impatiences sont rares et courtes, la colère je ne la connais presque pas, je suis douce et patiente quand je souffre, quand je pleure, je ne gronde point."
+       },
+       {
+        "id": 114,
+        "name": "Écho d'Isabelle de Charrière : les trésors du marquis",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Si le marquis avait des trésors, il est bien sûr que je ne ferais pas tout ce que je ferai à présent pour l'épouser, mes motifs paraîtraient équivoques et peut-être qu'on mépriserait mes empressements."
+       },
+       {
+        "id": 116,
+        "name": "Écho d'Isabelle de Charrière : la campagne anglaise",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Je serais charmée de vivre libre et à la campagne en Angleterre, et je pourrais m'en croire sur ce choix, parce qu'il ne s'y mêle point d'enthousiasme. Le local est charmant et quand on n'est pas plus vain qu'une personne raisonnable ne doit l'être, et qu'on peut vivre à peu près seule avec ses pensées et des livres, on serait fort bien au bord de la Tamise. J'ai admiré en Savoie et à Genève des vues encore plus pittoresques, plus romanesques qu'en Angleterre, mais je n'avais jamais vu la nature si riante ni si bien embellie. Le peuple y est riche, les ouvrages publics sont admirables, les voyages y sont faciles. Les gens n'y sont pas extrêmement sociables, ils sont réservés et selfish, on pourrait avoir du mérite et n'être pourtant pas fort recherché, tant mieux peut-être."
+       },
+       {
+        "id": 118,
+        "name": "Écho d'Isabelle de Charrière : la campagne désolée",
+        "type": "Correspondance d'Isabelle de Charrière",
+        "group": "Charrière & Henley",
+        "texte": "Ce soir il me vient une provision de postes de Londres. Tout fait événement pour des gens enfermés à la campagne, qui ne voient que des arbres sans feuilles, qui n'entendent que vents d'automne. Je reçois beaucoup de lettres et je m'ennuie moins qu'une autre ne ferait peut-être à ma place. D'ailleurs, ce serait une honte de se plaindre quand vous souffrez mille fois plus, mais vous acquérez des lauriers, je n'acquiers rien, et malgré toutes les meilleures intentions, j'importune et j'impatiente mon père et ma mère plus souvent que je ne les satisfais. Cependant, quel autre sentiment que celui d'amour filial fait des tentatives pour entrer dans mon cœur dans cette solitude? Aucun! Et quand ce sentiment est désappointé, mon cœur se sent aussi aride que cette campagne dépouillée."
+       }
+        ],
+        
+        "links": [
+      
+          {
+            "source": 1,
+            "target": 2
+          },
+          {
+            "source": 1,
+            "target": 101
+          },
+          {
+            "source": 1,
+            "target": 104
+          },
+          {
+            "source": 2,
+            "target": 3
+          },
+          {
+           "source": 2,
+           "target": 68
+         },
+         {
+           "source": 2,
+           "target": 105
+         },
+         {
+           "source": 3,
+           "target": 4
+         },
+         {
+           "source": 3,
+           "target": 27
+         },
+         {
+           "source": 3,
+           "target": 28
+         },
+         {
+           "source": 3,
+           "target": 45
+         },{
+           "source": 3,
+           "target": 65
+         },
+         {
+           "source": 3,
+           "target": 69
+         },
+         {
+           "source": 4,
+           "target": 5
+         },
+         {
+           "source": 4,
+           "target": 48
+         }, {
+           "source": 4,
+           "target": 62
+         },
+         {
+           "source": 5,
+           "target": 6
+         },
+         {
+           "source": 5,
+           "target": 35
+         },
+         {
+           "source": 5,
+           "target": 67
+         },
+         {
+           "source": 5,
+           "target": 66
+         },
+         {
+           "source": 6,
+           "target": 7
+         },
+         {
+           "source": 6,
+           "target": 95
+         },
+ 
+         {
+           "source": 6,
+           "target": 30
+         },
+ 
+         {
+           "source": 6,
+           "target": 37 
+         },
+         {
+          "source": 6,
+          "target": 90
+        },
+         {
+           "source": 6,
+           "target": 95
+         },
+ 
+         {
+           "source": 6,
+           "target": 95
+         },
+         {
+           "source": 7,
+           "target": 8
+         },
+         {
+           "source": 7,
+           "target": 70
+         },
+         {
+           "source": 7,
+           "target": 72
+         },
+         {
+           "source": 7,
+           "target": 107
+         },
+         {
+           "source": 7,
+           "target": 42
+         },
+         {
+           "source": 7,
+           "target": 114
+         },
+         {
+           "source": 8,
+           "target": 9
+         },
+         {
+           "source": 8,
+           "target": 33
+         },
+         {
+           "source": 8,
+           "target": 90
+         },
+         {
+           "source": 8,
+           "target": 38
+         },
+         {
+           "source": 9,
+           "target": 10
+         },
+         {
+           "source": 9,
+           "target": 116
+         },{
+           "source": 9,
+           "target": 39
+         },{
+           "source": 9,
+           "target": 118
+         },{
+           "source": 9,
+           "target": 40
+         },
+         {
+           "source": 10,
+           "target": 11
+         },
+         {
+          "source": 10,
+          "target": 74
+        },
+         {
+           "source": 10,
+           "target": 91
+         },
+         {
+           "source": 10,
+           "target": 101
+         },
+         {
+           "source": 10,
+           "target": 94
+         },
+         {
+           "source": 10,
+           "target": 90
+         },
+         {
+           "source": 10,
+           "target": 89
+         },
+         {
+           "source": 10,
+           "target": 34
+         },
+         {
+           "source": 11,
+           "target": 12
+         },
+         {
+           "source": 11,
+           "target": 56
+         },{
+           "source": 11,
+           "target": 54
+         },
+         {
+           "source": 12,
+           "target": 13
+         },
+         {
+           "source": 12,
+           "target": 111
+         },
+         {
+           "source": 12,
+           "target": 44
+         },
+         {
+           "source": 12,
+           "target": 31
+         },
+         {
+           "source": 12,
+           "target": 112
+         },
+         {
+           "source": 12,
+           "target": 50
+         },
+         {
+           "source": 12,
+           "target": 32
+         },
+         {
+           "source": 12,
+           "target": 71
+         },
+         {
+           "source": 12,
+           "target": 53
+         },
+         {
+           "source": 12,
+           "target": 58
+         },
+         {
+           "source": 12,
+           "target": 60
+         },
+         {
+           "source": 12,
+           "target": 86
+         },
+         {
+           "source": 12,
+           "target": 55
+         },
+         {
+           "source": 13,
+           "target": 14
+         },
+         {
+           "source": 13,
+           "target": 49
+         },
+         {
+           "source": 14,
+           "target": 15
+         },
+         {
+           "source": 14,
+           "target": 85
+         },
+         {
+           "source": 14,
+           "target": 43
+         },
+         {
+           "source": 15,
+           "target": 16
+         },
+         {
+           "source": 15,
+           "target": 85
+         },
+         {
+           "source": 16,
+           "target": 17
+         },
+         {
+           "source": 17,
+           "target": 18
+         },
+         {
+           "source": 17,
+           "target": 57
+         },
+         {
+           "source": 17,
+           "target": 52
+         },
+         {
+           "source": 18,
+           "target": 19
+         },
+         {
+           "source": 18,
+           "target": 29
+         },
+         {
+           "source": 19,
+           "target": 20 
+         },
+         {
+           "source": 19,
+           "target": 36
+         },
+         {
+           "source": 19,
+           "target": 75
+         },
+         {
+           "source": 19,
+           "target": 76
+         },
+         {
+           "source": 19,
+           "target": 77 
+         },
+         {
+           "source": 20,
+           "target": 21
+         },
+         {
+           "source": 20,
+           "target": 84
+         },
+         {
+           "source": 20,
+           "target": 78
+         },
+         {
+           "source": 20,
+           "target": 113
+         },
+         {
+           "source": 20,
+           "target": 96
+         },
+         {
+           "source": 21,
+           "target": 22
+         },
+         {
+           "source": 21,
+           "target": 81
+         },
+         {
+           "source": 21,
+           "target": 85
+         },
+         {
+           "source": 21,
+           "target": 86
+         },
+         {
+           "source": 21,
+           "target": 87
+         },
+         {
+           "source": 21,
+           "target": 52
+         },
+         {
+          "source": 21,
+          "target": 97
+        },
+         {
+           "source": 21,
+           "target": 90
+         },
+         {
+           "source": 21,
+           "target": 99
+         },
+         {
+           "source": 22,
+           "target": 23
+         },
+         {
+           "source": 22,
+           "target": 118
+         },
+         {
+           "source": 23,
+           "target": 24
+         },
+         {
+           "source": 24,
+           "target": 25
+         },
+         {
+           "source": 24,
+           "target": 86
+         },
+         {
+           "source": 24,
+           "target": 83
+         },
+         {
+           "source": 25,
+           "target": 26
+         },
+         {
+            "source": 25,
+            "target": 105
+          },
+         {
+           "source": 26,
+           "target": 46
+         },
+         {
+           "source": 26,
+           "target": 88
+         },
+         {
+           "source": 26,
+           "target": 108
+         },
+         {
+           "source": 26,
+           "target": 98
+         },
+         {
+           "source": 26,
+           "target": 100
+         },
+         {
+          "source": 26,
+          "target": 108
+        },
+         {
+           "source": 27,
+           "target": 58
+         },
+         {
+           "source": 27,
+           "target": 28
+         },
+         {
+            "source": 27,
+            "target": 111
+          },
+         {
+           "source": 28,
+           "target": 54
+         },
+         {
+           "source": 28,
+           "target": 56
+         },
+         {
+           "source": 29,
+           "target": 45
+         },
+         {
+           "source": 31,
+           "target": 59
+         },
+         {
+           "source": 32,
+           "target": 33
+         },
+         {
+           "source": 34,
+           "target": 61
+         },
+         {
+           "source": 42,
+           "target": 46
+         },
+         {
+           "source": 42,
+           "target": 86
+         },
+         {
+           "source": 45,
+           "target": 46
+         },
+         {
+           "source": 45,
+           "target": 48
+         },
+         {
+           "source": 45,
+           "target": 85
+         },
+         {
+           "source": 46,
+           "target": 86
+         },
+         {
+           "source": 48,
+           "target": 94
+         },
+         {
+           "source": 50,
+           "target": 53
+         },
+         {
+           "source": 53,
+           "target": 80
+         },
+         {
+           "source": 53,
+           "target": 54
+         },
+         {
+           "source": 54,
+           "target": 56
+         },
+         {
+           "source": 55,
+           "target": 58
+         },
+         {
+           "source": 56,
+           "target": 96
+         },
+         {
+           "source": 56,
+           "target": 57
+         },
+         {
+           "source": 58,
+           "target": 60
+         },
+         {
+          "source": 59,
+          "target": 22
+        },
+         {
+          "source": 61,
+          "target": 78
+        },
+         {
+           "source": 62,
+           "target": 63
+         },
+         {
+           "source": 63,
+           "target": 64
+         },
+         {
+           "source": 64,
+           "target": 100
+         },
+         {
+            "source": 65,
+            "target": 110
+          },
+          {
+            "source": 66,
+            "target": 109
+          },
+         {
+           "source": 67,
+           "target": 23
+         },
+         {
+           "source": 68,
+           "target": 27
+         },
+         {
+           "source": 68,
+           "target": 62
+         },
+         {
+           "source": 69,
+           "target": 12
+         },
+         {
+          "source": 70,
+          "target": 72
+        },
+         {
+          "source": 72,
+          "target": 74
+        },
+        {
+          "source": 74,
+          "target": 91
+        },
+         {
+           "source": 75,
+           "target": 76
+         },
+         {
+           "source": 76,
+           "target": 77
+         },
+         {
+          "source": 77,
+          "target": 78
+        },
+         {
+           "source": 78,
+           "target": 84
+         },
+         {
+           "source": 81,
+           "target": 48
+         },
+         {
+          "source": 81,
+          "target": 62
+        },
+         {
+           "source": 82,
+           "target": 81
+         },
+         {
+          "source": 84,
+          "target": 86
+        },
+
+         {
+           "source": 88,
+           "target": 83
+         },
+         {
+           "source": 90,
+           "target": 91
+         },
+         {
+          "source": 90,
+          "target": 95
+        },
+         {
+          "source": 91,
+          "target": 95
+        },
+        {
+          "source": 94,
+          "target": 96
+        },
+         {
+          "source": 96,
+          "target": 74
+        },
+         {
+           "source": 98,
+           "target": 64
+         },
+         {
+           "source": 98,
+           "target": 100
+         },
+         {
+            "source": 102,
+            "target": 103
+          },
+          {
+            "source": 104,
+            "target": 102
+          },
+          {
+            "source": 106,
+            "target": 108
+          },
+          {
+            "source": 113,
+            "target": 87
+          },
+         {
+            "source": 116,
+            "target": 48
+          }
+
+        ]}
+      }
+        
+    
