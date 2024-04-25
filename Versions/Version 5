@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation Force-Directed Graph</title>
+    <style>
+        /* Définir la couleur de fond du corps */
+        body {
+            background-color: #000000; /* Noir */
+            color: #ffffff; /* Blanc pour le texte, pour un meilleur contraste */
+            margin: 0; /* Supprimer les marges par défaut */
+            padding: 0; /* Supprimer les espacements internes par défaut */
+        }
+        .search-bar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+        }
+        .side-panel {
+            /* Définissez le style de votre panneau latéral ici */
+            background-color: #31688e;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .node-link {
+            color: #00ffff; /*Même couleur que la sélection du noeud en cours : texte principal*/
+            font-weight: bold; 
+            text-decoration: none;
+        }
+        .overlay-link {
+            color: #DA47FF; /*Même couleur que la sélection du noeud en cours : fragments*/
+            font-weight: bold; 
+            text-decoration: none;
+                }
+        .overlay-container {
+            position: fixed;
+            right: 300px; /* positionné à 20 pixels du bord droit de la fenêtre */
+            top: 50%; /* centré verticalement */
+            transform: translateY(-50%); /* déplacer de -50% de sa propre hauteur */
+            width: 30%;
+            height: 80%;
+            padding: 10px;
+            background-color: #5D328F;
+            opacity: 0.8;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: none; /* Par défaut, l'overlay est caché */
+            z-index: 1000; /* Assurez-vous que l'overlay est au-dessus du reste du contenu */
+            justify-content: center; /* Centrez le contenu horizontalement */
+            align-items: center; /* Centrez le contenu verticalement */
+            border-radius: 10px;
+        }
+
+        .yellow-node {
+            fill: #FFFF00; /* Jaune */
+        }
+        .green-node {
+            fill: green; /* vert */
+        }
+        /* CSS pour le bouton de fermeture de l'overlay */
+    .close-button {
+        background-color: #11232E; /* Couleur de fond du bouton */
+        color: #ffffff; /* Couleur du texte */
+        border: none; /* Supprimer la bordure */
+        padding: 8px 12px; /* Ajouter un espacement intérieur */
+        cursor: pointer; /* Curseur de type pointer pour indiquer que c'est un élément cliquable */
+        border-radius: 5px; /* Ajouter des coins arrondis */
+        font-size: 14px; /* Taille de police */
+        margin-top: 10px; /* Ajouter un espacement en haut du bouton */
+    }
+        
+        
+    </style>
+    <!-- Charger la bibliothèque D3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <!-- Charger la bibliothèque D3-force -->
+    <script src="https://d3js.org/d3-force.v2.min.js"></script>
+</head>
+<body>
+    <!-- Conteneur de la visualisation -->
+    <div id="vis"></div>
+    <!-- Barre de recherche -->
+    <div class="search-bar">
+        <select id="group-select">
+            <option value="" selected disabled>Sélectionner un parcours</option>
+            <!-- Options des groupes seront ajoutées dynamiquement ici -->
+        </select>
+    </div>
+    <div id="texte"></div>
+    <div class="overlay-container">
+        <!-- Contenu de l'overlay -->
+        <div id="overlayContent"></div>
+    </div>
+    
+
+    <script>
+        // Calculer la largeur du SVG en tenant compte du side panel
+        const svgWidth = window.innerWidth * 0.7; // Utilisez 80% de la largeur de la fenêtre pour le SVG
+        const svgHeight = window.innerHeight; // Hauteur du SVG
+        // Créer le conteneur SVG avec la largeur calculée
+        const svg = d3.select("#vis")
+            .append("svg")
+            .attr("width", svgWidth)
+            .attr("height", svgHeight);
+
+        // Déclaration de la variable simulation en dehors de la fonction then
+        let simulation;
+
+        // Charger les données JSON
+        d3.json("fragments3.json")
+            .then(data => {
+                const nodes = data.data.nodes;
+                const links = data.data.links;
+
+                // Récupérer les groupes uniques de noeuds
+                const nodeGroups = Array.from(new Set(nodes.map(d => d.group)));
+                const nodeTypes = Array.from(new Set(nodes.map(d => d.type)));
+                const nodeText = Array.from(new Set(nodes.map(d => d.texte)));
+
+                // Définir vos propres couleurs
+                //couleur pour le noeud sélectionné : 00ffff
+                const customColors = ["#B759E3", "#1eaeb8", "#1a5678", "#870E85"];
+
+                // Créer une fonction pour associer les couleurs aux types de nœuds
+                const colorScale = d3.scaleOrdinal()
+                .domain(nodeTypes)
+                .range(customColors);
+
+                    // Créer une nouvelle fenêtre ou div pour afficher le texte
+                    //texte color à créer : #69F7FF ? --> même couleur que le border
+                    var sidePanel = d3.select("body").append("div")
+                        .attr("class", "side-panel")
+                        .style("right", "20px") // positionné au bord droit de la fenêtre
+                        .style("top", "50%") // centré verticalement
+                        .style("transform", "translateY(-50%)") // déplacer de -50% de sa propre hauteur
+                        .style("position", "fixed") // positionnement fixe pour rester en place lors du défilement
+                        .style("background-color", "#11232E")
+                        .style("padding", "10px")
+                        .style("border", "none")
+                        .style("height", "70%") // 60% de la hauteur de la fenêtre
+                        .style("width", "30%") // 20% de la largeur de la fenêtre
+                        .style("overflow-y", "auto"); // activer le défilement vertical si nécessaire
+    // Afficher automatiquement le texte du nœud avec l'ID 1 dans le side-panel
+const defaultNodeId = 1;
+const defaultNode = nodes.find(node => node.id === defaultNodeId);
+
+// Afficher le texte du nœud sélectionné dans le sidePanel
+if (defaultNode) {
+    displayNodeText(defaultNode);
+} else {
+    // Afficher un message si aucun nœud avec l'ID 1 n'est trouvé
+    sidePanel.html("<p>Aucun nœud avec l'ID 1 n'a été trouvé.</p>");
+}
+
+function displayNodeText(d) {
+    if (d.texte) {
+        // Remplacer les occurrences de # suivi d'un nombre par des liens normaux
+        const textWithLinks = d.texte.replace(/<a href=\"#(\d+)\">(.+)<\/a>/g, (match, id, label) => {
+            return `<a href="#" class="node-link" data-target-id="${id}">${label}</a>`;
+        });
+
+        // Remplacer les occurrences de #overlay suivi d'un nombre par des liens overlay
+        const textWithOverlayLinks = textWithLinks.replace(/<a href=\"#overlay_(\d+)\">(.+)<\/a>/g, (match, id, label) => {
+            return `<a href="#" class="overlay-link" data-target-id="${id}">${label}</a>`;
+        });
+
+        // Afficher le texte avec les liens dans le side panel
+        sidePanel.html(`<h2>${d.name}</h2><p>${textWithOverlayLinks}</p>`);
+
+       // Fonction pour appliquer la classe yellow-node au nœud correspondant à l'ID spécifié
+       function highlightNodeById(id) {
+    // Supprimer la classe yellow-node de tous les nœuds
+    node.classed("yellow-node", false);
+    // Appliquer la classe yellow-node au nœud correspondant à l'ID spécifié
+    node.filter(d => d.id === id).classed("yellow-node", true);
+}
+
+function highlightNodeByIdOverlay(id) {
+    // Supprimer la classe green-node de tous les nœuds
+    node.classed("green-node", false);
+    // Appliquer la classe green-node au nœud correspondant à l'ID spécifié
+    node.filter(d => d.id === parseInt(id)).classed("green-node", true);
+}
+
+// Attacher un gestionnaire d'événement aux liens normaux
+sidePanel.selectAll('.node-link').on('click', function(event) {
+    const targetId = d3.select(this).attr('data-target-id');
+    const targetNode = nodes.find(node => node.id === parseInt(targetId));
+    if (targetNode) {
+        displayNodeText(targetNode);
+        // Appliquer la classe yellow-node au nœud correspondant à l'ID cible
+        highlightNodeById(targetNode.id);
+    }
+    // Empêcher le comportement par défaut du lien
+    event.preventDefault();
+});
+
+// Attacher un gestionnaire d'événement aux liens overlay
+sidePanel.selectAll('.overlay-link').on('click', function(event) {
+    const targetId = d3.select(this).attr('data-target-id');
+    // Rediriger vers l'ID cible
+    displayNodeOverlay(targetId);
+    // Appliquer la classe green-node au nœud correspondant à l'ID cible pour l'overlay
+    highlightNodeByIdOverlay(targetId);
+    // Empêcher le comportement par défaut du lien
+    event.preventDefault();
+});
+    }}
+
+
+function displayNodeOverlay(id) {
+    // Recherchez l'élément correspondant à l'ID dans vos données
+    const targetNode = nodes.find(node => node.id === parseInt(id));
+    
+    if (targetNode && targetNode.texte) {
+        // Récupérez le texte associé à l'ID
+        const content = targetNode.texte;
+        
+        // Sélectionnez la balise overlay-content
+        const overlayContent = d3.select('#overlayContent');
+            overlayContent.html(content);
+            overlayContent.append('button')
+            .attr('class', 'close-button')
+            .text('Fermer')
+            .on('click', function() {
+                closeOverlay();
+            });
+        
+        // Affichez l'overlay
+        d3.select('.overlay-container').style('display', 'flex');
+    } else {
+        console.error("Aucun contenu trouvé pour l'ID " + id);
+    }
+}
+
+function closeOverlay() { //--> Ajouter une fonction pour que quand on clique fermer, le noeud vert disparaisse.
+    d3.select('.overlay-container').style('display', 'none');
+}
+
+
+
+
+                // Créer une simulation de force
+                simulation = d3.forceSimulation(nodes)
+                    .force("link", d3.forceLink(links).id(d => d.id))
+                    .force("charge", d3.forceManyBody().strength(-50))
+                    .force("center", d3.forceCenter(svgWidth / 2, window.innerHeight / 2))
+                    .force("x", d3.forceX().strength(0.1).x(d => Math.max(0, Math.min(svgWidth, d.x))))
+                    .force("y", d3.forceY().strength(0.1).y(d => Math.max(0, Math.min(window.innerHeight, d.y))))
+                    .alpha(1).restart();
+
+                // Utiliser la fonction pour obtenir la couleur appropriée pour chaque type de nœud
+                const nodeColor = d => colorScale(d.type);
+
+                // Ajouter les liens à l'élément SVG
+                const link = svg.selectAll("line")
+                    .data(links)
+                    .enter().append("line")
+                    .attr("stroke", "#999")
+                    .attr("stroke-opacity", 0.6)
+                    .attr("stroke-width", 1);
+
+                // Déclarer la variable drag en tant que drag behavior
+                const drag = d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended);
+// Ajouter les noeuds à l'élément SVG
+const node = svg.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+    .attr("r", 5)
+    .attr("fill", d => nodeColor(d)) // appliquer la couleur en fonction du type de noeud
+    .classed("popup-link", true)
+    .classed("yellow-node", false) // Assurez-vous que la classe yellow-node est initialement désactivée
+    .classed("yellow-node", d => d.id === 1); // Appliquer la classe 'yellow-node' si l'ID est égal à 1
+
+
+// Ajouter un titre aux noeuds
+node.append("title")
+    .text(d => d.name);
+
+// Gérer les clics sur les nœuds pour ouvrir la fenêtre pop-up
+node.on('click', function(d) {
+    // Empêcher le comportement par défaut du clic sur le nœud
+    d3.event.preventDefault();
+    // Ouvrir une fenêtre pop-up avec le texte du nœud
+    const popupWindow = window.open("", "popupWindow", "width=600,height=400,scrollbars=yes");
+    popupWindow.document.write(`<h2>${d.name}</h2><p>${d.texte}</p>`);
+});
+
+
+
+                // Mettre à jour la position des liens et des noeuds à chaque tick de la simulation
+                simulation.on("tick", () => {
+                    link.attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y);
+
+                    node.attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+                });
+
+                // Remplir la liste déroulante avec les groupes
+                const groupSelect = d3.select("#group-select")
+                .style("background-color", "#11232E")
+                .style("color", "white")
+                .style("border", "none")
+                .style("height", "30px")
+                .style("border-radius", "10px");
+
+                groupSelect.append("option")
+                    .attr("value", "") 
+                    .text("Tous les parcours");
+                groupSelect.selectAll("option.group-option")
+                    .data(nodeGroups)
+                    .enter()
+                    .append("option")
+                    .attr("value", d => d)
+                    .text(d => d);
+
+                // Gérer le changement de sélection dans la liste déroulante
+                groupSelect.on("change", function() {
+                    const selectedGroup = d3.select(this).property("value");
+                    filterNodes(selectedGroup);
+                });
+
+                // Fonction pour filtrer les noeuds en fonction du groupe sélectionné
+                function filterNodes(selectedGroup) {
+    node.attr("opacity", d => (selectedGroup === "" || d.group === selectedGroup) ? 1 : 0.2);
+    link.attr("opacity", d => (selectedGroup === "" || nodes[d.source.index].group === selectedGroup) ? 1 : 0.2);
+    
+}
+
+         
+            });
+
+        // Définir les fonctions pour gérer les événements de "drag"
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = Math.max(0, Math.min(svgWidth, event.x)); // Limiter la coordonnée X à l'intérieur du SVG
+            d.fy = Math.max(0, Math.min(svgHeight, event.y)); // Limiter la coordonnée Y à l'intérieur du SVG
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+</body>
+</html>
