@@ -20,12 +20,60 @@
         }
         .side-panel {
             /* Définissez le style de votre panneau latéral ici */
-            background-color: #21918c;
+            background-color: #31688e;
             padding: 10px;
-            border: 1px solid #31688e;
+            border: none;
             border-radius: 5px;
         }
-</style>
+        .node-link {
+            color: #00ffff; /*Même couleur que la sélection du noeud en cours : texte principal*/
+            font-weight: bold; 
+            text-decoration: none;
+        }
+        .overlay-link {
+            color: #DA47FF; /*Même couleur que la sélection du noeud en cours : fragments*/
+            font-weight: bold; 
+            text-decoration: none;
+                }
+        .overlay-container {
+            position: fixed;
+            right: 300px; /* positionné à 20 pixels du bord droit de la fenêtre */
+            top: 50%; /* centré verticalement */
+            transform: translateY(-50%); /* déplacer de -50% de sa propre hauteur */
+            width: 30%;
+            height: 80%;
+            padding: 10px;
+            background-color: #5D328F;
+            opacity: 0.8;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: none; /* Par défaut, l'overlay est caché */
+            z-index: 1000; /* Assurez-vous que l'overlay est au-dessus du reste du contenu */
+            justify-content: center; /* Centrez le contenu horizontalement */
+            align-items: center; /* Centrez le contenu verticalement */
+            border-radius: 10px;
+        }
+
+        .yellow-node {
+            fill: #FFFF00; /* Jaune */
+        }
+        .green-node {
+            fill: green; /* vert */
+        }
+        /* CSS pour le bouton de fermeture de l'overlay */
+    .close-button {
+        background-color: #11232E; /* Couleur de fond du bouton */
+        color: #ffffff; /* Couleur du texte */
+        border: none; /* Supprimer la bordure */
+        padding: 8px 12px; /* Ajouter un espacement intérieur */
+        cursor: pointer; /* Curseur de type pointer pour indiquer que c'est un élément cliquable */
+        border-radius: 5px; /* Ajouter des coins arrondis */
+        font-size: 14px; /* Taille de police */
+        margin-top: 10px; /* Ajouter un espacement en haut du bouton */
+    }
+        
+        
+    </style>
     <!-- Charger la bibliothèque D3.js -->
     <script src="https://d3js.org/d3.v6.js"></script>
     <!-- Charger la bibliothèque D3-force -->
@@ -33,8 +81,7 @@
 </head>
 <body>
     <!-- Conteneur de la visualisation -->
-    <div id="vis">
-    </div>
+    <div id="vis"></div>
     <!-- Barre de recherche -->
     <div class="search-bar">
         <select id="group-select">
@@ -42,6 +89,12 @@
             <!-- Options des groupes seront ajoutées dynamiquement ici -->
         </select>
     </div>
+    <div id="texte"></div>
+    <div class="overlay-container">
+        <!-- Contenu de l'overlay -->
+        <div id="overlayContent"></div>
+    </div>
+    
 
     <script>
         // Calculer la largeur du SVG en tenant compte du side panel
@@ -67,7 +120,6 @@
                 const nodeTypes = Array.from(new Set(nodes.map(d => d.type)));
                 const nodeText = Array.from(new Set(nodes.map(d => d.texte)));
 
-
                 // Définir vos propres couleurs
                 //couleur pour le noeud sélectionné : 00ffff
                 const customColors = ["#B759E3", "#1eaeb8", "#1a5678", "#870E85"];
@@ -87,18 +139,109 @@
                         .style("position", "fixed") // positionnement fixe pour rester en place lors du défilement
                         .style("background-color", "#11232E")
                         .style("padding", "10px")
-                        .style("height", "60%") // 60% de la hauteur de la fenêtre
-                        .style("width", "20%") // 20% de la largeur de la fenêtre
+                        .style("border", "none")
+                        .style("height", "70%") // 60% de la hauteur de la fenêtre
+                        .style("width", "30%") // 20% de la largeur de la fenêtre
                         .style("overflow-y", "auto"); // activer le défilement vertical si nécessaire
+    // Afficher automatiquement le texte du nœud avec l'ID 1 dans le side-panel
+const defaultNodeId = 1;
+const defaultNode = nodes.find(node => node.id === defaultNodeId);
 
-                // Afficher automatiquement le texte du nœud avec l'ID 1 dans le side-panel
-                const nodeWithId1 = nodes.find(node => node.id === 1);
-                if (nodeWithId1) {
-                    displayNodeText(nodeWithId1);
-                } else {
-                    // Afficher un message si aucun nœud avec l'ID 1 n'est trouvé
-                    sidePanel.html("<p>Aucun nœud avec l'ID 1 n'a été trouvé.</p>");
-                }
+// Afficher le texte du nœud sélectionné dans le sidePanel
+if (defaultNode) {
+    displayNodeText(defaultNode);
+} else {
+    // Afficher un message si aucun nœud avec l'ID 1 n'est trouvé
+    sidePanel.html("<p>Aucun nœud avec l'ID 1 n'a été trouvé.</p>");
+}
+
+function displayNodeText(d) {
+    if (d.texte) {
+        // Remplacer les occurrences de # suivi d'un nombre par des liens normaux
+        const textWithLinks = d.texte.replace(/<a href=\"#(\d+)\">(.+)<\/a>/g, (match, id, label) => {
+            return `<a href="#" class="node-link" data-target-id="${id}">${label}</a>`;
+        });
+
+        // Remplacer les occurrences de #overlay suivi d'un nombre par des liens overlay
+        const textWithOverlayLinks = textWithLinks.replace(/<a href=\"#overlay_(\d+)\">(.+)<\/a>/g, (match, id, label) => {
+            return `<a href="#" class="overlay-link" data-target-id="${id}">${label}</a>`;
+        });
+
+        // Afficher le texte avec les liens dans le side panel
+        sidePanel.html(`<h2>${d.name}</h2><p>${textWithOverlayLinks}</p>`);
+
+       // Fonction pour appliquer la classe yellow-node au nœud correspondant à l'ID spécifié
+       function highlightNodeById(id) {
+    // Supprimer la classe yellow-node de tous les nœuds
+    node.classed("yellow-node", false);
+    // Appliquer la classe yellow-node au nœud correspondant à l'ID spécifié
+    node.filter(d => d.id === id).classed("yellow-node", true);
+}
+
+function highlightNodeByIdOverlay(id) {
+    // Supprimer la classe green-node de tous les nœuds
+    node.classed("green-node", false);
+    // Appliquer la classe green-node au nœud correspondant à l'ID spécifié
+    node.filter(d => d.id === parseInt(id)).classed("green-node", true);
+}
+
+// Attacher un gestionnaire d'événement aux liens normaux
+sidePanel.selectAll('.node-link').on('click', function(event) {
+    const targetId = d3.select(this).attr('data-target-id');
+    const targetNode = nodes.find(node => node.id === parseInt(targetId));
+    if (targetNode) {
+        displayNodeText(targetNode);
+        // Appliquer la classe yellow-node au nœud correspondant à l'ID cible
+        highlightNodeById(targetNode.id);
+    }
+    // Empêcher le comportement par défaut du lien
+    event.preventDefault();
+});
+
+// Attacher un gestionnaire d'événement aux liens overlay
+sidePanel.selectAll('.overlay-link').on('click', function(event) {
+    const targetId = d3.select(this).attr('data-target-id');
+    // Rediriger vers l'ID cible
+    displayNodeOverlay(targetId);
+    // Appliquer la classe green-node au nœud correspondant à l'ID cible pour l'overlay
+    highlightNodeByIdOverlay(targetId);
+    // Empêcher le comportement par défaut du lien
+    event.preventDefault();
+});
+    }}
+
+
+function displayNodeOverlay(id) {
+    // Recherchez l'élément correspondant à l'ID dans vos données
+    const targetNode = nodes.find(node => node.id === parseInt(id));
+    
+    if (targetNode && targetNode.texte) {
+        // Récupérez le texte associé à l'ID
+        const content = targetNode.texte;
+        
+        // Sélectionnez la balise overlay-content
+        const overlayContent = d3.select('#overlayContent');
+            overlayContent.html(content);
+            overlayContent.append('button')
+            .attr('class', 'close-button')
+            .text('Fermer')
+            .on('click', function() {
+                closeOverlay();
+            });
+        
+        // Affichez l'overlay
+        d3.select('.overlay-container').style('display', 'flex');
+    } else {
+        console.error("Aucun contenu trouvé pour l'ID " + id);
+    }
+}
+
+function closeOverlay() { //--> Ajouter une fonction pour que quand on clique fermer, le noeud vert disparaisse.
+    d3.select('.overlay-container').style('display', 'none');
+}
+
+
+
 
                 // Créer une simulation de force
                 simulation = d3.forceSimulation(nodes)
@@ -125,18 +268,31 @@
                     .on("start", dragstarted)
                     .on("drag", dragged)
                     .on("end", dragended);
+// Ajouter les noeuds à l'élément SVG
+const node = svg.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+    .attr("r", 5)
+    .attr("fill", d => nodeColor(d)) // appliquer la couleur en fonction du type de noeud
+    .classed("popup-link", true)
+    .classed("yellow-node", false) // Assurez-vous que la classe yellow-node est initialement désactivée
+    .classed("yellow-node", d => d.id === 1); // Appliquer la classe 'yellow-node' si l'ID est égal à 1
 
-                // Ajouter les noeuds à l'élément SVG
-                const node = svg.selectAll("circle")
-                    .data(nodes)
-                    .enter().append("circle")
-                    .attr("r", 5)
-                    .attr("fill", d => nodeColor(d)) // appliquer la couleur en fonction du type de noeud
-                    .call(drag); // Appeler le "drag behavior" sur les nœuds
 
-                // Ajouter des titres aux noeuds
-                node.append("title")
-                    .text(d => d.name);
+// Ajouter un titre aux noeuds
+node.append("title")
+    .text(d => d.name);
+
+// Gérer les clics sur les nœuds pour ouvrir la fenêtre pop-up
+node.on('click', function(d) {
+    // Empêcher le comportement par défaut du clic sur le nœud
+    d3.event.preventDefault();
+    // Ouvrir une fenêtre pop-up avec le texte du nœud
+    const popupWindow = window.open("", "popupWindow", "width=600,height=400,scrollbars=yes");
+    popupWindow.document.write(`<h2>${d.name}</h2><p>${d.texte}</p>`);
+});
+
+
 
                 // Mettre à jour la position des liens et des noeuds à chaque tick de la simulation
                 simulation.on("tick", () => {
@@ -150,7 +306,13 @@
                 });
 
                 // Remplir la liste déroulante avec les groupes
-                const groupSelect = d3.select("#group-select");
+                const groupSelect = d3.select("#group-select")
+                .style("background-color", "#11232E")
+                .style("color", "white")
+                .style("border", "none")
+                .style("height", "30px")
+                .style("border-radius", "10px");
+
                 groupSelect.append("option")
                     .attr("value", "") 
                     .text("Tous les parcours");
@@ -169,43 +331,31 @@
 
                 // Fonction pour filtrer les noeuds en fonction du groupe sélectionné
                 function filterNodes(selectedGroup) {
-                    node.attr("opacity", d => (selectedGroup === "" || d.group === selectedGroup) ? 1 : 0.2);
-                    link.attr("opacity", d => (selectedGroup === "" || nodes[d.source.index].group === selectedGroup) ? 1 : 0.2);
-                }
-                 // Fonction pour afficher le texte associé à chaque nœud lorsqu'il est cliqué
-                function displayNodeText(d) {
-                    // Vérifier si le texte existe
-                    if (d.texte) {
-                        // Effacer le contenu précédent du side-panel
-                        sidePanel.html("");
-                        // Ajouter le texte du nœud au side-panel
-                        sidePanel.append("p")
-                            .text(d.texte);
-                    } else {
-                        // Afficher un message si aucun texte n'est disponible pour ce nœud
-                        sidePanel.html("<p>Aucun texte disponible pour ce nœud.</p>");
-                    }}
+    node.attr("opacity", d => (selectedGroup === "" || d.group === selectedGroup) ? 1 : 0.2);
+    link.attr("opacity", d => (selectedGroup === "" || nodes[d.source.index].group === selectedGroup) ? 1 : 0.2);
+    
+}
 
+         
             });
 
-
         // Définir les fonctions pour gérer les événements de "drag"
-function dragstarted(event, d) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-}
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
 
-function dragged(event, d) {
-    d.fx = Math.max(0, Math.min(svgWidth, event.x)); // Limiter la coordonnée X à l'intérieur du SVG
-    d.fy = Math.max(0, Math.min(svgHeight, event.y)); // Limiter la coordonnée Y à l'intérieur du SVG
-}
+        function dragged(event, d) {
+            d.fx = Math.max(0, Math.min(svgWidth, event.x)); // Limiter la coordonnée X à l'intérieur du SVG
+            d.fy = Math.max(0, Math.min(svgHeight, event.y)); // Limiter la coordonnée Y à l'intérieur du SVG
+        }
 
-function dragended(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-}
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
     </script>
 </body>
 </html>
